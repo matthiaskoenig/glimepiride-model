@@ -28,21 +28,9 @@ The whole-body submodel is available from [`glimepiride_body.xml`](./models/glim
 
 ## License
 
-* Source Code: [LGPLv3](http://opensource.org/licenses/LGPL-3.0)
-* Documentation: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
-* Models: [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
-
-The glimepiride-model source is released under both the GPL and LGPL licenses version 2 or
-later. You may choose which license you choose to use the software under.
-
-This program is free software: you can redistribute it and/or modify it under
-the terms of the GNU General Public License or the GNU Lesser General Public
-License as published by the Free Software Foundation, either version 2 of the
-License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE. See the GNU General Public License for more details.
+* Source Code: [MIT](https://opensource.org/license/MIT)
+* Documentation: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* Models: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Funding
 =======
