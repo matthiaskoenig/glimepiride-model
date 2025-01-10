@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13759839.svg)](https://doi.org/10.5281/zenodo.13759839)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14628700.svg)](https://doi.org/10.5281/zenodo.14628700)
 
 # glimepiride model
 This repository provides the glimepiride physiologically based pharmacokinetics (PBPK) model.
@@ -20,11 +20,11 @@ The whole-body submodel is available from [`glimepiride_body.xml`](./models/glim
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_body.xml) and equations from [`glimepiride_body.md`](./models/glimepiride_body.md).
 
 ## How to cite
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13759839.svg)](https://doi.org/10.5281/zenodo.13759839)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14628700.svg)](https://doi.org/10.5281/zenodo.14628700)
 
-> Elias, M., & König, M. (2024).
+> Elias, M., & König, M. (2025).
 > *Physiologically based pharmacokinetic (PBPK) model of glimepiride.*   
-> Zenodo. [https://doi.org/10.5281/zenodo.13759839](https://doi.org/10.5281/zenodo.13759839)
+> Zenodo. [https://doi.org/10.5281/zenodo.14628700](https://doi.org/10.5281/zenodo.14628700)
 
 ## License
 
