@@ -1,0 +1,22 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	0.25	hr		4.8591974171245946e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	0.5	hr		0.00010623379588109642					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	0.75	hr		0.00021287524255222007					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	1.0	hr		0.0003251626526652209					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	1.5	hr		0.0004407112690984395					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	2.0	hr		0.0005243612112120272					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	2.5	hr		0.0005973714677059045					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	3.0	hr		0.00044554193096026226					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	3.5	hr		0.0003585492523684511					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	4.0	hr		0.00029809464020741274					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	6.0	hr		0.00014243318603551452					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	8.0	hr		0.00010060821497872064					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	10.0	hr		5.782526456536273e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	12.0	hr		4.406705040194368e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	14.0	hr		3.0125393383012377e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	16.0	hr		2.5050141047173347e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	20.0	hr		1.8283137932721317e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	24.0	hr		1.7121333181143707e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	28.0	hr		1.536843478402661e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	32.0	hr		1.1719960213282893e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI4	concentration	glimepiride	serum	HPLC	glimepiride_GLI4	36.0	hr		9.742853881650822e-06					mole/meter^3	ng/ml

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Malerczyk1994</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>Malerczyk1994</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../../models/results/models/glimepiride_body_flat.xml">../../../../models/results/models/glimepiride_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+                <li><strong>glimepiride_GLI1</strong>: <a href="Malerczyk1994_glimepiride_GLI1.tsv">Malerczyk1994_glimepiride_GLI1.tsv</a></li>
+                <li><strong>glimepiride_GLI2</strong>: <a href="Malerczyk1994_glimepiride_GLI2.tsv">Malerczyk1994_glimepiride_GLI2.tsv</a></li>
+                <li><strong>glimepiride_GLI4</strong>: <a href="Malerczyk1994_glimepiride_GLI4.tsv">Malerczyk1994_glimepiride_GLI4.tsv</a></li>
+                <li><strong>glimepiride_GLI8</strong>: <a href="Malerczyk1994_glimepiride_GLI8.tsv">Malerczyk1994_glimepiride_GLI8.tsv</a></li>
+                <li><strong>M1+M2_GLI1</strong>: <a href="Malerczyk1994_M1+M2_GLI1.tsv">Malerczyk1994_M1+M2_GLI1.tsv</a></li>
+                <li><strong>M1+M2_GLI2</strong>: <a href="Malerczyk1994_M1+M2_GLI2.tsv">Malerczyk1994_M1+M2_GLI2.tsv</a></li>
+                <li><strong>M1+M2_GLI4</strong>: <a href="Malerczyk1994_M1+M2_GLI4.tsv">Malerczyk1994_M1+M2_GLI4.tsv</a></li>
+                <li><strong>M1+M2_GLI8</strong>: <a href="Malerczyk1994_M1+M2_GLI8.tsv">Malerczyk1994_M1+M2_GLI8.tsv</a></li>
+                <li><strong>amount_mean_M1+M2_GLI1</strong>: <a href="Malerczyk1994_amount_mean_M1+M2_GLI1.tsv">Malerczyk1994_amount_mean_M1+M2_GLI1.tsv</a></li>
+                <li><strong>amount_mean_M1+M2_GLI2</strong>: <a href="Malerczyk1994_amount_mean_M1+M2_GLI2.tsv">Malerczyk1994_amount_mean_M1+M2_GLI2.tsv</a></li>
+                <li><strong>amount_mean_M1+M2_GLI4</strong>: <a href="Malerczyk1994_amount_mean_M1+M2_GLI4.tsv">Malerczyk1994_amount_mean_M1+M2_GLI4.tsv</a></li>
+                <li><strong>amount_mean_M1+M2_GLI8</strong>: <a href="Malerczyk1994_amount_mean_M1+M2_GLI8.tsv">Malerczyk1994_amount_mean_M1+M2_GLI8.tsv</a></li>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig1</strong>: <a href="Malerczyk1994_Fig1.svg">Malerczyk1994_Fig1.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig1</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="Malerczyk1994_Fig1.svg" max-width="600" width="600"></v-img>-->
+                        <img src="Malerczyk1994_Fig1.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../../experiments/studies/malerczyk1994.py">../../../../experiments/studies/malerczyk1994.py</a>
+            <pre>
+<code class="python">from typing import Dict
+
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from sbmlutils.console import console
+
+from pkdb_models.models.glimepiride.experiments.base_experiment import (
+    GlimepirideSimulationExperiment,
+)
+from pkdb_models.models.glimepiride.experiments.metadata import Tissue, Route, Dosing, ApplicationForm, Health, \
+    Fasting, GlimepirideMappingMetaData, Coadministration
+
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+
+from pkdb_models.models.glimepiride.helpers import run_experiments
+
+
+class Malerczyk1994(GlimepirideSimulationExperiment):
+    """Simulation experiment of Malerczyk1994."""
+    bodyweight = 78.0  # "mean weight 78 kg (64-98)"
+    doses = [1, 2, 4, 8]
+    dose_colors = {
+        0: '#ffffe5',
+        1: '#fff7bc',
+        2: '#fee391',
+        3: '#fec44f',
+        4: '#fe9929',
+        5: '#ec7014',
+        6: '#cc4c02',
+        7: '#993404',
+        8: '#662506'
+    }
+    info = {
+        "gli": "glimepiride",
+        "m1_m2": "M1+M2",
+        "mean_m1_m2": "amount_mean_M1+M2",
+    }
+    interventions = [
+        "GLI1",
+        "GLI2",
+        "GLI4",
+        "GLI8"
+    ]
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig1", "Fig2", "Fig6"]:
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                # unit conversion
+                if label.startswith("glimepiride_"):
+                    dset.unit_conversion("mean", 1 / self.Mr.gli)
+                if label.startswith("amount_mean_M1+M2"):
+                    dset.unit_conversion("mean", 1 / self.Mr.m1_m2)
+                dsets[label] = dset
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+        for dose in self.doses:
+            tcsims[f"po_gli{dose}"] = TimecourseSim(
+                [Timecourse(
+                    start=0,
+                    end=50 * 60,
+                    steps=500,
+                    changes={
+                        **self.default_changes(),
+                        "BW": Q_(self.bodyweight, "kg"),
+                        f"PODOSE_gli": Q_(dose, "mg"),
+                    },
+                )]
+            )
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+        mappings = {}
+        for k, sid in enumerate(self.info):
+            name = self.info[sid]
+            for dose in self.doses:
+                if sid == "gli":
+                    observable_yid = f"[Cve_{sid}]"
+                    tissue = Tissue.PLASMA
+                    dataset_label = f"{name}_GLI{dose}"
+                elif sid == "m1_m2":
+                    observable_yid = f"Aurine_{sid}"
+                    tissue = Tissue.URINE
+                    dataset_label = f"{name}_GLI{dose}"
+                elif sid == "mean_m1_m2":
+                    observable_yid = f"Aurine_m1_m2"
+                    tissue = Tissue.URINE
+                    dataset_label = f"{name}_GLI{dose}"
+                else:
+                    continue
+
+                mappings[f"fm_po_gli{dose}_{sid}"] = FitMapping(
+                    self,
+                    reference=FitData(
+                        self,
+                        dataset=dataset_label,
+                        xid="time",
+                        yid="mean",
+                        yid_sd="mean_sd" if sid == "mean_m1_m2" else None,
+                        count="count",
+                    ),
+                    observable=FitData(
+                        self,
+                        task=f"task_po_gli{dose}",
+                        xid="time",
+                        yid=observable_yid,
+                    ),
+                    metadata=GlimepirideMappingMetaData(
+                        tissue=tissue,
+                        route=Route.PO,
+                        application_form=ApplicationForm.TABLET,
+                        dosing=Dosing.SINGLE,
+                        health=Health.HEALTHY,
+                        fasting=Fasting.FASTED, # overnight fasting period of 12 hours, and two hours after administration
+                        coadministration=Coadministration.NONE,
+                    ),
+                )
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig1",
+            num_rows=1,
+            num_cols=2,
+            name=f"{self.__class__.__name__} (healthy)",
+        )
+        plots = fig.create_plots(xaxis=Axis(self.label_time, unit=self.unit_time), legend=True)
+        plots[0].set_yaxis(self.label_gli_plasma, unit=self.unit_gli)
+        plots[1].set_yaxis(self.label_m1_m2_urine, unit=self.unit_m1_m2_urine)
+
+        plots[0].xaxis.max = 37
+
+        for dose in self.doses:
+            plots[0].add_data(
+                task=f"task_po_gli{dose}",
+                xid="time",
+                yid=f"[Cve_gli]",
+                label=f"Sim gli {dose} mg po",
+                color=self.dose_colors[dose]
+            )
+            plots[0].add_data(
+                dataset=f"glimepiride_GLI{dose}",
+                xid="time",
+                yid="mean",
+                yid_sd=None,
+                count="count",
+                label=f"Data {dose}mg PO",
+                color=self.dose_colors[dose]
+             )
+
+            plots[1].add_data(
+                task=f"task_po_gli{dose}",
+                xid="time",
+                yid=f"Aurine_m1_m2",
+                label=f"Sim {dose}mg PO",
+                color=self.dose_colors[dose]
+            )
+            plots[1].add_data(
+                dataset=f"M1+M2_GLI{dose}",
+                xid="time",
+                yid="mean",
+                yid_sd=None,
+                count="count",
+                label=f"Data {dose}mg PO",
+                color=self.dose_colors[dose]
+            )
+            plots[1].add_data(
+                dataset=f"amount_mean_M1+M2_GLI{dose}",
+                xid="time",
+                yid="mean",
+                yid_sd="mean_sd",
+                count="count",
+                label=None,
+                color=self.dose_colors[dose]
+             )
+        return {fig.sid: fig,}
+
+
+if __name__ == "__main__":
+    run_experiments(Malerczyk1994, output_dir=Malerczyk1994.__name__)</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

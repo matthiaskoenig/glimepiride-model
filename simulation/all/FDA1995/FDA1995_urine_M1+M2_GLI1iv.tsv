@@ -1,0 +1,8 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+FDA1995		all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	0.0	hr		0.0					mole	mg
+FDA1995		all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	2.0	hr		2.460841201671301e-07					mole	mg
+FDA1995		all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	4.0	hr		4.975768512159364e-07					mole	mg
+FDA1995		all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	8.0	hr		7.679992251925992e-07					mole	mg
+FDA1995		all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	12.0	hr		8.788722821608995e-07					mole	mg
+FDA1995		all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	24.0	hr		9.92449644570037e-07					mole	mg
+FDA1995		all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	48.0	hr		1.0005623133135474e-06					mole	mg

@@ -1,0 +1,7 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	value	comments	mean_unit	value_unit
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	0.0	hr		0.0		mole/meter^3	mole/meter^3
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	0.7	hr		0.00019985342571644219		mole/meter^3	mole/meter^3
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	2.0	hr		0.0003269568642895625		mole/meter^3	mole/meter^3
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	4.0	hr		0.00018981894473115655		mole/meter^3	mole/meter^3
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	6.0	hr		0.00011874138384488541		mole/meter^3	mole/meter^3
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	8.0	hr		7.943961561450686e-05		mole/meter^3	mole/meter^3

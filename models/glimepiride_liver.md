@@ -12,11 +12,11 @@ length: [m]
 ## Parameters `p`
 ```
 GLI2M1_Km_gli = 0.00225  # [mmol/l] Km gli  
-GLI2M1_Vmax = 0.01  # [mmol/min/l] rate glimepiride conversion  
-GLIIM_k = 0.01  # [1/min] rate glimepiride import  
-M12M2_k = 0.001  # [1/min] rate m1 -> m2 conversion  
-M1EX_k = 1.0  # [1/min] rate M1 export  
-M2EX_k = 1.0  # [1/min] rate M2 export  
+GLI2M1_Vmax = 5.33777547688223e-05  # [mmol/min/l] rate glimepiride conversion  
+GLIIM_k = 100.0  # [1/min] rate glimepiride import  
+M12M2_k = 0.0147802489498759  # [1/min] rate m1 -> m2 conversion  
+M1EX_k = 0.0774587262235768  # [1/min] rate M1 export  
+M2EX_k = 99.9999999999999  # [1/min] rate M2 export  
 Vext = 1.5  # [l] plasma  
 Vli = 1.5  # [l] liver  
 f_cyp2c9 = 1.0  # [-] scaling factor CYP2C9 activity  
@@ -35,11 +35,11 @@ m2_ext = 0.0  # [mmol/l] M2 (plasma) in Vext
 ## ODE system
 ```
 # y
-GLI2M1 = f_cyp2c9 * GLI2M1_Vmax * Vli * gli / (gli + GLI2M1_Km_gli)  # [mmol/min] glimepiride conversion to M1 (GLI2M1) CYP2C9  
-GLIIM = GLIIM_k * Vli * (gli_ext - gli)  # [mmol/min] glimepiride import (GLIIM)  
-M12M2 = M12M2_k * Vli * m1  # [mmol/min] M1 conversion to M2 (M12M2)  
-M1EX = M1EX_k * Vli * (m1 - m1_ext)  # [mmol/min] M1 export (M1EX)  
-M2EX = M2EX_k * Vli * (m2 - m2_ext)  # [mmol/min] M2 export (M2EX)  
+GLI2M1 = f_cyp2c9 * GLI2M1_Vmax * Vli * gli / (gli + GLI2M1_Km_gli)  # [mmol/min] glimepiride -> M1 (CYP2C9)  
+GLIIM = GLIIM_k * Vli * (gli_ext - gli)  # [mmol/min] glimepiride import  
+M12M2 = M12M2_k * Vli * m1  # [mmol/min] M1 -> M2  
+M1EX = M1EX_k * Vli * (m1 - m1_ext)  # [mmol/min] M1 export  
+M2EX = M2EX_k * Vli * (m2 - m2_ext)  # [mmol/min] M2 export  
 
 # odes
 d gli/dt = GLIIM / Vli - GLI2M1 / Vli  # [mmol/l/min] glimepiride (liver)  

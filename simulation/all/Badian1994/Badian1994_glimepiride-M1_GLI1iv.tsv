@@ -1,0 +1,18 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	0.27	hr		2.8088113378863843e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	0.39	hr		3.4207098022186254e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	0.52	hr		2.868027318305633e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	0.64	hr		3.1483162922900794e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	0.77	hr		3.529272432987248e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	1.0	hr		3.7542931585803955e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	1.16	hr		3.995104812285342e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	1.5	hr		4.620820338715408e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	1.65	hr		4.251707394102088e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	2.0	hr		4.12143223717974e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	2.5	hr		3.872725119418894e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	3.0	hr		3.4207098022186254e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	4.0	hr		2.8976353085152575e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	5.0	hr		2.4791757135525642e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	6.0	hr		2.3054755043227664e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	8.0	hr		2.4298290632031896e-05					mole/meter^3	ng/ml
+Badian1994		all	12.0	GLI1iv	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI1iv	9.0	hr		2.8088113378863843e-05					mole/meter^3	ng/ml

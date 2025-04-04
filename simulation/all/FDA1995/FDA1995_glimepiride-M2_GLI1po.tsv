@@ -1,0 +1,14 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	1.5	hr		1.1559641920773263e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	1.77194403912898	hr		1.217589157989823e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	2.0	hr		1.2604869863798178e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	2.5	hr		1.4311207786647925e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	3.0	hr		1.5786386342846848e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	4.0	hr		1.4228854722009815e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	5.0	hr		1.3508699913252017e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	6.0	hr		1.2604869863798178e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	7.0	hr		1.2105826075906224e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	8.0	hr		1.1559641920773263e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	9.0	hr		9.666072967339704e-06					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	10.0	hr		9.610455155255475e-06					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1po	concentration	glimepiride-M2	plasma	LC MS/MS	glimepiride-M2_GLI1po	12.0	hr		1.0540083566805186e-05					mole/meter^3	ng/ml

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>GlimepirideCirrhosisScan</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>GlimepirideCirrhosisScan</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../../models/results/models/glimepiride_body_flat.xml">../../../../models/results/models/glimepiride_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+            </ul>
+            </p>
+
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../../experiments/scans/scan_cirrhosis.py">../../../../experiments/scans/scan_cirrhosis.py</a>
+            <pre>
+<code class="python">"""Cirrhosis parameter scan for glimepiride pharmacokinetics."""
+
+from typing import Dict
+import numpy as np
+import pandas as pd
+import xarray as xr
+from sbmlsim.model import RoadrunnerSBMLModel
+from sbmlsim.result import XResult
+from sbmlsim.simulation import Timecourse, TimecourseSim, ScanSim, Dimension
+from sbmlsim.plot.serialization_matplotlib import plt
+from pkdb_models.models.glimepiride.experiments.base_experiment import GlimepirideSimulationExperiment
+from pkdb_models.models.glimepiride.helpers import run_experiments
+from pkdb_models.models.glimepiride.glimepiride_pk import calculate_glimepiride_pk
+from pkdb_models.models.glimepiride import RESULTS_PATH
+
+
+class GlimepirideCirrhosisScan(GlimepirideSimulationExperiment):
+    """Scan of cirrhosis effects on glimepiride pharmacokinetics."""
+
+    # Cirrhosis range from 0.0 (healthy) to 0.99 (severe)
+    cirrhosis_range = np.linspace(0, 0.99, 50)
+
+    compound_info = {
+        "glimepiride": {"mr": 490.616},
+        "M1": {"mr": 506.62},
+        "M2": {"mr": 520.6}
+    }
+
+    # cirrhosis data Rosenkranz1996
+    clinical_data = {
+        "cmax": {"min": 72, "max": 187, "unit": "ng/ml"},
+        "tmax": {"min": 0.5, "max": 4.0, "unit": "hr"},
+        "auc": {"min": 213, "max": 529, "unit": "ng*hr/ml"},
+        "aurine_m1": {"min": 59, "max": 442, "unit": "µg"},
+        "aurine_m2": {"min": 80, "max": 227, "unit": "µg"}
+    }
+
+    # Healthy data Rosenkranz1996
+    healthy_data = {
+        "cmax": {"mean": 103, "sd": 34, "unit": "ng/ml"},
+        "tmax": {"mean": 2.3, "sd": 0.5, "unit": "hr"},
+        "auc": {"mean": 326, "sd": 97, "unit": "ng*hr/ml"},
+        "aurine_m1": {"mean": 320, "sd": 40, "unit": "µg"},
+        "aurine_m2": {"mean": 160, "sd": 50, "unit": "µg"}
+    }
+
+    def simulations(self) -> Dict[str, ScanSim]:
+        """Create cirrhosis scan simulation."""
+        Q_ = self.Q_
+        return {
+            "cirrhosis_scan": ScanSim(
+                simulation=TimecourseSim(
+                    Timecourse(
+                        start=0,
+                        end=24 * 60,
+                        steps=5000,
+                        changes={
+                            **self.default_changes(),
+                            "KI__f_renal_function": Q_(1.0, "dimensionless"),
+                            "f_cirrhosis": Q_(0.0, "dimensionless"),
+                            "PODOSE_gli": Q_(1, "mg"),  # 1mg dose in study
+                        },
+                    )
+                ),
+                dimensions=[
+                    Dimension(
+                        "dim_scan",
+                        changes={"f_cirrhosis": Q_(self.cirrhosis_range, "dimensionless")},
+                    )
+                ],
+            )
+        }
+
+    def data(self) -> Dict:
+        """Define model variables to record."""
+        self.add_selections_data(
+            selections=[
+                "time", "PODOSE_gli", "f_cirrhosis",
+                # plasma
+                "[Cve_gli]", "[Cve_m1]", "[Cve_m2]",
+                # urine
+                "Aurine_m1", "Aurine_m2",
+                # feces
+                "Afeces_gli", "Afeces_m1", "Afeces_m2",
+            ]
+        )
+        return {}
+
+    def calculate_pharmacokinetics_parameters(self, output_dir: str):
+        """Calculate PK parameters and generate plots."""
+        nc_file = RESULTS_PATH / output_dir / output_dir / "GlimepirideCirrhosisScan_task_cirrhosis_scan.nc"
+        dset = xr.open_dataset(nc_file)
+
+        abstract_model = self.models()["model"]
+        model = RoadrunnerSBMLModel.from_abstract_model(abstract_model=abstract_model, ureg=self.ureg)
+        xres = XResult(xdataset=dset, uinfo=model.uinfo)
+
+        pk_df = calculate_glimepiride_pk(experiment=self, xres=xres)
+
+        # Add cirrhosis values
+        pk_df["cirrhosis"] = np.tile(self.cirrhosis_range, 3)
+
+        # Unit conversion
+        self._apply_unit_conversion(pk_df)
+
+        # Save results
+        pk_df.to_csv(
+            RESULTS_PATH / output_dir / output_dir / "GlimepirideCirrhosisScan_pharmacokinetics.tsv",
+            sep="\t", index=False
+        )
+
+        # Create plots
+        self._create_and_save_figures(pk_df, xres, output_dir)
+
+    def _apply_unit_conversion(self, pk_df: pd.DataFrame):
+        """Convert units for PK parameters."""
+        for compound, info in self.compound_info.items():
+            mask = pk_df["compound"] == compound
+            mr = info["mr"]
+
+            # Time conversion (min to hr)
+            pk_df.loc[mask, "tmax"] = pk_df.loc[mask, "tmax"] / 60
+            pk_df.loc[mask, "thalf"] = pk_df.loc[mask, "thalf"] / 60
+            pk_df.loc[mask, "tmax_unit"] = "hr"
+            pk_df.loc[mask, "thalf_unit"] = "hr"
+
+            # Concentration conversion
+            pk_df.loc[mask, "cmax"] = pk_df.loc[mask, "cmax"] * mr * 1000
+            pk_df.loc[mask, "cmax_unit"] = "ng/ml"
+
+            # AUC conversion
+            pk_df.loc[mask, "auc"] = pk_df.loc[mask, "auc"] * mr * 1000 / 60
+            pk_df.loc[mask, "auc_unit"] = "ng*hr/ml"
+
+    def _get_urinary_data(self, xres: XResult) -> pd.DataFrame:
+        """Extract urinary excretion data."""
+        urinary_data = []
+        for idx, cirr_value in enumerate(self.cirrhosis_range):
+            # Get values in mmole
+            aurine_m1_mmole = xres["Aurine_m1"].sel({"dim_scan": idx}).values[-1]
+            aurine_m2_mmole = xres["Aurine_m2"].sel({"dim_scan": idx}).values[-1]
+
+            # Convert to µg
+            aurine_m1_ug = aurine_m1_mmole * self.compound_info["M1"]["mr"] * 1000
+            aurine_m2_ug = aurine_m2_mmole * self.compound_info["M2"]["mr"] * 1000
+
+            urinary_data.append({
+                "cirrhosis": cirr_value,
+                "aurine_m1": aurine_m1_ug,
+                "aurine_m2": aurine_m2_ug,
+                "aurine_total": aurine_m1_ug + aurine_m2_ug
+            })
+        return pd.DataFrame(urinary_data)
+
+    def _add_cirrhosis_regions(self, ax):
+        """Add cirrhosis region markers."""
+        regions = [
+            (0.3, 0.6, '#74a9cf', "Mild cirrhosis (Child-Pugh A)"),
+            (0.6, 0.8, '#2b8cbe', "Moderate cirrhosis (Child-Pugh B)"),
+            (0.8, 1.01, '#045a8d', "Severe cirrhosis (Child-Pugh C)")
+        ]
+
+        patches = []
+        for start, end, color, label in regions:
+            patch = ax.axvspan(start, end, alpha=0.4, color=color)
+            patches.append((patch, label))
+
+        ax.set_xlim(-0.02, 1.01)
+        return patches
+
+    def _add_clinical_data_reference(self, ax, param_name, compound=None):
+        """Add clinical data reference lines."""
+        if param_name not in self.clinical_data:
+            return None
+
+        color = 'black'
+        cirr_x_pos = 0.65
+        data = self.clinical_data[param_name]
+        min_val, max_val = data["min"], data["max"]
+        mid_val = (min_val + max_val) / 2
+
+        # Error bars
+        yerr = [[mid_val - min_val], [max_val - mid_val]]
+
+        # Vertical error bar
+        v_line = ax.errorbar(cirr_x_pos, mid_val, yerr=yerr, fmt='none',
+                            color=color, capsize=7, capthick=1.5,
+                            linewidth=1.5, alpha=1.0)
+
+        # Horizontal line
+        x_mid = (0.3 + 1.0) / 2
+        xerr = [[x_mid - 0.3], [1.0 - x_mid]]
+        ax.errorbar(x_mid, mid_val, xerr=xerr, fmt='none',
+                  color=color, capsize=7, capthick=1.5,
+                  linewidth=1.5, alpha=1.0)
+
+        # Add healthy reference
+        if param_name in self.healthy_data:
+            data = self.healthy_data[param_name]
+            mean_val, sd_val = data["mean"], data["sd"]
+
+            ax.errorbar(0, mean_val, yerr=sd_val, fmt='s',
+                      color=color, capsize=7, capthick=1.5,
+                      linewidth=1.5, alpha=1.0, markersize=8,
+                      markerfacecolor=color, markeredgecolor=color)
+        return v_line
+
+    def _create_and_save_figures(self, pk_df: pd.DataFrame, xres: XResult, output_dir: str):
+        """Create cirrhosis dependency figures with compound-based rows."""
+        # PK parameters
+        pk_params = ["cmax", "tmax", "auc", "thalf"]
+        pretty_labels = {
+            "cmax": "Cmax [ng/ml]",
+            "tmax": "Tmax [hr]",
+            "auc": "AUC [ng*hr/ml]",
+            "thalf": "Half-life [hr]"
+        }
+
+        # Data preparation
+        df_glime = pk_df[pk_df["compound"] == "glimepiride"].sort_values(by="cirrhosis")
+        df_m1 = pk_df[pk_df["compound"] == "M1"].sort_values(by="cirrhosis")
+        df_m2 = pk_df[pk_df["compound"] == "M2"].sort_values(by="cirrhosis")
+        urinary_df = self._get_urinary_data(xres)
+
+        # Create figure
+        fig_all, axes_all = plt.subplots(nrows=3, ncols=4, figsize=(20, 15))
+
+        # Setup for legend
+        simulation_handle = None
+        clinical_ref_handle = None
+        clinical_ref_added = False
+        first_cirrhosis_patches = None
+
+        # Compounds data
+        compounds = ["glimepiride", "M1", "M2"]
+        dataframes = [df_glime, df_m1, df_m2]
+
+        # Plot each compound row
+        for row, (compound, df_compound) in enumerate(zip(compounds, dataframes)):
+            for col, param in enumerate(pk_params):
+                ax = axes_all[row, col]
+
+                # Plot data
+                line, = ax.plot(df_compound["cirrhosis"], df_compound[param],
+                              color="black", linewidth=2.5, linestyle="-")
+
+                ylim_max = None
+
+                if compound == "glimepiride":
+                    if col == 0:  # First plot (Cmax)
+                        ylim_max = 200
+                    elif col == 1:  # Second plot (Tmax)
+                        ylim_max = 5
+                elif compound in ["M1", "M2"]:
+                    if col == 1:  # Second plot (Tmax)
+                        ylim_max = 6
+                    elif col == 3 and compound == "M1":  # Fourth plot for M1
+                        ylim_max = 500
+                    elif col == 3 and compound == "M2":  # Fourth plot for M2
+                        ylim_max = 250
+
+                if ylim_max is not None:
+                    ax.set_ylim(0, ylim_max)
+                else:
+                    ax.set_ylim(bottom=0)
+
+                if row == 0 and col == 0:
+                    simulation_handle = line
+
+                if col == 0:
+                    patches = self._add_cirrhosis_regions(ax)
+                    if first_cirrhosis_patches is None:
+                        first_cirrhosis_patches = patches
+                else:
+                    self._add_cirrhosis_regions(ax)
+
+                # Add clinical data
+                if compound == "glimepiride" and param in ["cmax", "tmax", "auc"]:
+                    ref_line = self._add_clinical_data_reference(ax, param)
+                    if not clinical_ref_added and ref_line is not None:
+                        clinical_ref_handle = ref_line
+                        clinical_ref_added = True
+
+                # Set labels
+                if row == 2:
+                    ax.set_xlabel("Cirrhosis Severity", fontsize=16, fontweight='bold')
+
+                ylabel = f"{compound.capitalize()} {pretty_labels[param]}"
+                ax.set_ylabel(ylabel, fontsize=16, fontweight='bold')
+                ax.grid(True, linestyle='--', alpha=0.7)
+
+                if col == 3 and compound in ["M1", "M2"]:
+                    ax.clear()
+                    self._add_cirrhosis_regions(ax)
+
+                    urinary_key = f"aurine_{compound.lower()}"
+                    ax.plot(urinary_df["cirrhosis"], urinary_df[urinary_key],
+                          color="black", linewidth=2.0)
+                    ax.set_ylim(bottom=0)
+                    if compound == "M1":
+                        ax.set_ylim(0, 500)
+                    elif compound == "M2":
+                        ax.set_ylim(0, 250)
+
+                    self._add_clinical_data_reference(ax, urinary_key)
+
+                    if row == 2:
+                        ax.set_xlabel("Cirrhosis Severity", fontsize=16, fontweight='bold')
+                    ax.set_ylabel(f"{compound} Urinary Excretion [µg]", fontsize=16, fontweight='bold')
+                    ax.grid(True, linestyle='--', alpha=0.7)
+
+
+        # Build legend handles and labels
+        legend_handles = []
+        legend_labels = []
+
+        # Add simulation to legend
+        if simulation_handle is not None:
+            legend_handles.append(simulation_handle)
+            legend_labels.append("Simulation")
+
+        # Add study data to legend if available
+        if clinical_ref_handle is not None:
+            legend_handles.append(clinical_ref_handle)
+            legend_labels.append("Study Data")
+
+        # Add cirrhosis region patches to legend
+        for patch, label in first_cirrhosis_patches:
+            legend_handles.append(patch)
+            legend_labels.append(label)
+
+        # Add legend and title
+        fig_all.legend(
+            legend_handles,
+            legend_labels,
+            loc='lower center',
+            bbox_to_anchor=(0.5, 0.02),
+            ncol=len(legend_handles),
+            fontsize=14,
+            frameon=True,
+            borderaxespad=0.
+        )
+
+        fig_all.suptitle("Effect of Cirrhosis Severity on Glimepiride Pharmacokinetics",
+                         fontsize=22, fontweight='bold')
+
+        # save
+        fig_all.tight_layout(rect=[0, 0, 1, 0.92])
+        fig_all.subplots_adjust(bottom=0.1)
+
+        fig_all.savefig(
+            RESULTS_PATH / output_dir / output_dir / "compounds_vs_cirrhosis_pk.png",
+            dpi=300, bbox_inches="tight"
+        )
+
+        plt.show()
+        plt.close(fig_all)
+
+
+if __name__ == "__main__":
+    output_dir = "GlimepirideCirrhosisScan"
+    run_experiments(GlimepirideCirrhosisScan, output_dir=output_dir, save_results=True)
+    GlimepirideCirrhosisScan().calculate_pharmacokinetics_parameters(output_dir)</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

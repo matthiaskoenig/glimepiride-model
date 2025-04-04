@@ -1,0 +1,3 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Badian1994	all	12.0	GLI1iv	cumulative amount	glimepiride-M1	urine	HPLC	glimepiride_urine-M1_GLI1iv	0.0	hr	0.0								mole	mg
+Badian1994	all	12.0	GLI1iv	cumulative amount	glimepiride-M1	urine	HPLC	glimepiride_urine-M1_GLI1iv	48.0	hr	7.541539615503774e-07				1.2229523700816933e-07				mole	mg

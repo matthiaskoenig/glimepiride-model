@@ -1,0 +1,16 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	0.334700841143479	hr		4.554081597151897e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	0.5	hr		4.218408886513879e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	0.610336880982658	hr		4.423243928850156e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	0.807219251577876	hr		5.093708816836663e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	1.0	hr		5.3394836179988515e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	1.20098489402565	hr		5.816284776839811e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	1.5	hr		6.368664443664809e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	1.73256810576435	hr		5.925573460494788e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	2.0	hr		5.965632730418326e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	2.5	hr		5.421514274905705e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	3.0	hr		5.094505605229383e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	4.0	hr		4.5960016328280945e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	5.0	hr		4.2256002984130646e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	6.0	hr		3.8653800815191785e-05					mole/meter^3	ng/ml
+FDA1995		all	12.0	GLI1iv	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_GLI1iv	7.0	hr		2.4244487255430686e-05					mole/meter^3	ng/ml

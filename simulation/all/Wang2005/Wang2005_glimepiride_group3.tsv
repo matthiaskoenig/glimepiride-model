@@ -1,0 +1,15 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	0.5	hr		0.0001481508255238451					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	0.6	hr		0.0002509686962662367					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	1.0	hr		0.0004493984837488259					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	2.0	hr		0.0007936328695803214					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	3.0	hr		0.0005382016683072259					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	4.0	hr		0.00019282432297945806					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	6.0	hr		7.404558431145702e-05					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	8.0	hr		7.302560440158148e-05					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	10.0	hr		5.0213969877889835e-05					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	12.0	hr		4.952223965119074e-05					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	16.0	hr		3.700788393610827e-05					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	24.0	hr		3.221464734442843e-05					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	36.0	hr		2.3742330866606872e-05					mole/meter^3	ng/l
+Wang2005		group3	1.0	GLI4	concentration	glimepiride	plasma	HPLC	glimepiride_group3	48.0	hr		1.7257137853603815e-05					mole/meter^3	ng/l

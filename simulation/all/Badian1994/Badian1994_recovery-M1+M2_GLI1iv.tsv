@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Badian1994		all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	2.0	hr		13.04					percent	percent
+Badian1994		all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	4.0	hr		25.85					percent	percent
+Badian1994		all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	8.0	hr		39.69					percent	percent
+Badian1994		all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	12.0	hr		44.61					percent	percent
+Badian1994		all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	24.0	hr		50.78					percent	percent
+Badian1994		all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	48.0	hr		50.9					percent	percent

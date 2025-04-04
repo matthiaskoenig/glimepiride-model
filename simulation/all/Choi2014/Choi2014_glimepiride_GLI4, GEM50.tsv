@@ -1,0 +1,15 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	0.0	hr		0.0					mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	0.5	hr		5.322952577050443e-05	57.0883143287181	6.313095641661972e-05	1.3163714386074186e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	1.0	hr		0.00016057198827028695	126.124319340578	9.650140383388005e-05	2.0121933676106647e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	1.5	hr		0.0002291343158816243	162.416961520579	0.0001019126975068078	2.1250266405607933e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	2.0	hr		0.0002886770176038776	206.231727594386	0.00013167561580878327	2.745626387597293e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	3.0	hr		0.00039874440136104404	280.143657554433	0.0001722595152548694	3.591859188912482e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	4.0	hr		0.0004213292040725415	285.029432856051	0.00015963316335137258	3.328581552028876e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	5.0	hr		0.0003086324680617163	213.809013467403	0.0001271645982129323	2.6515651685172913e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	6.0	hr		0.00014632979741310354	106.747492100017	7.124870002688416e-05	1.4856380938434037e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	8.0	hr		7.335282431050924e-05	56.342445566947	4.1487387926651804e-05	8.650718384284358e-06		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	10.0	hr		4.817561198544422e-05	36.4675844569304	2.615458608581804e-05	5.453608192589669e-06		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	12.0	hr		3.11145370688993e-05	22.3449357362942	1.443011646114089e-05	3.008887278670142e-06		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	14.0	hr		1.9465558926153977e-05	14.4177653094193	9.921508167905938e-06	2.0687774621933876e-06		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	24.0	hr		1.1725272725548698e-05	9.29203539823016	7.21425512969891e-06	1.5042761812274144e-06		mole/meter^3	ng/ml

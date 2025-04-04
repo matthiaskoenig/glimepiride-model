@@ -1,0 +1,14 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	0.265402943953936	hr		5.8519270445830756e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	0.515639896301565	hr		0.00040070787075560926					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	0.765876848649193	hr		0.0007111572234384407					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	1.03127979260312	hr		0.0007052061173460977					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	1.26635075334445	hr		0.0005306403235028943					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	1.51658770569208	hr		0.00040963452989412497					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	2.01706195750669	hr		0.0002459791123546664					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	2.51753586220194	hr		0.00017258207667797545					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	3.00284342817154	hr		0.00015869619273139706					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	3.49573485774267	hr		9.819325052367575e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	4.00379123756206	hr		6.744592958434682e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	5.00473904695257	hr		6.248661396961167e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride	serum	HPLC	glimepiride_GLI3	6.01327002570592	hr		4.2649623930689386e-05					mole/meter^3	ng/ml

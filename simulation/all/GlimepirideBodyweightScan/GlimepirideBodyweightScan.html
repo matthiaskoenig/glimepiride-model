@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>GlimepirideBodyweightScan</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>GlimepirideBodyweightScan</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../../models/results/models/glimepiride_body_flat.xml">../../../../models/results/models/glimepiride_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+            </ul>
+            </p>
+
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../../experiments/scans/scan_bodyweight.py">../../../../experiments/scans/scan_bodyweight.py</a>
+            <pre>
+<code class="python">"""Bodyweight parameter scan for glimepiride pharmacokinetics."""
+from pathlib import Path
+from typing import Dict
+import pandas as pd
+import xarray as xr
+import numpy as np
+import matplotlib.pyplot as plt
+from sbmlsim.model import RoadrunnerSBMLModel
+from sbmlsim.result import XResult
+from sbmlsim.simulation import Timecourse, TimecourseSim, ScanSim, Dimension
+from pkdb_models.models.glimepiride.experiments.base_experiment import GlimepirideSimulationExperiment
+from pkdb_models.models.glimepiride.helpers import run_experiments
+from pkdb_models.models.glimepiride.glimepiride_pk import calculate_glimepiride_pk
+from pkdb_models.models.glimepiride import RESULTS_PATH
+
+
+class GlimepirideBodyweightScan(GlimepirideSimulationExperiment):
+    """Scans bodyweight effects on glimepiride pharmacokinetics."""
+
+    # Bodyweight range to scan
+    bodyweight_range = np.linspace(45, 170, 100)
+
+    # Molecular weights
+    molecular_weights = {
+        "glimepiride": 490.616,
+        "M1": 506.62,
+        "M2": 520.6
+    }
+
+    # Study data Shukla2004
+    study_data = {
+        "groups": {
+            "normal": {"weight": 72, "weight_std": 10.0},
+            "obese": {"weight": 130, "weight_std": 35.5}
+        },
+        "parameters": {
+            "glimepiride": {
+                "cmax": {"normal": [547, 218], "obese": [410, 124]},
+                "tmax": {"normal": [2.89, 0.90], "obese": [2.90, 0.89]},
+                "auc": {"normal": [3205, 1033], "obese": [2818, 1112]},
+                "thalf": {"normal": [12.6, 12.8], "obese": [8.89, 3.91]}
+            },
+            "M1": {
+                "cmax": {"normal": [180, 63], "obese": [135, 52]},
+                "tmax": {"normal": [4.50, 0.78], "obese": [4.33, 0.82]},
+                "auc": {"normal": [1514, 573], "obese": [1253, 344]},
+                "thalf": {"normal": [9.76, 3.24], "obese": [11.6, 5.2]}
+            },
+            "M2": {
+                "cmax": {"normal": [50.3, 15.7], "obese": [36.5, 14.7]},
+                "tmax": {"normal": [5.00, 1.14], "obese": [5.36, 1.45]},
+                "auc": {"normal": [454, 130], "obese": [316, 119]},
+                "thalf": {"normal": [7.09, 3.89], "obese": [6.37, 4.87]}
+            }
+        }
+    }
+
+    # Gu2010 study data for glimepiride AUC (dose 2mg)
+    auc_data = np.array([
+        [46.89, 1170.33], [47.88, 1008.24], [46.94, 909.34], [46.76, 788.46],
+        [47.16, 793.96], [47.88, 755.49], [46.67, 684.07], [50.50, 1178.57],
+        [50.99, 1096.15], [50.99, 1046.70], [50.77, 980.77], [50.32, 947.80],
+        [50.68, 901.10], [50.41, 846.15], [53.83, 1192.31], [53.83, 1167.58],
+        [56.17, 1126.37], [57.84, 1079.67], [53.69, 1016.48], [53.87, 975.27],
+        [52.57, 917.58], [52.57, 879.12], [53.06, 760.99], [52.03, 747.25],
+        [52.03, 708.79], [52.93, 670.33], [55.59, 799.45], [55.63, 667.58],
+        [55.72, 640.11], [56.89, 615.38], [56.98, 538.46], [58.06, 717.03],
+        [55.68, 1016.48], [56.17, 1010.99], [58.96, 1142.86], [59.01, 1115.38],
+        [66.85, 1255.49], [66.89, 1197.80], [63.87, 1120.88], [63.92, 810.44],
+        [63.92, 703.30], [63.92, 532.97], [66.94, 1065.93], [68.83, 997.25],
+        [66.80, 780.22], [68.78, 714.29], [69.91, 892.86], [70.05, 870.88],
+        [69.91, 832.42], [72.39, 934.07], [72.30, 865.38], [72.79, 796.70],
+        [72.97, 530.22], [77.97, 898.35], [78.02, 851.65], [84.91, 725.27],
+        [84.82, 695.06], [80.95, 1989.01], [81.00, 1881.87]
+    ])
+
+    # Dose adjustment (2mg -> 8mg)
+    dose_adjusted_auc_data = np.copy(auc_data)
+    dose_adjusted_auc_data[:, 1] *= 4  # Adjust AUC values for 8mg dose
+
+
+    def simulations(self) -> Dict[str, ScanSim]:
+        """Create bodyweight scan simulation."""
+        Q_ = self.Q_
+        return {
+            "bodyweight_scan": ScanSim(
+                simulation=TimecourseSim(
+                    Timecourse(
+                        start=0,
+                        end=24 * 60,
+                        steps=2500,
+                        changes={
+                            **self.default_changes(),
+                            "KI__f_renal_function": Q_(1.0, "dimensionless"),
+                            "f_cirrhosis": Q_(0.0, "dimensionless"),
+                            "PODOSE_gli": Q_(8, "mg"),  # 8mg dose in Shukla2004
+                        },
+                    )
+                ),
+                dimensions=[
+                    Dimension(
+                        "dim_scan",
+                        changes={"BW": Q_(self.bodyweight_range, "kg")},
+                    )
+                ],
+            )
+        }
+
+    def data(self) -> Dict:
+        """Specify model variables to record."""
+        self.add_selections_data(
+            selections=[
+                "time", "PODOSE_gli", "BW",
+                "[Cve_gli]", "[Cve_m1]", "[Cve_m2]",  # plasma
+                "Aurine_m1", "Aurine_m2",             # urine
+                "Afeces_gli", "Afeces_m1", "Afeces_m2"  # feces
+            ]
+        )
+        return {}
+
+    def calculate_pharmacokinetics_parameters(self, output_dir: str):
+        """Calculate PK parameters and create visualizations."""
+        class_name = self.__class__.__name__
+        base_path = RESULTS_PATH / output_dir / output_dir
+        nc_file = base_path / f"{class_name}_task_bodyweight_scan.nc"
+
+        # Load data and create model
+        dset = xr.open_dataset(nc_file)
+        abstract_model = self.models()["model"]
+        model = RoadrunnerSBMLModel.from_abstract_model(abstract_model=abstract_model, ureg=self.ureg)
+        xres = XResult(xdataset=dset, uinfo=model.uinfo)
+
+        # Calculate PK parameters
+        df_pk = calculate_glimepiride_pk(experiment=self, xres=xres)
+
+        # Add bodyweight values
+        df_pk["bodyweight"] = np.tile(self.bodyweight_range, 3)
+
+        # Convert units and save
+        df_pk = self._apply_unit_conversion(df_pk)
+        df_pk.to_csv(
+            base_path / f"{class_name}_pharmacokinetics.tsv",
+            sep="\t", index=False
+        )
+
+        # Create figures
+        self.pk_vs_bodyweight_figure(df_pk, base_path)
+        self.concentration_time_plots(dset, base_path)
+
+    def _apply_unit_conversion(self, pk_df: pd.DataFrame) -> pd.DataFrame:
+        """Convert PK parameters to standard units."""
+        df = pk_df.copy()
+
+        conversions = {
+            "tmax": {"factor": 1/60, "new_unit": "hr"},
+            "thalf": {"factor": 1/60, "new_unit": "hr"},
+            "cmax": {"factor": None, "new_unit": "ng/ml"},
+            "auc": {"factor": None, "new_unit": "ng*hr/ml"},
+            "cl": {"factor": None, "new_unit": "L/hr"},
+        }
+
+        # Conversions
+        for compound, mr in self.molecular_weights.items():
+            mask = df["compound"] == compound
+
+            # Compound-specific conversion factors
+            conversions["cmax"]["factor"] = mr * 1000  # mmol/L to ng/mL
+            conversions["auc"]["factor"] = mr * 1000 / 60  # mmol*min/L to ng*hr/mL
+            conversions["cl"]["factor"] = mr * 60 / 1000  # L*mg/mmol/min to L/hr
+
+            # Apply
+            for param, info in conversions.items():
+                if param in df.columns and not df.loc[mask, param].isna().all():
+                    df.loc[mask, param] = df.loc[mask, param] * info["factor"]
+                    df.loc[mask, f"{param}_unit"] = info["new_unit"]
+
+        return df
+
+    def pk_vs_bodyweight_figure(self, df_pk: pd.DataFrame, base_path: Path):
+        """Create PK parameters vs bodyweight figure."""
+        plt.style.use('seaborn-v0_8-whitegrid')
+
+        compounds = [
+            {"name": "glimepiride", "display": "Glimepiride"},
+            {"name": "M1", "display": "M1"},
+            {"name": "M2", "display": "M2"}
+        ]
+        parameters = ["cmax", "tmax", "auc", "thalf"]
+        param_titles = ["Cmax", "Tmax", "AUC", "Half-life"]
+
+        fig, axes = plt.subplots(3, 4, figsize=(16, 12), sharey=False)
+
+        # Plot range
+        bw_min, bw_max = min(self.bodyweight_range), max(self.bodyweight_range)
+        bw_padding = (bw_max - bw_min) * 0.05
+        x_min, x_max = bw_min - bw_padding, bw_max + bw_padding
+
+        # Create colormap
+        cmap = plt.get_cmap("magma_r")
+        norm = plt.Normalize(vmin=min(self.bodyweight_range), vmax=max(self.bodyweight_range))
+
+        # Set colors for groups
+        group_colors = {
+            "normal": cmap(norm(self.study_data["groups"]["normal"]["weight"])),
+            "obese": cmap(norm(self.study_data["groups"]["obese"]["weight"]))
+        }
+
+        # Legend elements
+        simulation_line = None
+        normal_point = None
+        obese_point = None
+        additional_point = None
+
+        # Plot each compound and parameter
+        for row_idx, compound in enumerate(compounds):
+            df_comp = df_pk[df_pk["compound"] == compound["name"]]
+            if df_comp.empty:
+                continue
+
+            for col_idx, (param, title) in enumerate(zip(parameters, param_titles)):
+                ax = axes[row_idx, col_idx]
+
+                if param in df_comp.columns and not df_comp[param].isna().all():
+                    # Get unit
+                    unit_col = f"{param}_unit"
+                    unit_str = df_comp[unit_col].iloc[0] if unit_col in df_comp.columns else ""
+
+                    # Plot simulation line
+                    line = ax.plot(
+                        df_comp["bodyweight"], df_comp[param],
+                        '-', color="black", linewidth=2, zorder=100, label="_nolegend_"
+                    )
+                    if simulation_line is None:
+                        simulation_line = line[0]
+
+                    # Plot study data points for each group
+                    for group_name, group_info in self.study_data["groups"].items():
+                        weight = group_info["weight"]
+                        weight_std = group_info["weight_std"]
+                        value, std = self.study_data["parameters"][compound["name"]][param][group_name]
+
+                        point = ax.errorbar(
+                            weight, value, xerr=weight_std, yerr=std,
+                            fmt='s', markersize=8, color=group_colors[group_name],
+                            ecolor=group_colors[group_name], capsize=5, label="_nolegend_",
+                            zorder=150, markeredgecolor='black', markeredgewidth=1.5,
+                        )
+
+                        # Set reference for legend
+                        if group_name == "normal":
+                            normal_point = point
+                        else:
+                            obese_point = point
+
+                    # Additional AUC data points for glimepiride
+                    if compound["name"] == "glimepiride" and param == "auc":
+                        scatter = ax.scatter(
+                            self.dose_adjusted_auc_data[:, 0], self.dose_adjusted_auc_data[:, 1],
+                            c=self.dose_adjusted_auc_data[:, 0],  # Color based on bodyweight
+                            cmap=cmap,
+                            norm=norm,
+                            marker='s', s=25,
+                            alpha=0.8, edgecolor='black', linewidth=0.5,
+                            label="_nolegend_", zorder=125
+                        )
+                        if additional_point is None:
+                            additional_point = scatter
+
+                    # Set y-axis limits
+                    study_values = []
+                    for group_data in self.study_data["parameters"][compound["name"]][param].values():
+                        study_values.append(group_data[0] + group_data[1])
+                    y_values = list(df_comp[param]) + study_values
+
+                    # additional auc data
+                    if compound["name"] == "glimepiride" and param == "auc":
+                        y_values += list(self.dose_adjusted_auc_data[:, 1])
+
+                    ymax = max(y_values) * 1.2
+                    ax.set_ylim(0, ymax)
+
+                    # Labels
+                    ax.set_ylabel(f"{compound['display']} {title} [{unit_str}]", fontsize=12, fontweight='bold')
+                    if row_idx == 0:
+                        ax.set_title(f"{title}", fontsize=14, fontweight='bold')
+                    if row_idx == 2:
+                        ax.set_xlabel("Bodyweight [kg]", fontsize=12, fontweight='bold')
+
+                    # Formatting
+                    ax.grid(True, linestyle='--', alpha=0.7, zorder=0)
+                    ax.set_xlim(x_min, x_max)
+
+        # Add legend
+        legend_handles = []
+        legend_labels = []
+
+        if simulation_line:
+            legend_handles.append(simulation_line)
+            legend_labels.append("Simulation")
+        if normal_point:
+            legend_handles.append(normal_point)
+            legend_labels.append("Normal weight (Shukla2004)")
+        if obese_point:
+            legend_handles.append(obese_point)
+            legend_labels.append("Morbidly obese (Shukla2004)")
+        if additional_point:
+            legend_handles.append(additional_point)
+            legend_labels.append("AUC data (Gu2010)")
+
+        if legend_handles:
+            fig.legend(
+                handles=legend_handles,
+                labels=legend_labels,
+                loc='lower center', bbox_to_anchor=(0.5, 0.01),
+                ncol=len(legend_handles), fontsize=12, frameon=True
+            )
+
+        # Title and layout
+        fig.suptitle("Effect of Bodyweight on Glimepiride Pharmacokinetics",
+                     fontsize=16, fontweight='bold', y=0.98)
+        plt.tight_layout(rect=[0, 0.05, 1, 0.95])
+
+        # Save and show
+        plt.savefig(
+            base_path / "pk_parameters_vs_bodyweight_all_compounds.png",
+            dpi=300, bbox_inches="tight"
+        )
+        plt.show()
+        plt.close(fig)
+
+    def concentration_time_plots(self, dset: xr.Dataset, base_path: Path):
+        """Create concentration-time profiles at different bodyweights."""
+        # Convert time to hours
+        time_hr = dset["time"].values / 60
+
+        # Compounds to plot
+        compounds = [
+            {"name": "[Cve_gli]", "display": "Glimepiride"},
+            {"name": "[Cve_m1]", "display": "M1"},
+            {"name": "[Cve_m2]", "display": "M2"}
+        ]
+
+        # Create plot
+        fig, axes = plt.subplots(1, 3, figsize=(18, 7))
+        cmap = plt.get_cmap("magma_r")
+        colors = [cmap(k) for k in np.linspace(0, 1, len(self.bodyweight_range))]
+
+        # Plot each compound
+        for ax_idx, (ax, comp) in enumerate(zip(axes, compounds)):
+            conc_data_uM = dset[comp["name"]].values * 1000  # mmol/L to µM
+
+            for bw_idx, bodyweight in enumerate(self.bodyweight_range):
+                ax.plot(time_hr, conc_data_uM[:, bw_idx], color=colors[bw_idx], linewidth=2)
+
+            # Set axis properties
+            ax.set_xlim(0, 24)
+            ax.set_xlabel("Time [hr]", fontsize=12, fontweight='bold')
+            ax.set_ylabel("Concentration [µM]", fontsize=12, fontweight='bold')
+            ax.set_title(comp['display'], fontsize=14, fontweight='bold')
+            ax.set_ylim(bottom=0)
+            ax.grid(True, linestyle='--', alpha=0.7)
+
+        # Add colorbar
+        sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(
+            vmin=min(self.bodyweight_range), vmax=max(self.bodyweight_range)))
+        sm._A = []
+        fig.subplots_adjust(bottom=0.2)
+
+        cbar_ax = fig.add_axes([0.15, 0.1, 0.7, 0.03])
+        cbar = fig.colorbar(sm, cax=cbar_ax, orientation='horizontal')
+        cbar.set_label("Bodyweight [kg]", fontsize=12, fontweight='bold')
+
+        # Title and save
+        fig.suptitle("Plasma Concentration vs Time for Different Bodyweights",
+                     fontsize=16, fontweight='bold')
+        plt.savefig(
+            base_path / "concentration_time_profiles_bodyweight.png",
+            dpi=300, bbox_inches="tight"
+        )
+        plt.show()
+        plt.close(fig)
+
+
+if __name__ == "__main__":
+    output_dir = "GlimepirideBodyweightScan"
+    run_experiments(GlimepirideBodyweightScan, output_dir=output_dir, save_results=True)
+    GlimepirideBodyweightScan().calculate_pharmacokinetics_parameters(output_dir)</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	0.0	hr		8.492711203874314e-06	8.92857	9.705981867692861e-06			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	0.5	hr		4.4410541184107934e-05	36.1327858476002	2.9237252299186942e-05			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	1.0	hr		0.0001240008143249468	90.3222024521019	6.0098771608047435e-05			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	1.5	hr		0.00019384533669938994	138.136415032161	8.77117568975596e-05			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	2.0	hr		0.00024419843189521745	167.621870442764	9.745750766395715e-05			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	2.5	hr		0.00027668421821375167	192.325868116012	0.00011532474218707503			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	3.0	hr		0.0003075458118767896	206.67013189003	0.00011370040082322427			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	4.0	hr		0.0003075458118767896	214.639155160257	0.00012994329398249139			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	5.0	hr		0.00029780006111039385	223.405106293051	0.000157556279272005			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	6.0	hr		0.00019384533669938994	150.886896039743	0.00011370047517739965			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	8.0	hr		7.852066886649274e-05	63.227494149851	5.0353020841651725e-05			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	10.0	hr		4.603480819378129e-05	36.9296772308181	2.9237252299186942e-05			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	12.0	hr		3.304044905386106e-05	26.5699433315882	2.1115842896642386e-05			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	24.0	hr		1.5173288884920895e-05	13.8194623240062	1.2994284785742517e-05			mole/meter^3	ng/ml
+Kim2017		all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	48.0	hr		2.178929745000795e-06	2.66283704155837	3.2486083735244264e-06			mole/meter^3	ng/ml

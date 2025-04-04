@@ -1,0 +1,19 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	0.0	hr		0.0					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	0.5	hr		2.0419303592844337e-06					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	1.0	hr		2.981218324555288e-05					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	1.5	hr		9.637911295822607e-05					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	2.0	hr		0.00013476740371277384					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	2.5	hr		0.00018254857412003					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	3.0	hr		0.0002078685105751569					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	3.5	hr		0.00023196328881471318					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	4.0	hr		0.00025564968098241287					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	4.5	hr		0.00024503164311413285					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	5.0	hr		0.0002458484152578481					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	6.0	hr		0.00019725047270687811					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	7.0	hr		0.00015110284658704945					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	8.0	hr		0.0001245577519163515					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	10.0	hr		0.00012292420762892404					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	12.0	hr		8.086044222766433e-05					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	14.0	hr		6.738370185638683e-05					mole/meter^3	ng/ml
+Shukla2004		obese	14.0	GLI8	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_obese	24.0	hr		4.124699325754589e-05					mole/meter^3	ng/ml

@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	1.5	hr	2.5105856357071454e-05					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	2.0	hr	6.724838269175297e-05					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	2.5	hr	9.473688784408259e-05					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	3.0	hr	0.00012119813065908605					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	5.0	hr	0.00016534059296189626					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	7.0	hr	0.00017443570068496601					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	9.0	hr	0.00014854838589065385					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	11.0	hr	0.00013489861009864692					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	13.0	hr	0.0001161157494510196					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	24.0	hr	5.200605908582347e-05					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	34.0	hr	3.177609629009604e-05					Fig1B	ng/ml	mole/meter^3
+Rosenkranz1996a	S1		1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3_S1	48.0	hr	1.74435700684966e-05					Fig1B	ng/ml	mole/meter^3

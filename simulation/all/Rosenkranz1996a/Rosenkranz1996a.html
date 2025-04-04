@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Rosenkranz1996a</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>Rosenkranz1996a</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../../models/results/models/glimepiride_body_flat.xml">../../../../models/results/models/glimepiride_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+                <li><strong>M1+M2_GLI3_S1</strong>: <a href="Rosenkranz1996a_M1+M2_GLI3_S1.tsv">Rosenkranz1996a_M1+M2_GLI3_S1.tsv</a></li>
+                <li><strong>glimepiride-M1_GLI3_S1</strong>: <a href="Rosenkranz1996a_glimepiride-M1_GLI3_S1.tsv">Rosenkranz1996a_glimepiride-M1_GLI3_S1.tsv</a></li>
+                <li><strong>glimepiride-M2_GLI3_S1</strong>: <a href="Rosenkranz1996a_glimepiride-M2_GLI3_S1.tsv">Rosenkranz1996a_glimepiride-M2_GLI3_S1.tsv</a></li>
+                <li><strong>glimepiride_GLI3_S1</strong>: <a href="Rosenkranz1996a_glimepiride_GLI3_S1.tsv">Rosenkranz1996a_glimepiride_GLI3_S1.tsv</a></li>
+                <li><strong>M1+M2_urine_GLI3_single_group1</strong>: <a href="Rosenkranz1996a_M1+M2_urine_GLI3_single_group1.tsv">Rosenkranz1996a_M1+M2_urine_GLI3_single_group1.tsv</a></li>
+                <li><strong>M1+M2_urine_GLI3_single_group2</strong>: <a href="Rosenkranz1996a_M1+M2_urine_GLI3_single_group2.tsv">Rosenkranz1996a_M1+M2_urine_GLI3_single_group2.tsv</a></li>
+                <li><strong>M1+M2_urine_GLI3_single_group3</strong>: <a href="Rosenkranz1996a_M1+M2_urine_GLI3_single_group3.tsv">Rosenkranz1996a_M1+M2_urine_GLI3_single_group3.tsv</a></li>
+                <li><strong>recovery_urine_single_group1</strong>: <a href="Rosenkranz1996a_recovery_urine_single_group1.tsv">Rosenkranz1996a_recovery_urine_single_group1.tsv</a></li>
+                <li><strong>recovery_urine_single_group2</strong>: <a href="Rosenkranz1996a_recovery_urine_single_group2.tsv">Rosenkranz1996a_recovery_urine_single_group2.tsv</a></li>
+                <li><strong>recovery_urine_single_group3</strong>: <a href="Rosenkranz1996a_recovery_urine_single_group3.tsv">Rosenkranz1996a_recovery_urine_single_group3.tsv</a></li>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig1_plasma</strong>: <a href="Rosenkranz1996a_Fig1_plasma.svg">Rosenkranz1996a_Fig1_plasma.svg</a></li>
+                <li><strong>Tab2_urine</strong>: <a href="Rosenkranz1996a_Tab2_urine.svg">Rosenkranz1996a_Tab2_urine.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig1_plasma</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="Rosenkranz1996a_Fig1_plasma.svg" max-width="600" width="600"></v-img>-->
+                        <img src="Rosenkranz1996a_Fig1_plasma.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+            <h3>Tab2_urine</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="Rosenkranz1996a_Tab2_urine.svg" max-width="600" width="600"></v-img>-->
+                        <img src="Rosenkranz1996a_Tab2_urine.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../../experiments/studies/rosenkranz1996a.py">../../../../experiments/studies/rosenkranz1996a.py</a>
+            <pre>
+<code class="python">from typing import Dict
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from pkdb_models.models.glimepiride.experiments.base_experiment import GlimepirideSimulationExperiment
+from pkdb_models.models.glimepiride.experiments.metadata import (
+    Tissue, Route, Dosing, ApplicationForm, Health, Fasting, GlimepirideMappingMetaData, Coadministration
+)
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+from pkdb_models.models.glimepiride.helpers import run_experiments
+
+class Rosenkranz1996a(GlimepirideSimulationExperiment):
+    """Simulation experiment for Rosenkranz1996a."""
+
+    group_colors = {
+        "single_group1": "#66c2a4",
+        "single_group2": "#2ca25f",
+        "single_group3": "#006d2c",
+        "single_group_normal": "#000000",
+
+    }
+    group_renal_functions = {
+        "single_group1": "mild",
+        "single_group2": "moderate",
+        "single_group3": "severe",
+        "single_group_normal": "normal",
+    }
+    renal_functions = {
+        "normal": 1.0,
+        "mild": 0.5,
+        "moderate": 0.35,
+        "severe": 0.2,
+    }
+    info = {
+        "gli": "glimepiride",
+        "m1": "glimepiride-M1",
+        "m2": "glimepiride-M2",
+        "m1_m2": "M1+M2",
+        "m1_m2_urine": "M1+M2_urine"
+    }
+    interventions = [
+        "GLI3"
+    ]
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig1", "Tab2B"]:
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                if label.startswith("glimepiride_"):
+                    dset.unit_conversion("value", 1 / self.Mr.gli)
+                elif label.startswith("glimepiride-M1"):
+                    dset.unit_conversion("value", 1 / self.Mr.m1)
+                elif label.startswith("glimepiride-M2"):
+                    dset.unit_conversion("value", 1 / self.Mr.m2)
+                elif label.startswith("M1+M2_urine"):
+                    dset.unit_conversion("mean", 1 / self.Mr.m1_m2)
+                elif label.startswith("M1+M2"):
+                    dset.unit_conversion("value", 1 / self.Mr.m1_m2)
+                dsets[label] = dset
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+        # simulation for each renal function group
+        for group, renal_function_key in self.group_renal_functions.items():
+            tcsims[f"po_gli3_{group}"] = TimecourseSim(
+                [Timecourse(
+                    start=0,
+                    end=50 * 60,
+                    steps=500,
+                    changes={
+                        **self.default_changes(),
+                        "PODOSE_gli": Q_(3, "mg"),
+                        "KI__f_renal_function": Q_(self.renal_functions[renal_function_key], "dimensionless"),
+                    },
+                )]
+            )
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+        mappings = {}
+        # Urinary recovery M1+M2
+        for group in self.group_renal_functions.keys():
+            label = f"M1+M2_urine_GLI3_{group}"
+
+            if label not in self.datasets():
+                continue
+
+            mappings[f"fm_po_gli3_m1_m2_urine_{group}"] = FitMapping(
+                self,
+                reference=FitData(
+                    self,
+                    dataset=label,
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                ),
+                observable=FitData(
+                    self,
+                    task=f"task_po_gli3_{group}",
+                    xid="time",
+                    yid="Aurine_m1_m2"
+                ),
+                metadata=GlimepirideMappingMetaData(
+                    tissue=Tissue.URINE,
+                    route=Route.PO,
+                    application_form=ApplicationForm.TABLET,
+                    dosing=Dosing.SINGLE,
+                    health=Health.T2DM_RENAL_IMPAIRMENT,
+                    fasting=Fasting.FED,
+                    coadministration=Coadministration.NONE,
+                ),
+            )
+
+        # Plasma concentrations S1
+        for sid, metabolite_name in self.info.items():
+            if sid == "m1_m2_urine":
+                continue
+            if label not in self.datasets():
+                continue
+            mappings[f"fm_po_gli3_{sid}_plasma"] = FitMapping(
+                self,
+                reference=FitData(
+                    self,
+                    dataset=f"{metabolite_name}_GLI3_S1",
+                    xid="time",
+                    yid="value",
+                    count="count",
+                ),
+                observable=FitData(
+                    self,
+                    task="task_po_gli3_single_group3",
+                    xid="time",
+                    yid=f"[Cve_{sid}]"
+                ),
+                metadata=GlimepirideMappingMetaData(
+                    tissue=Tissue.PLASMA,
+                    route=Route.PO,
+                    application_form=ApplicationForm.TABLET,
+                    dosing=Dosing.SINGLE,
+                    health=Health.T2DM_RENAL_IMPAIRMENT,
+                    fasting=Fasting.FED,
+                    coadministration=Coadministration.NONE,
+                ),
+            )
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+        return {
+            **self.figure_plasma(),
+            **self.figure_urine(),
+        }
+
+    def figure_plasma(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig1_plasma",
+            num_rows=2,
+            num_cols=2,
+            name="Rosenkranz1996a\n (T2DM + Renal impairment)",
+        )
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )
+
+        plots[0].set_yaxis(self.label_gli_plasma, self.unit_gli)
+        plots[1].set_yaxis(self.label_m1_plasma, self.unit_m1)
+        plots[2].set_yaxis(self.label_m2_plasma, self.unit_m2)
+        plots[3].set_yaxis(self.label_m1_m2_plasma, self.unit_m1_m2)
+
+        for k in range(len(plots)):
+            plots[k].xaxis.min = 0
+
+        plots[0].xaxis.max = 10
+        plots[1].xaxis.max = 15
+        plots[3].xaxis.max = 15
+
+        sids = [key for key in self.info.keys() if key != "m1_m2_urine"]
+
+        # simulation line for normal renal function
+        for k, sid in enumerate(sids):
+            plots[k].add_data(
+                task="task_po_gli3_single_group_normal",
+                xid="time",
+                yid=f"[Cve_{sid}]",
+                label=f"Sim 3mg PO (normal)",
+                color=self.group_colors["single_group_normal"]
+            )
+
+        for k, sid in enumerate(sids):
+            name = self.info[sid]
+            plots[k].add_data(
+                task="task_po_gli3_single_group3",
+                xid="time",
+                yid=f"[Cve_{sid}]",
+                label=f"Sim 3mg PO (severe)",
+                color="#006d2c"
+                )
+            plots[k].add_data(
+                dataset=f"{name}_GLI3_S1",
+                xid="time",
+                yid="value",
+                count="count",
+                label=f"Data 3mg PO (severe)",
+                color="#006d2c"
+            )
+        return {fig.sid: fig}
+
+    def figure_urine(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Tab2_urine",
+            num_rows=1,
+            num_cols=1,
+            name="Rosenkranz1996a (T2DM + Renal impairment)",
+        )
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )
+        urinary_plot = plots[0]
+        urinary_plot.set_yaxis(self.label_m1_m2_urine, unit=self.unit_m1_m2_urine)
+
+        for group, color in self.group_colors.items():
+            renal_label = self.group_renal_functions[group]
+            urinary_plot.add_data(
+                task=f"task_po_gli3_{group}",
+                xid="time",
+                yid="Aurine_m1_m2",
+                label=f"Sim 3mg ({renal_label})",
+                color=color,
+            )
+            # Add data points if dataset exists
+            dataset_name = f"M1+M2_urine_GLI3_{group}"
+            if dataset_name in self.datasets():
+                urinary_plot.add_data(
+                    dataset=dataset_name,
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                    label=f"Data 3mg ({renal_label})",
+                    color=color,
+                    linestyle="",
+            )
+        return {fig.sid: fig}
+
+
+if __name__ == "__main__":
+    run_experiments(Rosenkranz1996a, output_dir=Rosenkranz1996a.__name__)
+</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

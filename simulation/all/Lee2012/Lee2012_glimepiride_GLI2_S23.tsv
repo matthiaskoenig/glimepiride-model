@@ -1,0 +1,13 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	value	comments	mean_unit	value_unit
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	0.0	hr		0.0		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	0.5	hr		1.2572407542895909e-05		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	1.0	hr		4.000311490921413e-05		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	1.5	hr		6.971971455605911e-05		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	2.0	hr		0.00010972282946527324		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	2.5	hr		0.00019772968226554474		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	3.0	hr		0.00032802554225555623		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	4.0	hr		0.0003154531347126592		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	6.0	hr		0.00015315478279527737		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	8.0	hr		8.229212209895499e-05		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	10.0	hr		4.800373789105695e-05		mole/meter^3	mole/meter^3
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	12.0	hr		3.4288384207897825e-05		mole/meter^3	mole/meter^3

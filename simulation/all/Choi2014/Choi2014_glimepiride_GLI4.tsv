@@ -1,0 +1,15 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	0.0	hr		0.0					mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	0.5	hr		5.232764349168311e-05	57.0887083428553	6.403364179631259e-05	1.3351937299098733e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	1.0	hr		0.0001713937725152712	150.902686388388	0.00013618422410201808	2.8396373692449662e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	1.5	hr		0.0002634050393759641	212.416961520579	0.00016955467151927577	3.535459298248157e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	2.0	hr		0.00032836064097288716	248.709209686444	0.00017857188810574873	3.723481261543572e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	3.0	hr		0.00040686053876956313	285.453392067707	0.0001749659651922053	3.648292571198324e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	4.0	hr		0.00040238967621729414	268.215273564015	0.00014430116461140892	3.008887278670142e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	5.0	hr		0.00028247788197589764	193.897115028487	0.00011273367865092049	2.350659694839525e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	6.0	hr		0.0001454279151342822	106.748280128291	7.215218850744777e-05	1.5044771309566078e-05		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	8.0	hr		7.335443051225256e-05	57.2270073050221	4.328874318167936e-05	9.026326919795063e-06		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	10.0	hr		4.8176415086315974e-05	36.0251065808242	2.5251900706124952e-05	5.265385279565079e-06		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	12.0	hr		3.0212654790077985e-05	22.3453297504315	1.5332801840833973e-05	3.197110191694733e-06		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	14.0	hr		1.9466362027025677e-05	13.9748934191759	9.018019687341361e-06	1.8803870910611487e-06		mole/meter^3	ng/ml
+Choi2014		all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	24.0	hr		1.0823390446727419e-05	9.29203539823016	8.116137408520187e-06	1.6923316361442926e-06		mole/meter^3	ng/ml

@@ -1,0 +1,14 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	0.538388710151349	hr		1.921043238747468e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	0.773459670892671	hr		6.627578947912933e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	1.0236966232403	hr		0.0001133412345088962					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	1.25118476173814	hr		0.00016520924366647565					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	1.5090048834486	hr		0.0001767354679237156					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	2.00189561878103	hr		0.00016905134773159312					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	2.49478704835216	hr		0.0001459988992171134					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	3.02559224202133	hr		0.0001517620113457333					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	3.5033173328668	hr		9.028878599441653e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	4.01895757628772	hr		8.068356980067921e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	4.99715657182845	hr		6.723633747993663e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	6.00568685634309	hr		3.938132483764438e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M1	serum	HPLC	glimepiride-M1_GLI3	7.02938347958339	hr		2.4012996515287195e-05					mole/meter^3	ng/ml

@@ -1,0 +1,3 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+FDA1995		all	3.0	GLI1po	cumulative amount	glimepiride-M2	feces	LC MS/MS	feces_glimepiride-M2_GLI1po	0.0	hr		0.0				from Tab3	mole	µg
+FDA1995		all	3.0	GLI1po	cumulative amount	glimepiride-M2	feces	LC MS/MS	feces_glimepiride-M2_GLI1po	168.0	hr		2.982135996926623e-07		9.076066077602764e-08		from Tab3	mole	µg

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Suzuki2006</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>Suzuki2006</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../../models/results/models/glimepiride_body_flat.xml">../../../../models/results/models/glimepiride_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+                <li><strong>glimepiride_GLI1_group1</strong>: <a href="Suzuki2006_glimepiride_GLI1_group1.tsv">Suzuki2006_glimepiride_GLI1_group1.tsv</a></li>
+                <li><strong>glimepiride_GLI1_S1</strong>: <a href="Suzuki2006_glimepiride_GLI1_S1.tsv">Suzuki2006_glimepiride_GLI1_S1.tsv</a></li>
+                <li><strong>glimepiride_GLI1_S2</strong>: <a href="Suzuki2006_glimepiride_GLI1_S2.tsv">Suzuki2006_glimepiride_GLI1_S2.tsv</a></li>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig3</strong>: <a href="Suzuki2006_Fig3.svg">Suzuki2006_Fig3.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig3</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="Suzuki2006_Fig3.svg" max-width="600" width="600"></v-img>-->
+                        <img src="Suzuki2006_Fig3.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../../experiments/studies/suzuki2006.py">../../../../experiments/studies/suzuki2006.py</a>
+            <pre>
+<code class="python">from typing import Dict
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from pkdb_models.models.glimepiride.experiments.base_experiment import GlimepirideSimulationExperiment
+from pkdb_models.models.glimepiride.experiments.metadata import (
+    Tissue, Route, Dosing, ApplicationForm, Health,
+    Fasting, GlimepirideMappingMetaData, Coadministration, Genotype
+)
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+from pkdb_models.models.glimepiride.helpers import run_experiments
+
+class Suzuki2006(GlimepirideSimulationExperiment):
+    """Simulation experiment of Suzuki2006."""
+    info = {
+        "gli": "glimepiride"
+    }
+    interventions = ["GLI1"]
+    # Group mappings
+    groups = {
+        "group1": "*1/*1",  # group data
+    }
+    # Individual mappings
+    individual_groups = {
+        "S1": "*1/*3",
+        "S2": "*1/*3",
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig3", "Fig3A"]:
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                if label.startswith("glimepiride_"):
+                    dset.unit_conversion("mean", 1 / self.Mr.gli)
+                    dset.unit_conversion("value", 1 / self.Mr.gli)
+                dsets[label] = dset
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+        all_mappings = {**self.groups, **self.individual_groups}
+        for key, genotype in all_mappings.items():
+            tcsims[f"po_gli1_{key}"] = TimecourseSim(
+                [Timecourse(
+                    start=0,
+                    end=11 * 60,
+                    steps=500,
+                    changes={
+                        **self.default_changes(),
+                        "PODOSE_gli": Q_(1, "mg"),
+                        "LI__f_cyp2c9": Q_(self.cyp2c9_activity[genotype], "dimensionless")
+                    },
+                )]
+            )
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+        mappings = {}
+        merged = {
+            **{k: {"genotype": v, "dataset_yid": "mean", "yid_sd": "mean_sd"} for k, v in self.groups.items()},
+            **{k: {"genotype": v, "dataset_yid": "value", "yid_sd": None} for k, v in self.individual_groups.items()}
+        }
+        for key, info_data in merged.items():
+            dataset_label = f"glimepiride_GLI1_{key}"
+            mappings[f"fm_po_gli_{key}"] = FitMapping(
+                self,
+                reference=FitData(
+                    self,
+                    dataset=dataset_label,
+                    xid="time",
+                    yid=info_data["dataset_yid"],
+                    yid_sd=info_data["yid_sd"],
+                    count="count",
+                ),
+                observable=FitData(
+                    self,
+                    task=f"task_po_gli1_{key}",
+                    xid="time",
+                    yid="[Cve_gli]",
+                ),
+                metadata=GlimepirideMappingMetaData(
+                    tissue=Tissue.PLASMA,
+                    route=Route.PO,
+                    application_form=ApplicationForm.TABLET,
+                    dosing=Dosing.SINGLE,
+                    health=Health.HEALTHY,
+                    fasting=Fasting.FED,
+                    coadministration=Coadministration.NONE,
+                    genotype=Genotype(info_data["genotype"]),
+                ),
+            )
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig3",
+            num_rows=1,
+            name="Suzuki2006 (CYP2C9)",
+        )
+        plot = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )[0]
+        plot.set_yaxis(self.label_gli_plasma, unit=self.unit_gli)
+        # Group data
+        plot.add_data(
+            task="task_po_gli1_group1",
+            xid="time",
+            yid="[Cve_gli]",
+            label="Sim 1mg PO (*1/*1)",
+            color=self.cyp2c9_colors["*1/*1"],
+        )
+        plot.add_data(
+            dataset="glimepiride_GLI1_group1",
+            xid="time",
+            yid="mean",
+            yid_sd="mean_sd",
+            count="count",
+            label="Data 1mg PO (*1/*1)",
+            color=self.cyp2c9_colors["*1/*1"],
+        )
+        # Individual data
+        for individual, genotype in self.individual_groups.items():
+            plot.add_data(
+                task=f"task_po_gli1_{individual}",
+                xid="time",
+                yid="[Cve_gli]",
+                label=f"Sim 1mg PO ({genotype})",
+                color=self.cyp2c9_colors[genotype],
+            )
+            plot.add_data(
+                dataset=f"glimepiride_GLI1_{individual}",
+                xid="time",
+                yid="value",
+                count="count",
+                label=f"Data 1mg PO ({genotype})",
+                color=self.cyp2c9_colors[genotype],
+            )
+        return {fig.sid: fig}
+
+
+if __name__ == "__main__":
+    run_experiments(Suzuki2006, output_dir=Suzuki2006.__name__)
+</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

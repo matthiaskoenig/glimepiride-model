@@ -1,0 +1,22 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	0.25	hr		2.452019502013795e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	0.5	hr		0.0001994431490208228					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	0.75	hr		0.0003664169126159767					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	1.0	hr		0.0004966409574901756					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	1.5	hr		0.0006879514732499551					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	2.0	hr		0.0009025796141992924					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	2.5	hr		0.0008831754365939961					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	3.0	hr		0.0007422913235605851					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	3.5	hr		0.0006658975655094819					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	4.0	hr		0.0006038938803463401					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	6.0	hr		0.0003624626999527125					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	8.0	hr		0.00021287524255222007					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	10.0	hr		0.00015368434784026613					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	12.0	hr		0.00011587473706524043					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	14.0	hr		6.239095341366772e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	16.0	hr		3.703507427397395e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	20.0	hr		3.0798017186557305e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	24.0	hr		2.7924079116865327e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	28.0	hr		2.3990248993102547e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	32.0	hr		2.1748169647952776e-05					mole/meter^3	ng/ml
+Malerczyk1994		all	12.0	GLI8	concentration	glimepiride	serum	HPLC	glimepiride_GLI8	36.0	hr		2.060674743587653e-05					mole/meter^3	ng/ml

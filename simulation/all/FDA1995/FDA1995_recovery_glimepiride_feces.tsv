@@ -1,0 +1,3 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+FDA1995		all	3.0	GLI1po	recovery	glimepiride	feces	LC MS/MS	recovery_glimepiride_feces	0.0	hr		0.0				from Tab3	count*mole/kilogram	percent
+FDA1995		all	3.0	GLI1po	recovery	glimepiride	feces	LC MS/MS	recovery_glimepiride_feces	168.0	hr		0.011618047515776084		0.0067262380354493135		from Tab3	count*mole/kilogram	percent

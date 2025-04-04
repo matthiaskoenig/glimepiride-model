@@ -1,0 +1,3464 @@
+{
+  "experiment_id": "GeneticVariantExperiment",
+  "base_path": "/home/mkoenig/git/pkdb_models/pkdb_models/models/glimepiride",
+  "data_path": "[PosixPath('/home/mkoenig/git/pkdb_data/studies/glimepiride'), PosixPath('/home/mkoenig/git/pkdb_data/studies/dapagliflozin')]",
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/pkdb_models/pkdb_models/models/glimepiride/models/results/models/glimepiride_body_flat.xml",
+        "path": "/home/mkoenig/git/pkdb_models/pkdb_models/models/glimepiride/models/results/models/glimepiride_body_flat.xml",
+        "content": "None"
+      },
+      "changes": {}
+    }
+  },
+  "tasks": {
+    "task_gli_*1/*1": {
+      "model": "model",
+      "simulation": "gli_*1/*1"
+    },
+    "task_gli_*1/*2": {
+      "model": "model",
+      "simulation": "gli_*1/*2"
+    },
+    "task_gli_*1/*3": {
+      "model": "model",
+      "simulation": "gli_*1/*3"
+    },
+    "task_gli_*3/*3": {
+      "model": "model",
+      "simulation": "gli_*3/*3"
+    }
+  },
+  "simulations": {
+    "gli_*1/*1": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 1440,
+          "steps": 2000,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "LI__f_cyp2c9": {
+              "_magnitude": 1.0,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "gli_*1/*2": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 1440,
+          "steps": 2000,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "LI__f_cyp2c9": {
+              "_magnitude": 0.8400000000000001,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "gli_*1/*3": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 1440,
+          "steps": 2000,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "LI__f_cyp2c9": {
+              "_magnitude": 0.615,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "gli_*3/*3": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 1440,
+          "steps": 2000,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "LI__f_cyp2c9": {
+              "_magnitude": 0.23,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    }
+  },
+  "data": {
+    "task_gli_*1/*1__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*1__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_gli_*1/*1",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*2__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_gli_*1/*2",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*1/*3__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_gli_*1/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_gli_*3/*3__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_gli_*3/*3",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    }
+  },
+  "figures": {
+    "Fig_genetic_variants_pk": {
+      "sid": "Fig_genetic_variants_pk",
+      "name": "CYP2C9 Variants",
+      "num_rows": 3,
+      "num_cols": 3,
+      "width": 21.0,
+      "height": 15.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_pk__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_pk__plot0_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_pk__plot0_yaxis",
+              "name": "Glimepiride Plasma [\u00b5M]",
+              "label": "Glimepiride Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_pk__plot0_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot0_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot0_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot0_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_pk__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_pk__plot1_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_pk__plot1_yaxis",
+              "name": "M1 Plasma [\u00b5M]",
+              "label": "M1 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_pk__plot1_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot1_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot1_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot1_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_pk__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_pk__plot2_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_pk__plot2_yaxis",
+              "name": "M2 Plasma [\u00b5M]",
+              "label": "M2 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_pk__plot2_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot2_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot2_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot2_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_pk__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_pk__plot3_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_pk__plot3_yaxis",
+              "name": "M1+M2 Urine [\u00b5mole]",
+              "label": "M1+M2 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_pk__plot3_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot3_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot3_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot3_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_pk__plot4",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_pk__plot4_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_pk__plot4_yaxis",
+              "name": "M1 Urine [\u00b5mole]",
+              "label": "M1 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_pk__plot4_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot4_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot4_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot4_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_pk__plot5",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_pk__plot5_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_pk__plot5_yaxis",
+              "name": "M2 Urine [\u00b5mole]",
+              "label": "M2 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_pk__plot5_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot5_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot5_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot5_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_pk__plot6",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_pk__plot6_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_pk__plot6_yaxis",
+              "name": "M1+M2 Feces [\u00b5mole]",
+              "label": "M1+M2 Feces",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_pk__plot6_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot6_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot6_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot6_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_pk__plot7",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_pk__plot7_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_pk__plot7_yaxis",
+              "name": "M1 Feces [\u00b5mole]",
+              "label": "M1 Feces",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_pk__plot7_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot7_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot7_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot7_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_pk__plot8",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_pk__plot8_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_pk__plot8_yaxis",
+              "name": "M2 Feces [\u00b5mole]",
+              "label": "M2 Feces",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_pk__plot8_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot8_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot8_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_pk__plot8_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig_genetic_variants_liver": {
+      "sid": "Fig_genetic_variants_liver",
+      "name": "Genetic Variants - Liver",
+      "num_rows": 2,
+      "num_cols": 3,
+      "width": 21.0,
+      "height": 10.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_liver__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_liver__plot0_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_liver__plot0_yaxis",
+              "name": "Glimepiride Plasma [\u00b5M]",
+              "label": "Glimepiride Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_liver__plot0_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot0_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot0_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot0_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_liver__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_liver__plot1_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_liver__plot1_yaxis",
+              "name": "M1 Plasma [\u00b5M]",
+              "label": "M1 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_liver__plot1_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot1_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot1_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot1_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_liver__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_liver__plot2_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_liver__plot2_yaxis",
+              "name": "M2 Plasma [\u00b5M]",
+              "label": "M2 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_liver__plot2_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot2_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot2_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot2_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_liver__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_liver__plot3_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_liver__plot3_yaxis",
+              "name": "Glimepiride Liver [\u00b5M]",
+              "label": "Glimepiride Liver",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_liver__plot3_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__LI__gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot3_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__LI__gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot3_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__LI__gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot3_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__LI__gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_liver__plot4",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_liver__plot4_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_liver__plot4_yaxis",
+              "name": "M1 Liver [\u00b5M]",
+              "label": "M1 Liver",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_liver__plot4_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__LI__m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot4_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__LI__m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot4_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__LI__m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot4_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__LI__m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_genetic_variants_liver__plot5",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_genetic_variants_liver__plot5_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_genetic_variants_liver__plot5_yaxis",
+              "name": "M2 Liver [\u00b5M]",
+              "label": "M2 Liver",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_genetic_variants_liver__plot5_curve0",
+                "name": "*1/*1",
+                "x": "task_gli_*1/*1__time",
+                "y": "task_gli_*1/*1__LI__m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a5ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a5ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a5ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot5_curve1",
+                "name": "*1/*2",
+                "x": "task_gli_*1/*2__time",
+                "y": "task_gli_*1/*2__LI__m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#fc8d62ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#fc8d62ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#fc8d62ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot5_curve2",
+                "name": "*1/*3",
+                "x": "task_gli_*1/*3__time",
+                "y": "task_gli_*1/*3__LI__m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#8da0cbff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#8da0cbff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#8da0cbff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_genetic_variants_liver__plot5_curve3",
+                "name": "*3/*3",
+                "x": "task_gli_*3/*3__time",
+                "y": "task_gli_*3/*3__LI__m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#e78ac3ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#e78ac3ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#e78ac3ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

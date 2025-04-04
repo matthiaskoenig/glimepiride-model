@@ -1,0 +1,19 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	0.0	hr		0.0					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	0.5	hr		11.4019100660581					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	1.0	hr		66.9314491899501					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	1.5	hr		136.568067801869					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	2.0	hr		223.02790197243					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	2.5	hr		266.053626021781					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	3.0	hr		349.99734386933					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	3.5	hr		398.189520420436					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	4.0	hr		395.706304043361					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	4.5	hr		421.116593759642					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	5.0	hr		422.297885380631					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	6.0	hr		316.369739616675					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	7.0	hr		258.288564151843					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	8.0	hr		214.788654138765					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	10.0	hr		173.969360178372					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	12.0	hr		118.437200982486					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	14.0	hr		94.0327365088769					nmol/l	nmol/l
+Shukla2004		normal	14.0	GLI8	concentration	glimepiride-M1+glimepiride-M2	plasma	LC MS/MS	M1+M2_normal	24.0	hr		55.3321394482831					nmol/l	nmol/l

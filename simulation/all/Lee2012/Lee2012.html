@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Lee2012</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>Lee2012</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../../models/results/models/glimepiride_body_flat.xml">../../../../models/results/models/glimepiride_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+                <li><strong>glimepiride_GLI2_group1</strong>: <a href="Lee2012_glimepiride_GLI2_group1.tsv">Lee2012_glimepiride_GLI2_group1.tsv</a></li>
+                <li><strong>glimepiride_GLI2_S21</strong>: <a href="Lee2012_glimepiride_GLI2_S21.tsv">Lee2012_glimepiride_GLI2_S21.tsv</a></li>
+                <li><strong>glimepiride_GLI2_S23</strong>: <a href="Lee2012_glimepiride_GLI2_S23.tsv">Lee2012_glimepiride_GLI2_S23.tsv</a></li>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig2</strong>: <a href="Lee2012_Fig2.svg">Lee2012_Fig2.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig2</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="Lee2012_Fig2.svg" max-width="600" width="600"></v-img>-->
+                        <img src="Lee2012_Fig2.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../../experiments/studies/lee2012.py">../../../../experiments/studies/lee2012.py</a>
+            <pre>
+<code class="python">from typing import Dict
+
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+
+from pkdb_models.models.glimepiride.experiments.base_experiment import GlimepirideSimulationExperiment
+from pkdb_models.models.glimepiride.experiments.metadata import (
+    Tissue, Route, Dosing, ApplicationForm, Health, Fasting,
+    GlimepirideMappingMetaData, Coadministration, Genotype
+)
+
+from pkdb_models.models.glimepiride.helpers import run_experiments
+
+class Lee2012(GlimepirideSimulationExperiment):
+    """Simulation experiment for Lee2012."""
+    bodyweight = 71.8  # mean body weight was 71 +/- 8 kg (range 59–84 kg)
+    info = {"gli": "glimepiride"}
+    interventions = ["GLI2"]
+    groups = {
+        "group1": "*1/*1",  # group data
+        "S23": "*1/*3",     # individual data
+        "S21": "*3/*3",     # individual data
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig2", "Fig2b"]:
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                if label.startswith("glimepiride_"):
+                    dset.unit_conversion("mean", 1 / self.Mr.gli)
+                    dset.unit_conversion("value", 1 / self.Mr.gli)
+                dsets[f"{label}"] = dset
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+        for group, genotype in self.groups.items():
+            tcsims[f"po_gli2_{group}"] = TimecourseSim(
+                [Timecourse(
+                    start=0,
+                    end=13 * 60,
+                    steps=500,
+                    changes={
+                        **self.default_changes(),
+                        "BW": Q_(self.bodyweight, "kg"),
+                        "PODOSE_gli": Q_(2, "mg"),
+                        "LI__f_cyp2c9": Q_(self.cyp2c9_activity[genotype], "dimensionless")
+                    },
+                )]
+            )
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+        mappings = {}
+        for group, genotype in self.groups.items():
+            dataset_label = f"glimepiride_GLI2_{group}"
+            mappings[f"fm_po_gli_{group}"] = FitMapping(
+                self,
+                reference=FitData(
+                    self,
+                    dataset=dataset_label,
+                    xid="time",
+                    yid="value" if group in {"S23", "S21"} else "mean",
+                    yid_sd=None if group in {"S23", "S21"} else "mean_sd",
+                    count="count",
+                ),
+                observable=FitData(
+                    self,
+                    task=f"task_po_gli2_{group}",
+                    xid="time",
+                    yid=f"[Cve_gli]",
+                ),
+                metadata=GlimepirideMappingMetaData(
+                    tissue=Tissue.PLASMA,
+                    route=Route.PO,
+                    application_form=ApplicationForm.TABLET,
+                    dosing=Dosing.SINGLE,
+                    health=Health.HEALTHY,
+                    fasting=Fasting.FED, #  overnight fast; standardized meal was provided 4 h after drug dosing
+                    genotype=Genotype(genotype),
+                ),
+            )
+        return mappings
+
+
+    def figures(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig2",
+            num_rows=1,
+            name="Lee2012 (CYP2C9)",
+        )
+        plot = fig.create_plots(xaxis=Axis(self.label_time, unit=self.unit_time), legend=True)[0]
+        plot.set_yaxis(self.label_gli_plasma, unit=self.unit_gli)
+
+        # group data
+        plot.add_data(
+            task=f"task_po_gli2_group1",
+            xid="time",
+            yid=f"[Cve_gli]",
+            label="Sim 2mg PO (*1/*1)",
+            color=self.cyp2c9_colors["*1/*1"],
+        )
+        plot.add_data(
+            dataset="glimepiride_GLI2_group1",
+            xid="time",
+            yid="mean",
+            yid_sd="mean_sd",
+            count="count",
+            label="Data 2mg PO (*1/*1)",
+            color=self.cyp2c9_colors["*1/*1"],
+        )
+
+        # individual data
+        for group, genotype in self.groups.items():
+            if group == "group1":
+                continue
+            plot.add_data(
+                task=f"task_po_gli2_{group}",
+                xid="time",
+                yid=f"[Cve_gli]",
+                label=f"Sim 2mg PO ({genotype})",
+                color=self.cyp2c9_colors[genotype],
+            )
+            plot.add_data(
+                dataset=f"glimepiride_GLI2_{group}",
+                xid="time",
+                yid="value",
+                count="count",
+                label=f"Data 2mg PO ({genotype})",
+                color=self.cyp2c9_colors[genotype],
+            )
+        return {fig.sid: fig}
+
+
+if __name__ == "__main__":
+    run_experiments(Lee2012, output_dir=Lee2012.__name__)</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

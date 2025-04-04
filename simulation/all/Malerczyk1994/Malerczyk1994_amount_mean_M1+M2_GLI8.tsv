@@ -1,0 +1,2 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Malerczyk1994		all	12.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	amount_mean_M1+M2_GLI8	48.0	hr		7.5025960539979166e-06		9.686404177439837e-07		linear regression analysis of urinary recovery versus dose	mole	mg

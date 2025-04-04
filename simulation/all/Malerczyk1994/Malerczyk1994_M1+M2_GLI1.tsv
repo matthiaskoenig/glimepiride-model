@@ -1,0 +1,8 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Malerczyk1994		all	12.0	GLI1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_GLI1	0.0	hr		0.0					µmole	µmole
+Malerczyk1994		all	12.0	GLI1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_GLI1	2.0	hr		0.126167919513428					µmole	µmole
+Malerczyk1994		all	12.0	GLI1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_GLI1	4.0	hr		0.327343584391867					µmole	µmole
+Malerczyk1994		all	12.0	GLI1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_GLI1	8.0	hr		0.733771422049016					µmole	µmole
+Malerczyk1994		all	12.0	GLI1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_GLI1	12.0	hr		0.867888531967975					µmole	µmole
+Malerczyk1994		all	12.0	GLI1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_GLI1	24.0	hr		0.92903615047206					µmole	µmole
+Malerczyk1994		all	12.0	GLI1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_GLI1	48.0	hr		0.931074404422196					µmole	µmole

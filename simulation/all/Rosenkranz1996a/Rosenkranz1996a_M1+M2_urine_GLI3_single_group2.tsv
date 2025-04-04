@@ -1,0 +1,3 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	mean_sd	mean_se	cv	comments	mean_unit	median_unit
+Rosenkranz1996a		single_group2	3.0	GLI3	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_urine_GLI3_single_group2	0.0	hr	0.0				0.0				mole	mg
+Rosenkranz1996a		single_group2	3.0	GLI3	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_urine_GLI3_single_group2	48.0	hr	1.2792056074766357e-06				7.476635514018691e-07				mole	mg

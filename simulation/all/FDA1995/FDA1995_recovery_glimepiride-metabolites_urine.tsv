@@ -1,0 +1,4 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+FDA1995		all	3.0	GLI1po	recovery	glimepiride-metabolites	urine	LC MS/MS	recovery_glimepiride-metabolites_urine	0.0	hr		0.0				from Tab3	count*mole/kilogram	percent
+FDA1995		all	3.0	GLI1po	recovery	glimepiride-metabolites	urine	LC MS/MS	recovery_glimepiride-metabolites_urine	72.0	hr		1.125778816199377		0.07632398753894082		from Tab3	count*mole/kilogram	percent
+FDA1995		all	3.0	GLI1po	recovery	glimepiride-metabolites	urine	LC MS/MS	recovery_glimepiride-metabolites_urine	168.0	hr		1.148753894080997		0.0778816199376947		from Tab3	count*mole/kilogram	percent

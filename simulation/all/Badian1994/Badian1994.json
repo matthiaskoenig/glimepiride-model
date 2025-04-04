@@ -1,0 +1,1707 @@
+{
+  "experiment_id": "Badian1994",
+  "base_path": "/home/mkoenig/git/pkdb_models/pkdb_models/models/glimepiride",
+  "data_path": "[PosixPath('/home/mkoenig/git/pkdb_data/studies/glimepiride'), PosixPath('/home/mkoenig/git/pkdb_data/studies/dapagliflozin')]",
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/pkdb_models/pkdb_models/models/glimepiride/models/results/models/glimepiride_body_flat.xml",
+        "path": "/home/mkoenig/git/pkdb_models/pkdb_models/models/glimepiride/models/results/models/glimepiride_body_flat.xml",
+        "content": "None"
+      },
+      "changes": {}
+    }
+  },
+  "tasks": {
+    "task_GLI1po": {
+      "model": "model",
+      "simulation": "GLI1po"
+    },
+    "task_GLI1iv": {
+      "model": "model",
+      "simulation": "GLI1iv"
+    }
+  },
+  "simulations": {
+    "GLI1po": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 2940,
+          "steps": 2000,
+          "changes": {
+            "BW": {
+              "_magnitude": 78.0,
+              "_units": "kilogram"
+            },
+            "PODOSE_gli": {
+              "_magnitude": 1.0,
+              "_units": "milligram"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "GLI1iv": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 1,
+          "steps": 100,
+          "changes": {
+            "BW": {
+              "_magnitude": 78.0,
+              "_units": "kilogram"
+            },
+            "Ri_gli": {
+              "_magnitude": 1.0,
+              "_units": "mg_per_min"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        },
+        {
+          "start": 1,
+          "end": 2939,
+          "steps": 1000,
+          "changes": {
+            "Ri_gli": {
+              "_magnitude": 0.0,
+              "_units": "mg_per_min"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    }
+  },
+  "data": {
+    "task_GLI1po__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1po__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_GLI1po",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_GLI1iv__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_GLI1iv",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    }
+  },
+  "figures": {
+    "Fig1_Fig2": {
+      "sid": "Fig1_Fig2",
+      "name": "Badian1994 (healthy)",
+      "num_rows": 4,
+      "num_cols": 2,
+      "width": 14.0,
+      "height": 20.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_Fig2__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_Fig2__plot0_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": -0.5,
+              "max": 13,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_Fig2__plot0_yaxis",
+              "name": "Glimepiride Plasma [\u00b5M]",
+              "label": "Glimepiride Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_Fig2__plot0_curve0",
+                "name": "Sim 1mg PO",
+                "x": "task_GLI1po__time",
+                "y": "task_GLI1po__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_Fig2__plot0_curve1",
+                "name": "Data 1mg PO (n=12)",
+                "x": "glimepiride_GLI1po__time",
+                "y": "glimepiride_GLI1po__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_Fig2__plot0_curve2",
+                "name": "Sim 1mg IV",
+                "x": "task_GLI1iv__time",
+                "y": "task_GLI1iv__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_Fig2__plot0_curve3",
+                "name": "Data 1mg IV (n=12)",
+                "x": "glimepiride_GLI1iv__time",
+                "y": "glimepiride_GLI1iv__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_Fig2__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_Fig2__plot1_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": -0.5,
+              "max": 13,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_Fig2__plot1_yaxis",
+              "name": "M1 Plasma [\u00b5M]",
+              "label": "M1 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_Fig2__plot1_curve0",
+                "name": "Sim 1mg PO",
+                "x": "task_GLI1po__time",
+                "y": "task_GLI1po__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_Fig2__plot1_curve1",
+                "name": "Data 1mg PO (n=12)",
+                "x": "glimepiride-M1_GLI1po__time",
+                "y": "glimepiride-M1_GLI1po__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_Fig2__plot1_curve2",
+                "name": "Sim 1mg IV",
+                "x": "task_GLI1iv__time",
+                "y": "task_GLI1iv__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_Fig2__plot1_curve3",
+                "name": "Data 1mg IV (n=12)",
+                "x": "glimepiride-M1_GLI1iv__time",
+                "y": "glimepiride-M1_GLI1iv__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_Fig2__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_Fig2__plot2_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": -0.5,
+              "max": 13,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_Fig2__plot2_yaxis",
+              "name": "M2 Plasma [\u00b5M]",
+              "label": "M2 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_Fig2__plot2_curve0",
+                "name": "Sim 1mg PO",
+                "x": "task_GLI1po__time",
+                "y": "task_GLI1po__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_Fig2__plot2_curve1",
+                "name": "Data 1mg PO (n=12)",
+                "x": "glimepiride-M2_GLI1po__time",
+                "y": "glimepiride-M2_GLI1po__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_Fig2__plot2_curve2",
+                "name": "Sim 1mg IV",
+                "x": "task_GLI1iv__time",
+                "y": "task_GLI1iv__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_Fig2__plot2_curve3",
+                "name": "Data 1mg IV (n=12)",
+                "x": "glimepiride-M2_GLI1iv__time",
+                "y": "glimepiride-M2_GLI1iv__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_Fig2__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_Fig2__plot3_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": -0.5,
+              "max": 13,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_Fig2__plot3_yaxis",
+              "name": "M1+M2 Plasma [\u00b5M]",
+              "label": "M1+M2 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_Fig2__plot3_curve0",
+                "name": "Sim 1mg PO",
+                "x": "task_GLI1po__time",
+                "y": "task_GLI1po__Cve_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_Fig2__plot3_curve1",
+                "name": "Data 1mg PO (n=12)",
+                "x": "M1+M2_GLI1po__time",
+                "y": "M1+M2_GLI1po__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_Fig2__plot3_curve2",
+                "name": "Sim 1mg IV",
+                "x": "task_GLI1iv__time",
+                "y": "task_GLI1iv__Cve_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_Fig2__plot3_curve3",
+                "name": "Data 1mg IV (n=12)",
+                "x": "M1+M2_GLI1iv__time",
+                "y": "M1+M2_GLI1iv__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_Fig2__plot4",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_Fig2__plot4_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": 49,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_Fig2__plot4_yaxis",
+              "name": "M1 Urine [\u00b5mole]",
+              "label": "M1 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_Fig2__plot4_curve0",
+                "name": "Sim 1mg PO",
+                "x": "task_GLI1po__time",
+                "y": "task_GLI1po__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_Fig2__plot4_curve1",
+                "name": "Data 1mg PO\u00b1SD (n=12)",
+                "x": "glimepiride_urine-M1_GLI1po__time",
+                "y": "glimepiride_urine-M1_GLI1po__mean",
+                "xerr": null,
+                "yerr": "glimepiride_urine-M1_GLI1po__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_Fig2__plot4_curve2",
+                "name": "Sim 1mg IV",
+                "x": "task_GLI1iv__time",
+                "y": "task_GLI1iv__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_Fig2__plot4_curve3",
+                "name": "Data 1mg IV\u00b1SD (n=12)",
+                "x": "glimepiride_urine-M1_GLI1iv__time",
+                "y": "glimepiride_urine-M1_GLI1iv__mean",
+                "xerr": null,
+                "yerr": "glimepiride_urine-M1_GLI1iv__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_Fig2__plot5",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_Fig2__plot5_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": 49,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_Fig2__plot5_yaxis",
+              "name": "M2 Urine [\u00b5mole]",
+              "label": "M2 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_Fig2__plot5_curve0",
+                "name": "Sim 1mg PO",
+                "x": "task_GLI1po__time",
+                "y": "task_GLI1po__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_Fig2__plot5_curve1",
+                "name": "Data 1mg PO\u00b1SD (n=12)",
+                "x": "glimepiride_urine-M2_GLI1po__time",
+                "y": "glimepiride_urine-M2_GLI1po__mean",
+                "xerr": null,
+                "yerr": "glimepiride_urine-M2_GLI1po__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_Fig2__plot5_curve2",
+                "name": "Sim 1mg IV",
+                "x": "task_GLI1iv__time",
+                "y": "task_GLI1iv__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_Fig2__plot5_curve3",
+                "name": "Data 1mg IV\u00b1SD (n=12)",
+                "x": "glimepiride_urine-M2_GLI1iv__time",
+                "y": "glimepiride_urine-M2_GLI1iv__mean",
+                "xerr": null,
+                "yerr": "glimepiride_urine-M2_GLI1iv__mean_sd",
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "NONE",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_Fig2__plot6",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_Fig2__plot6_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": 49,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig1_Fig2__plot6_yaxis",
+              "name": "M1+M2 Urine [\u00b5mole]",
+              "label": "M1+M2 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig1_Fig2__plot6_curve0",
+                "name": "Sim 1mg PO",
+                "x": "task_GLI1po__time",
+                "y": "task_GLI1po__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig1_Fig2__plot6_curve1",
+                "name": "Data 1mg PO (n=12)",
+                "x": "glimepiride_urine-M1+M2_GLI1po__time",
+                "y": "glimepiride_urine-M1+M2_GLI1po__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#000000ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig1_Fig2__plot6_curve2",
+                "name": "Sim 1mg IV",
+                "x": "task_GLI1iv__time",
+                "y": "task_GLI1iv__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#1f77b4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig1_Fig2__plot6_curve3",
+                "name": "Data 1mg IV (n=12)",
+                "x": "glimepiride_urine-M1+M2_GLI1iv__time",
+                "y": "glimepiride_urine-M1+M2_GLI1iv__mean",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "DASH",
+                    "color": "#1f77b4ff",
+                    "thickness": 1.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "SQUARE",
+                    "fill": "#1f77b4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#1f77b4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 4,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig1_Fig2__plot7",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig1_Fig2__plot7_xaxis",
+              "name": "Time [hr]",
+              "label": "Time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": 49,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": null,
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [],
+            "areas": []
+          },
+          "row": 4,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

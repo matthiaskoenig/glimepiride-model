@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	1.00853097875334	hr		1.5890386713103555e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	1.27393357558792	hr		2.71070900039272e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	1.5090048834486	hr		3.0845934049765464e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	2.00947878814386	hr		4.5801566963082017e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	2.51753586220194	hr		5.234467240828083e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	3.00284342817154	hr		6.262662189931771e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	3.5033173328668	hr		5.421409443119996e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	4.00379123756206	hr		4.112796911745697e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	5.0123222163154	hr		3.738903949496408e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	5.99052121185614	hr		2.6172336204140414e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	7.00663466573361	hr		1.869456253580949e-05					mole/meter^3	ng/ml
+Lehr1990		all	1.0	GLI3	concentration	glimepiride-M2	serum	HPLC	glimepiride-M2_GLI3	7.99241752487587	hr		1.5890386713103555e-05					mole/meter^3	ng/ml

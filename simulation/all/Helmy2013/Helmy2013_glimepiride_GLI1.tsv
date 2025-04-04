@@ -1,0 +1,16 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	0.0	hr		0.0					mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	0.25	hr		1.6591387154108307e-05	12.21	8.295693577054153e-06	1.6933513605222036e-06		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	0.5	hr		4.3149836124382414e-05	27.69	1.3289415754887732e-05	2.7126906315982224e-06		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	0.75	hr		6.970828509465652e-05	62.7	5.8090237578880425e-05	1.1857620092108797e-05		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	1.0	hr		9.294438012620869e-05	83.06	7.635299297210038e-05	1.5585489426329665e-05		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	1.5	hr		0.000124476168734815	90.39	5.976160581799208e-05	1.2198786705285259e-05		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	2.0	hr		0.00012614753697392668	91.21	5.9761605817992064e-05	1.2198786705285256e-05		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	2.5	hr		0.00014606127806675689	96.09	4.979454400182629e-05	1.0164268731586594e-05		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	3.0	hr		0.0001344432305509808	89.58	4.8143558302216e-05	9.8272626868635e-06		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	4.0	hr		0.0001078847815807067	75.73	4.647219006310435e-05	9.486096073687038e-06		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	6.0	hr		7.137965333376817e-05	55.37	4.1478467885270755e-05	8.466756802611015e-06		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	8.0	hr		4.3149836124382414e-05	35.02	2.8229817209385754e-05	5.762387307919538e-06		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	10.0	hr		2.488708073116246e-05	18.73	1.3289415754887732e-05	2.7126906315982224e-06		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	12.0	hr		1.9913741092830238e-05	18.73	1.8262755393219956e-05	3.72786933422087e-06		mole/meter^3	ng/ml
+Helmy2013		all	24.0	GLI1	concentration	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	24.0	hr		8.295693577054153e-06	7.33	6.644707877443866e-06	1.3563453157991112e-06		mole/meter^3	ng/ml

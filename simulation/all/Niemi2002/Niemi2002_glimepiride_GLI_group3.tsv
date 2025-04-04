@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	0.0	hr		0.0	0.0				mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	0.5	hr		1.8396847571839768e-05	13.9684810699969	1.7449483760740483e-05	1.0074464146483521e-05		mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	1.0	hr		4.774419965072684e-05	30.5157586452241	2.5036215830628115e-05	1.4454665949302713e-05		mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	1.5	hr		6.190685660228e-05	37.5358168913873	2.5289103040813056e-05	1.4600670448177598e-05		mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	2.0	hr		6.599504272369185e-05	38.6103154352332	2.2001523002673337e-05	1.2702585228175194e-05		mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	2.5	hr		7.373340146989131e-05	43.7679084456936	2.6806449454790267e-05	1.5476710808741262e-05		mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	3.0	hr		7.314937010707703e-05	42.9799417538368	2.50362158306281e-05	1.4454665949302706e-05		mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	4.0	hr		6.730910326453764e-05	39.0401148527716	2.1242849795684567e-05	1.2264565047893271e-05		mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	5.0	hr		5.037232073241843e-05	29.5128955237075	1.6943709340371113e-05	9.782455148734037e-06		mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	7.0	hr		3.431158524452036e-05	21.991405716786	1.8208156967729422e-05	1.051248432676554e-05		mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	10.0	hr		2.102496865353107e-05	13.7535813612277	1.2138771311819491e-05	7.008322884510291e-06		mole/meter^3	ng/ml
+Niemi2002		group3	3.0	GLI	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI_group3	12.0	hr		1.1534535869861705e-05	7.66475409336135	7.080934496648871e-06	4.088179437754333e-06		mole/meter^3	ng/ml

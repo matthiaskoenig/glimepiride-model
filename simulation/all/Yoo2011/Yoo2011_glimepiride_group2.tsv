@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	0.0	hr		0.0					mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	0.5	hr		6.634461503578521e-05	58.5895133707143	5.30756920286283e-05	1.4185075366932571e-05		mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	1.0	hr		0.00022778304331106406	184.448434907618	0.00014816970773581987	3.9600020103276086e-05		mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	1.5	hr		0.0003936445809005271	275.587677928729	0.00016807309224655537	4.491942336587596e-05		mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	2.0	hr		0.00051306488796494	323.327297971626	0.00014595825431257644	3.900898431494876e-05		mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	2.5	hr		0.0005506603047970164	320.072325006587	0.0001017283759769229	2.7188052101326493e-05		mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	3.0	hr		0.0005528716569864109	333.092216866745	0.00012605486980184097	3.3689581052348884e-05		mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	4.0	hr		0.0005307569202862808	336.347189831785	0.00015480406800555017	4.137312746825868e-05		mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	5.0	hr		0.00038037565789337077	257.142864238135	0.000143746800889333	3.8417948526621235e-05		mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	6.0	hr		0.000216725674960998	151.898705257221	9.288246105010027e-05	2.482388189213214e-05		mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	8.0	hr		0.0001238432139109002	94.3942159861508	6.855616969287711e-05	1.832240705287724e-05		mole/meter^3	ng/ml
+Yoo2011		group2	14.0	GLI2	concentration	glimepiride	plasma	HPLC	glimepiride_group2	12.0	hr		5.528704421802286e-05	45.5696215105555	3.7595416832076405e-05	1.0047797792756003e-05		mole/meter^3	ng/ml

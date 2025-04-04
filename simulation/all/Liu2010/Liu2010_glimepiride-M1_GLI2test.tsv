@@ -1,0 +1,16 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	0.0	hr		0.0					mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	0.276817439158222	hr		8.676300666066063e-07	0.879122519058289	8.676399958826137e-07	1.8091544535394593e-07		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	0.775087309044051	hr		5.2058002581916404e-06	5.93406568531138	6.5072503227395855e-06	1.3568554881687554e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	1.32871965302888	hr		1.0411600516383303e-05	9.1758246295709	7.700247870121176e-06	1.6056126727325547e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	1.77162704881571	hr		1.4858218260496679e-05	12.527472002324	9.869332965913642e-06	2.0578981805216554e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	2.38062186689954	hr		1.7894938387533827e-05	15.6043957886582	1.2906048128312757e-05	2.691097063267541e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	2.76816678858737	hr		1.963020845002305e-05	16.373627364038	1.2689138129342149e-05	2.645868201929064e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	3.70934151992842	hr		2.4293736193107055e-05	18.3516492591418	1.1929960579901898e-05	2.4875687400422443e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	4.70588125970008	hr		3.123480154914985e-05	21.4835172597228	1.1170783030461682e-05	2.3292692781554314e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	6.0	hr		4.0887224516092915e-05	27.4175829450341	1.3231410644449679e-05	2.758939837675967e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	8.0	hr		4.023649948381903e-05	26.1538458958784	1.1387688064794122e-05	2.3744971042952905e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	10.0	hr		3.524760922459792e-05	24.7252736887974	1.3556768195948836e-05	2.8267815768858582e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	12.0	hr		2.7005088839369146e-05	19.6703305225443	1.182150806273558e-05	2.464954826972295e-06		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	24.0	hr		4.555075225917688e-06	3.0219795720874	1.409907546352256e-06	2.939860459022886e-07		mole/meter^3	µg/l
+Liu2010		all	23.0	GLI2test	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI2test	48.0	hr		6.507250322739566e-07	0.879122519058289	1.0845450302152635e-06	2.26143271493848e-07		mole/meter^3	µg/l

@@ -6,6 +6,10 @@ This repository provides the glimepiride physiologically based pharmacokinetics 
 The model is distributed as [SBML](http://sbml.org) available from [`glimepiride_body_flat.xml`](./models/glimepiride_body_flat.xml) with 
 corresponding SBML4humans model report at [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_body_flat.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_body_flat.xml) and equations from [`glimepiride_body_flat.md`](./models/glimepiride_body_flat.md).
 
+The COMBINE archive is available from [`glimepiride_model.omex`](./glimepiride_model.omex).
+
+![model overview](./figures/glimepiride_model.png)
+
 ### Comp submodels
 The liver submodel is available from [`glimepiride_liver.xml`](./models/glimepiride_liver.xml) with corresponding SBML4humans report at
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_liver.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_liver.xml) and equations from [`glimepiride_liver.md`](./models/glimepiride_liver.md).
@@ -31,6 +35,10 @@ The whole-body submodel is available from [`glimepiride_body.xml`](./models/glim
 * Source Code: [MIT](https://opensource.org/license/MIT)
 * Documentation: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 * Models: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
 
 Funding
 =======

@@ -1,0 +1,7 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Badian1996		all	12.0	GLIM1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+M2_urine	2.0	hr		1.3424959642571783		0.1987930159524555	0.0573866006365838		µmole	µmole
+Badian1996		all	12.0	GLIM1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+M2_urine	4.0	hr		1.7561596034373117		0.1956475285565635	0.0564785766392084		µmole	µmole
+Badian1996		all	12.0	GLIM1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+M2_urine	8.0	hr		2.018482886819835		0.1731357665946072	0.0499799907248743		µmole	µmole
+Badian1996		all	12.0	GLIM1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+M2_urine	12.0	hr		2.105618243188156		0.2204798012280552	0.0636470362949464		µmole	µmole
+Badian1996		all	12.0	GLIM1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+M2_urine	24.0	hr		2.1701289807099644		0.2382026847520597	0.0687631920816466		µmole	µmole
+Badian1996		all	12.0	GLIM1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+M2_urine	48.0	hr		2.183887194873384		0.2362755179225648	0.0682068669377555		µmole	µmole

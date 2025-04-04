@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>GeneticVariantExperiment</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>GeneticVariantExperiment</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../../models/results/models/glimepiride_body_flat.xml">../../../../models/results/models/glimepiride_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig_genetic_variants_pk</strong>: <a href="GeneticVariantExperiment_Fig_genetic_variants_pk.svg">GeneticVariantExperiment_Fig_genetic_variants_pk.svg</a></li>
+                <li><strong>Fig_genetic_variants_liver</strong>: <a href="GeneticVariantExperiment_Fig_genetic_variants_liver.svg">GeneticVariantExperiment_Fig_genetic_variants_liver.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig_genetic_variants_pk</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="GeneticVariantExperiment_Fig_genetic_variants_pk.svg" max-width="600" width="600"></v-img>-->
+                        <img src="GeneticVariantExperiment_Fig_genetic_variants_pk.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+            <h3>Fig_genetic_variants_liver</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="GeneticVariantExperiment_Fig_genetic_variants_liver.svg" max-width="600" width="600"></v-img>-->
+                        <img src="GeneticVariantExperiment_Fig_genetic_variants_liver.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../../experiments/misc/genetic_variants.py">../../../../experiments/misc/genetic_variants.py</a>
+            <pre>
+<code class="python">from typing import Dict
+
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+from pkdb_models.models.glimepiride.experiments.base_experiment import (
+    GlimepirideSimulationExperiment,
+)
+from pkdb_models.models.glimepiride.helpers import run_experiments
+
+
+class GeneticVariantExperiment(GlimepirideSimulationExperiment):
+    """Simulation of CYP2C9 variant effects on glimepiride pharmacokinetics."""
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+
+        for variant, activity in self.cyp2c9_activity.items():
+            tcsims[f"gli_{variant}"] = TimecourseSim(
+                Timecourse(
+                    start=0,
+                    end=24 * 60,  # [min]
+                    steps=2000,
+                    changes={
+                        **self.default_changes(),
+                        "PODOSE_gli": Q_(4, "mg"),
+                        "LI__f_cyp2c9": Q_(activity, "dimensionless"),
+                    },
+                )
+            )
+        return tcsims
+
+    def figures(self) -> Dict[str, Figure]:
+        return {
+            **self.figure_pk(),
+            **self.figure_liver(),
+        }
+
+    def figure_pk(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig_genetic_variants_pk",
+            num_rows=3,
+            num_cols=3,
+            name="CYP2C9 Variants",
+        )
+        plots = fig.create_plots(xaxis=Axis("Time", unit="hr"), legend=True)
+
+        sids = [
+            # plasma
+            "[Cve_gli]",
+            "[Cve_m1]",
+            "[Cve_m2]",
+
+            # urine
+            "Aurine_m1_m2",
+            "Aurine_m1",
+            "Aurine_m2",
+
+            # feces
+            "Afeces_m1_m2",
+            "Afeces_m1",
+            "Afeces_m2",
+        ]
+
+        for ksid, sid in enumerate(sids):
+            plots[ksid].set_yaxis(label=self.labels[sid], unit=self.units[sid])
+
+            for variant in self.cyp2c9_activity:
+                plots[ksid].add_data(
+                    task=f"task_gli_{variant}",
+                    xid="time",
+                    yid=sid,
+                    label=variant,
+                    color=self.cyp2c9_colors[variant],
+                )
+
+        return {fig.sid: fig}
+
+    def figure_liver(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig_genetic_variants_liver",
+            num_rows=2,
+            num_cols=3,
+            name="Genetic Variants - Liver",
+        )
+        plots = fig.create_plots(xaxis=Axis("Time", unit="hr"), legend=True)
+
+        sids = [
+            # plasma & liver compartments
+            "[Cve_gli]",
+            "[Cve_m1]",
+            "[Cve_m2]",
+            "[LI__gli]",
+            "[LI__m1]",
+            "[LI__m2]",
+        ]
+
+        for ksid, sid in enumerate(sids):
+            plots[ksid].set_yaxis(label=self.labels[sid], unit=self.units[sid])
+
+            for variant in self.cyp2c9_activity:
+                plots[ksid].add_data(
+                    task=f"task_gli_{variant}",
+                    xid="time",
+                    yid=sid,
+                    label=variant,
+                    color=self.cyp2c9_colors[variant],
+                )
+
+        return {fig.sid: fig}
+
+
+if __name__ == "__main__":
+    run_experiments(GeneticVariantExperiment, output_dir=GeneticVariantExperiment.__name__)</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	mean_unit	value_unit
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	0.5	hr		0.00021334155067957223	188.977233798127	0.0001718420425952639	4.050355787068624e-05		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	1.0	hr		0.0005541270693738932	434.802216378505	0.0003321102656875499	7.827914032311095e-05		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	1.5	hr		0.0005978300250268255	403.153683639668	0.00022389956316366978	5.277363313924556e-05		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	2.0	hr		0.000537780937720482	483.620839017227	0.0004479611477745427	0.00010558545509982939		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	3.0	hr		0.0002599818873117713	276.192012938883	0.00030296757405696306	7.14101420317721e-05		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	4.0	hr		0.0001462436260312615	125.674278125468	0.00010991246778848346	2.5906617103394917e-05		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	6.0	hr		0.0005550158802422466	645.724280109063	0.0007611341843888765	0.0001794010477247554		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	8.0	hr		0.0013169413244531693	1399.05390750138	0.001534685828964942	0.000361728918884003		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	12.0	hr		0.00041072360863830977	436.325904335301	0.0004786193894198477	0.00011281167195537978		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	16.0	hr		9.751957001027668e-05	91.7772234117629	8.954571814127751e-05	2.1106128174638818e-05		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	24.0	hr		2.1820610751575773e-05	21.4905178757682	2.198252219918042e-05	5.1813301715414295e-06		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	36.0	hr		9.666074861100251e-06	8.69273517708803	8.05192695108694e-06	1.8978573829107652e-06		mole/meter^3	ng/ml
+Kasichayanula2011c		S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	48.0	hr		7.499651343101469e-06	8.59430033340664	1.0017715260121094e-05	2.361198130809187e-06		mole/meter^3	ng/ml

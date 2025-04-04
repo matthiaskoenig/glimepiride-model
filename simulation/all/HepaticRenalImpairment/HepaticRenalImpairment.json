@@ -1,0 +1,4877 @@
+{
+  "experiment_id": "HepaticRenalImpairment",
+  "base_path": "/home/mkoenig/git/pkdb_models/pkdb_models/models/glimepiride",
+  "data_path": "[PosixPath('/home/mkoenig/git/pkdb_data/studies/glimepiride'), PosixPath('/home/mkoenig/git/pkdb_data/studies/dapagliflozin')]",
+  "models": {
+    "model": {
+      "sid": null,
+      "name": null,
+      "language": "SBML",
+      "language_type": "SBML",
+      "source": {
+        "source": "/home/mkoenig/git/pkdb_models/pkdb_models/models/glimepiride/models/results/models/glimepiride_body_flat.xml",
+        "path": "/home/mkoenig/git/pkdb_models/pkdb_models/models/glimepiride/models/results/models/glimepiride_body_flat.xml",
+        "content": "None"
+      },
+      "changes": {}
+    }
+  },
+  "tasks": {
+    "task_ali_hepatic_Control": {
+      "model": "model",
+      "simulation": "ali_hepatic_Control"
+    },
+    "task_ali_hepatic_Mild cirrhosis": {
+      "model": "model",
+      "simulation": "ali_hepatic_Mild cirrhosis"
+    },
+    "task_ali_hepatic_Moderate cirrhosis": {
+      "model": "model",
+      "simulation": "ali_hepatic_Moderate cirrhosis"
+    },
+    "task_ali_hepatic_Severe cirrhosis": {
+      "model": "model",
+      "simulation": "ali_hepatic_Severe cirrhosis"
+    },
+    "task_ali_renal_Normal renal function": {
+      "model": "model",
+      "simulation": "ali_renal_Normal renal function"
+    },
+    "task_ali_renal_Mild renal impairment": {
+      "model": "model",
+      "simulation": "ali_renal_Mild renal impairment"
+    },
+    "task_ali_renal_Moderate renal impairment": {
+      "model": "model",
+      "simulation": "ali_renal_Moderate renal impairment"
+    },
+    "task_ali_renal_Severe renal impairment": {
+      "model": "model",
+      "simulation": "ali_renal_Severe renal impairment"
+    }
+  },
+  "simulations": {
+    "ali_hepatic_Control": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 2160,
+          "steps": 500,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "f_cirrhosis": {
+              "_magnitude": 0,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "ali_hepatic_Mild cirrhosis": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 2160,
+          "steps": 500,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "f_cirrhosis": {
+              "_magnitude": 0.3994897959183674,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "ali_hepatic_Moderate cirrhosis": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 2160,
+          "steps": 500,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "f_cirrhosis": {
+              "_magnitude": 0.6979591836734694,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "ali_hepatic_Severe cirrhosis": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 2160,
+          "steps": 500,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "f_cirrhosis": {
+              "_magnitude": 0.8127551020408164,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "ali_renal_Normal renal function": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 2160,
+          "steps": 500,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "KI__f_renal_function": {
+              "_magnitude": 1.0,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "ali_renal_Mild renal impairment": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 2160,
+          "steps": 500,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "KI__f_renal_function": {
+              "_magnitude": 0.49504950495049505,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "ali_renal_Moderate renal impairment": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 2160,
+          "steps": 500,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "KI__f_renal_function": {
+              "_magnitude": 0.3465346534653465,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    },
+    "ali_renal_Severe renal impairment": {
+      "type": "TimecourseSim",
+      "selections": null,
+      "reset": true,
+      "time_offset": 0.0,
+      "timecourses": [
+        {
+          "start": 0,
+          "end": 2160,
+          "steps": 500,
+          "changes": {
+            "PODOSE_gli": {
+              "_magnitude": 4,
+              "_units": "milligram"
+            },
+            "KI__f_renal_function": {
+              "_magnitude": 0.19801980198019803,
+              "_units": "dimensionless"
+            }
+          },
+          "model_changes": {},
+          "model_manipulations": {},
+          "discard": false
+        }
+      ]
+    }
+  },
+  "data": {
+    "task_ali_hepatic_Control__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Control__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_ali_hepatic_Control",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Mild cirrhosis__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_ali_hepatic_Mild cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Moderate cirrhosis__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_ali_hepatic_Moderate cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_hepatic_Severe cirrhosis__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_ali_hepatic_Severe cirrhosis",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Normal renal function__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_ali_renal_Normal renal function",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Mild renal impairment__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_ali_renal_Mild renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Moderate renal impairment__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_ali_renal_Moderate renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__time": {
+      "type": "TASK",
+      "index": "time",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__IVDOSE_gli": {
+      "type": "TASK",
+      "index": "IVDOSE_gli",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__PODOSE_gli": {
+      "type": "TASK",
+      "index": "PODOSE_gli",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__IVDOSE_m1": {
+      "type": "TASK",
+      "index": "IVDOSE_m1",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Cve_gli": {
+      "type": "TASK",
+      "index": "Cve_gli",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Cve_m1": {
+      "type": "TASK",
+      "index": "Cve_m1",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Cve_m2": {
+      "type": "TASK",
+      "index": "Cve_m2",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Cve_m1_m2": {
+      "type": "TASK",
+      "index": "Cve_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Aurine_m1": {
+      "type": "TASK",
+      "index": "Aurine_m1",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Aurine_m2": {
+      "type": "TASK",
+      "index": "Aurine_m2",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Aurine_m1_m2": {
+      "type": "TASK",
+      "index": "Aurine_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Afeces_gli": {
+      "type": "TASK",
+      "index": "Afeces_gli",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Afeces_m1": {
+      "type": "TASK",
+      "index": "Afeces_m1",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Afeces_m2": {
+      "type": "TASK",
+      "index": "Afeces_m2",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__Afeces_m1_m2": {
+      "type": "TASK",
+      "index": "Afeces_m1_m2",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__KI__f_renal_function": {
+      "type": "TASK",
+      "index": "KI__f_renal_function",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__f_cirrhosis": {
+      "type": "TASK",
+      "index": "f_cirrhosis",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__LI__f_cyp2c9": {
+      "type": "TASK",
+      "index": "LI__f_cyp2c9",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__LI__gli": {
+      "type": "TASK",
+      "index": "LI__gli",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__LI__m1": {
+      "type": "TASK",
+      "index": "LI__m1",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__LI__m2": {
+      "type": "TASK",
+      "index": "LI__m2",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    },
+    "task_ali_renal_Severe renal impairment__KI__crcl": {
+      "type": "TASK",
+      "index": "KI__crcl",
+      "unit": null,
+      "task": "task_ali_renal_Severe renal impairment",
+      "dataset": null,
+      "function": null,
+      "variables": null
+    }
+  },
+  "figures": {
+    "Fig_ddi_hepatic": {
+      "sid": "Fig_ddi_hepatic",
+      "name": "Hepatic Impairment",
+      "num_rows": 3,
+      "num_cols": 3,
+      "width": 21.0,
+      "height": 15.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_hepatic__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_hepatic__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_hepatic__plot0_yaxis",
+              "name": "Glimepiride Plasma [\u00b5M]",
+              "label": "Glimepiride Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_hepatic__plot0_curve0",
+                "name": "Control",
+                "x": "task_ali_hepatic_Control__time",
+                "y": "task_ali_hepatic_Control__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot0_curve1",
+                "name": "Mild cirrhosis",
+                "x": "task_ali_hepatic_Mild cirrhosis__time",
+                "y": "task_ali_hepatic_Mild cirrhosis__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#74a9cfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#74a9cfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#74a9cfff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot0_curve2",
+                "name": "Moderate cirrhosis",
+                "x": "task_ali_hepatic_Moderate cirrhosis__time",
+                "y": "task_ali_hepatic_Moderate cirrhosis__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2b8cbeff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2b8cbeff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2b8cbeff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot0_curve3",
+                "name": "Severe cirrhosis",
+                "x": "task_ali_hepatic_Severe cirrhosis__time",
+                "y": "task_ali_hepatic_Severe cirrhosis__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#045a8dff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#045a8dff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#045a8dff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_hepatic__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_hepatic__plot1_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_hepatic__plot1_yaxis",
+              "name": "M1 Plasma [\u00b5M]",
+              "label": "M1 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_hepatic__plot1_curve0",
+                "name": "Control",
+                "x": "task_ali_hepatic_Control__time",
+                "y": "task_ali_hepatic_Control__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot1_curve1",
+                "name": "Mild cirrhosis",
+                "x": "task_ali_hepatic_Mild cirrhosis__time",
+                "y": "task_ali_hepatic_Mild cirrhosis__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#74a9cfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#74a9cfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#74a9cfff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot1_curve2",
+                "name": "Moderate cirrhosis",
+                "x": "task_ali_hepatic_Moderate cirrhosis__time",
+                "y": "task_ali_hepatic_Moderate cirrhosis__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2b8cbeff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2b8cbeff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2b8cbeff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot1_curve3",
+                "name": "Severe cirrhosis",
+                "x": "task_ali_hepatic_Severe cirrhosis__time",
+                "y": "task_ali_hepatic_Severe cirrhosis__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#045a8dff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#045a8dff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#045a8dff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_hepatic__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_hepatic__plot2_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_hepatic__plot2_yaxis",
+              "name": "M2 Plasma [\u00b5M]",
+              "label": "M2 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_hepatic__plot2_curve0",
+                "name": "Control",
+                "x": "task_ali_hepatic_Control__time",
+                "y": "task_ali_hepatic_Control__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot2_curve1",
+                "name": "Mild cirrhosis",
+                "x": "task_ali_hepatic_Mild cirrhosis__time",
+                "y": "task_ali_hepatic_Mild cirrhosis__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#74a9cfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#74a9cfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#74a9cfff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot2_curve2",
+                "name": "Moderate cirrhosis",
+                "x": "task_ali_hepatic_Moderate cirrhosis__time",
+                "y": "task_ali_hepatic_Moderate cirrhosis__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2b8cbeff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2b8cbeff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2b8cbeff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot2_curve3",
+                "name": "Severe cirrhosis",
+                "x": "task_ali_hepatic_Severe cirrhosis__time",
+                "y": "task_ali_hepatic_Severe cirrhosis__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#045a8dff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#045a8dff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#045a8dff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_hepatic__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_hepatic__plot3_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_hepatic__plot3_yaxis",
+              "name": "M1 Urine [\u00b5mole]",
+              "label": "M1 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_hepatic__plot3_curve0",
+                "name": "Control",
+                "x": "task_ali_hepatic_Control__time",
+                "y": "task_ali_hepatic_Control__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot3_curve1",
+                "name": "Mild cirrhosis",
+                "x": "task_ali_hepatic_Mild cirrhosis__time",
+                "y": "task_ali_hepatic_Mild cirrhosis__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#74a9cfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#74a9cfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#74a9cfff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot3_curve2",
+                "name": "Moderate cirrhosis",
+                "x": "task_ali_hepatic_Moderate cirrhosis__time",
+                "y": "task_ali_hepatic_Moderate cirrhosis__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2b8cbeff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2b8cbeff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2b8cbeff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot3_curve3",
+                "name": "Severe cirrhosis",
+                "x": "task_ali_hepatic_Severe cirrhosis__time",
+                "y": "task_ali_hepatic_Severe cirrhosis__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#045a8dff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#045a8dff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#045a8dff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_hepatic__plot4",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_hepatic__plot4_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_hepatic__plot4_yaxis",
+              "name": "M2 Urine [\u00b5mole]",
+              "label": "M2 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_hepatic__plot4_curve0",
+                "name": "Control",
+                "x": "task_ali_hepatic_Control__time",
+                "y": "task_ali_hepatic_Control__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot4_curve1",
+                "name": "Mild cirrhosis",
+                "x": "task_ali_hepatic_Mild cirrhosis__time",
+                "y": "task_ali_hepatic_Mild cirrhosis__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#74a9cfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#74a9cfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#74a9cfff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot4_curve2",
+                "name": "Moderate cirrhosis",
+                "x": "task_ali_hepatic_Moderate cirrhosis__time",
+                "y": "task_ali_hepatic_Moderate cirrhosis__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2b8cbeff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2b8cbeff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2b8cbeff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot4_curve3",
+                "name": "Severe cirrhosis",
+                "x": "task_ali_hepatic_Severe cirrhosis__time",
+                "y": "task_ali_hepatic_Severe cirrhosis__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#045a8dff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#045a8dff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#045a8dff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_hepatic__plot5",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_hepatic__plot5_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_hepatic__plot5_yaxis",
+              "name": "M1+M2 Urine [\u00b5mole]",
+              "label": "M1+M2 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_hepatic__plot5_curve0",
+                "name": "Control",
+                "x": "task_ali_hepatic_Control__time",
+                "y": "task_ali_hepatic_Control__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot5_curve1",
+                "name": "Mild cirrhosis",
+                "x": "task_ali_hepatic_Mild cirrhosis__time",
+                "y": "task_ali_hepatic_Mild cirrhosis__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#74a9cfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#74a9cfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#74a9cfff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot5_curve2",
+                "name": "Moderate cirrhosis",
+                "x": "task_ali_hepatic_Moderate cirrhosis__time",
+                "y": "task_ali_hepatic_Moderate cirrhosis__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2b8cbeff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2b8cbeff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2b8cbeff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot5_curve3",
+                "name": "Severe cirrhosis",
+                "x": "task_ali_hepatic_Severe cirrhosis__time",
+                "y": "task_ali_hepatic_Severe cirrhosis__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#045a8dff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#045a8dff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#045a8dff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_hepatic__plot6",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_hepatic__plot6_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_hepatic__plot6_yaxis",
+              "name": "M1 Feces [\u00b5mole]",
+              "label": "M1 Feces",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_hepatic__plot6_curve0",
+                "name": "Control",
+                "x": "task_ali_hepatic_Control__time",
+                "y": "task_ali_hepatic_Control__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot6_curve1",
+                "name": "Mild cirrhosis",
+                "x": "task_ali_hepatic_Mild cirrhosis__time",
+                "y": "task_ali_hepatic_Mild cirrhosis__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#74a9cfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#74a9cfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#74a9cfff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot6_curve2",
+                "name": "Moderate cirrhosis",
+                "x": "task_ali_hepatic_Moderate cirrhosis__time",
+                "y": "task_ali_hepatic_Moderate cirrhosis__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2b8cbeff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2b8cbeff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2b8cbeff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot6_curve3",
+                "name": "Severe cirrhosis",
+                "x": "task_ali_hepatic_Severe cirrhosis__time",
+                "y": "task_ali_hepatic_Severe cirrhosis__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#045a8dff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#045a8dff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#045a8dff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_hepatic__plot7",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_hepatic__plot7_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_hepatic__plot7_yaxis",
+              "name": "M2 Feces [\u00b5mole]",
+              "label": "M2 Feces",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_hepatic__plot7_curve0",
+                "name": "Control",
+                "x": "task_ali_hepatic_Control__time",
+                "y": "task_ali_hepatic_Control__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot7_curve1",
+                "name": "Mild cirrhosis",
+                "x": "task_ali_hepatic_Mild cirrhosis__time",
+                "y": "task_ali_hepatic_Mild cirrhosis__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#74a9cfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#74a9cfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#74a9cfff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot7_curve2",
+                "name": "Moderate cirrhosis",
+                "x": "task_ali_hepatic_Moderate cirrhosis__time",
+                "y": "task_ali_hepatic_Moderate cirrhosis__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2b8cbeff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2b8cbeff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2b8cbeff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot7_curve3",
+                "name": "Severe cirrhosis",
+                "x": "task_ali_hepatic_Severe cirrhosis__time",
+                "y": "task_ali_hepatic_Severe cirrhosis__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#045a8dff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#045a8dff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#045a8dff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_hepatic__plot8",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_hepatic__plot8_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_hepatic__plot8_yaxis",
+              "name": "M1+M2 Feces [\u00b5mole]",
+              "label": "M1+M2 Feces",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_hepatic__plot8_curve0",
+                "name": "Control",
+                "x": "task_ali_hepatic_Control__time",
+                "y": "task_ali_hepatic_Control__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot8_curve1",
+                "name": "Mild cirrhosis",
+                "x": "task_ali_hepatic_Mild cirrhosis__time",
+                "y": "task_ali_hepatic_Mild cirrhosis__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#74a9cfff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#74a9cfff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#74a9cfff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot8_curve2",
+                "name": "Moderate cirrhosis",
+                "x": "task_ali_hepatic_Moderate cirrhosis__time",
+                "y": "task_ali_hepatic_Moderate cirrhosis__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2b8cbeff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2b8cbeff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2b8cbeff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_hepatic__plot8_curve3",
+                "name": "Severe cirrhosis",
+                "x": "task_ali_hepatic_Severe cirrhosis__time",
+                "y": "task_ali_hepatic_Severe cirrhosis__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#045a8dff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#045a8dff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#045a8dff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    },
+    "Fig_ddi_renal": {
+      "sid": "Fig_ddi_renal",
+      "name": "Renal Impairment",
+      "num_rows": 3,
+      "num_cols": 3,
+      "width": 21.0,
+      "height": 15.0,
+      "subplots": [
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_renal__plot0",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_renal__plot0_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_renal__plot0_yaxis",
+              "name": "Glimepiride Plasma [\u00b5M]",
+              "label": "Glimepiride Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_renal__plot0_curve0",
+                "name": "Normal renal function",
+                "x": "task_ali_renal_Normal renal function__time",
+                "y": "task_ali_renal_Normal renal function__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_renal__plot0_curve1",
+                "name": "Mild renal impairment",
+                "x": "task_ali_renal_Mild renal impairment__time",
+                "y": "task_ali_renal_Mild renal impairment__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_renal__plot0_curve2",
+                "name": "Moderate renal impairment",
+                "x": "task_ali_renal_Moderate renal impairment__time",
+                "y": "task_ali_renal_Moderate renal impairment__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca25fff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca25fff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca25fff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_renal__plot0_curve3",
+                "name": "Severe renal impairment",
+                "x": "task_ali_renal_Severe renal impairment__time",
+                "y": "task_ali_renal_Severe renal impairment__Cve_gli",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#006d2cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#006d2cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#006d2cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_renal__plot1",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_renal__plot1_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_renal__plot1_yaxis",
+              "name": "M1 Plasma [\u00b5M]",
+              "label": "M1 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_renal__plot1_curve0",
+                "name": "Normal renal function",
+                "x": "task_ali_renal_Normal renal function__time",
+                "y": "task_ali_renal_Normal renal function__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_renal__plot1_curve1",
+                "name": "Mild renal impairment",
+                "x": "task_ali_renal_Mild renal impairment__time",
+                "y": "task_ali_renal_Mild renal impairment__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_renal__plot1_curve2",
+                "name": "Moderate renal impairment",
+                "x": "task_ali_renal_Moderate renal impairment__time",
+                "y": "task_ali_renal_Moderate renal impairment__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca25fff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca25fff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca25fff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_renal__plot1_curve3",
+                "name": "Severe renal impairment",
+                "x": "task_ali_renal_Severe renal impairment__time",
+                "y": "task_ali_renal_Severe renal impairment__Cve_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#006d2cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#006d2cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#006d2cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_renal__plot2",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_renal__plot2_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_renal__plot2_yaxis",
+              "name": "M2 Plasma [\u00b5M]",
+              "label": "M2 Plasma",
+              "unit": "\u00b5M",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_renal__plot2_curve0",
+                "name": "Normal renal function",
+                "x": "task_ali_renal_Normal renal function__time",
+                "y": "task_ali_renal_Normal renal function__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_renal__plot2_curve1",
+                "name": "Mild renal impairment",
+                "x": "task_ali_renal_Mild renal impairment__time",
+                "y": "task_ali_renal_Mild renal impairment__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_renal__plot2_curve2",
+                "name": "Moderate renal impairment",
+                "x": "task_ali_renal_Moderate renal impairment__time",
+                "y": "task_ali_renal_Moderate renal impairment__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca25fff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca25fff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca25fff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_renal__plot2_curve3",
+                "name": "Severe renal impairment",
+                "x": "task_ali_renal_Severe renal impairment__time",
+                "y": "task_ali_renal_Severe renal impairment__Cve_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#006d2cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#006d2cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#006d2cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 1,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_renal__plot3",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_renal__plot3_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_renal__plot3_yaxis",
+              "name": "M1 Urine [\u00b5mole]",
+              "label": "M1 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_renal__plot3_curve0",
+                "name": "Normal renal function",
+                "x": "task_ali_renal_Normal renal function__time",
+                "y": "task_ali_renal_Normal renal function__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_renal__plot3_curve1",
+                "name": "Mild renal impairment",
+                "x": "task_ali_renal_Mild renal impairment__time",
+                "y": "task_ali_renal_Mild renal impairment__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_renal__plot3_curve2",
+                "name": "Moderate renal impairment",
+                "x": "task_ali_renal_Moderate renal impairment__time",
+                "y": "task_ali_renal_Moderate renal impairment__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca25fff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca25fff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca25fff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_renal__plot3_curve3",
+                "name": "Severe renal impairment",
+                "x": "task_ali_renal_Severe renal impairment__time",
+                "y": "task_ali_renal_Severe renal impairment__Aurine_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#006d2cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#006d2cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#006d2cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_renal__plot4",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_renal__plot4_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_renal__plot4_yaxis",
+              "name": "M2 Urine [\u00b5mole]",
+              "label": "M2 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_renal__plot4_curve0",
+                "name": "Normal renal function",
+                "x": "task_ali_renal_Normal renal function__time",
+                "y": "task_ali_renal_Normal renal function__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_renal__plot4_curve1",
+                "name": "Mild renal impairment",
+                "x": "task_ali_renal_Mild renal impairment__time",
+                "y": "task_ali_renal_Mild renal impairment__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_renal__plot4_curve2",
+                "name": "Moderate renal impairment",
+                "x": "task_ali_renal_Moderate renal impairment__time",
+                "y": "task_ali_renal_Moderate renal impairment__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca25fff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca25fff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca25fff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_renal__plot4_curve3",
+                "name": "Severe renal impairment",
+                "x": "task_ali_renal_Severe renal impairment__time",
+                "y": "task_ali_renal_Severe renal impairment__Aurine_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#006d2cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#006d2cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#006d2cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_renal__plot5",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_renal__plot5_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_renal__plot5_yaxis",
+              "name": "M1+M2 Urine [\u00b5mole]",
+              "label": "M1+M2 Urine",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_renal__plot5_curve0",
+                "name": "Normal renal function",
+                "x": "task_ali_renal_Normal renal function__time",
+                "y": "task_ali_renal_Normal renal function__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_renal__plot5_curve1",
+                "name": "Mild renal impairment",
+                "x": "task_ali_renal_Mild renal impairment__time",
+                "y": "task_ali_renal_Mild renal impairment__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_renal__plot5_curve2",
+                "name": "Moderate renal impairment",
+                "x": "task_ali_renal_Moderate renal impairment__time",
+                "y": "task_ali_renal_Moderate renal impairment__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca25fff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca25fff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca25fff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_renal__plot5_curve3",
+                "name": "Severe renal impairment",
+                "x": "task_ali_renal_Severe renal impairment__time",
+                "y": "task_ali_renal_Severe renal impairment__Aurine_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#006d2cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#006d2cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#006d2cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 2,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_renal__plot6",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_renal__plot6_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_renal__plot6_yaxis",
+              "name": "M1 Feces [\u00b5mole]",
+              "label": "M1 Feces",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_renal__plot6_curve0",
+                "name": "Normal renal function",
+                "x": "task_ali_renal_Normal renal function__time",
+                "y": "task_ali_renal_Normal renal function__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_renal__plot6_curve1",
+                "name": "Mild renal impairment",
+                "x": "task_ali_renal_Mild renal impairment__time",
+                "y": "task_ali_renal_Mild renal impairment__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_renal__plot6_curve2",
+                "name": "Moderate renal impairment",
+                "x": "task_ali_renal_Moderate renal impairment__time",
+                "y": "task_ali_renal_Moderate renal impairment__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca25fff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca25fff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca25fff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_renal__plot6_curve3",
+                "name": "Severe renal impairment",
+                "x": "task_ali_renal_Severe renal impairment__time",
+                "y": "task_ali_renal_Severe renal impairment__Afeces_m1",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#006d2cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#006d2cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#006d2cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 1,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_renal__plot7",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_renal__plot7_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_renal__plot7_yaxis",
+              "name": "M2 Feces [\u00b5mole]",
+              "label": "M2 Feces",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_renal__plot7_curve0",
+                "name": "Normal renal function",
+                "x": "task_ali_renal_Normal renal function__time",
+                "y": "task_ali_renal_Normal renal function__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_renal__plot7_curve1",
+                "name": "Mild renal impairment",
+                "x": "task_ali_renal_Mild renal impairment__time",
+                "y": "task_ali_renal_Mild renal impairment__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_renal__plot7_curve2",
+                "name": "Moderate renal impairment",
+                "x": "task_ali_renal_Moderate renal impairment__time",
+                "y": "task_ali_renal_Moderate renal impairment__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca25fff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca25fff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca25fff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_renal__plot7_curve3",
+                "name": "Severe renal impairment",
+                "x": "task_ali_renal_Severe renal impairment__time",
+                "y": "task_ali_renal_Severe renal impairment__Afeces_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#006d2cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#006d2cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#006d2cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 2,
+          "row_span": 1,
+          "col_span": 1
+        },
+        {
+          "sid": null,
+          "name": null,
+          "plot": {
+            "sid": "Fig_ddi_renal__plot8",
+            "name": null,
+            "xaxis": {
+              "sid": "Fig_ddi_renal__plot8_xaxis",
+              "name": "time [hr]",
+              "label": "time",
+              "unit": "hr",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis": {
+              "sid": "Fig_ddi_renal__plot8_yaxis",
+              "name": "M1+M2 Feces [\u00b5mole]",
+              "label": "M1+M2 Feces",
+              "unit": "\u00b5mole",
+              "scale": "LINEAR",
+              "min": null,
+              "max": null,
+              "grid": false,
+              "label_visible": true,
+              "ticks_visible": true
+            },
+            "yaxis_right": null,
+            "legend": true,
+            "facecolor": "#ffffffff",
+            "title_visible": true,
+            "curves": [
+              {
+                "sid": "Fig_ddi_renal__plot8_curve0",
+                "name": "Normal renal function",
+                "x": "task_ali_renal_Normal renal function__time",
+                "y": "task_ali_renal_Normal renal function__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#000000ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#000000ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#000000ff",
+                    "second_color": null
+                  }
+                },
+                "order": 0
+              },
+              {
+                "sid": "Fig_ddi_renal__plot8_curve1",
+                "name": "Mild renal impairment",
+                "x": "task_ali_renal_Mild renal impairment__time",
+                "y": "task_ali_renal_Mild renal impairment__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#66c2a4ff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#66c2a4ff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#66c2a4ff",
+                    "second_color": null
+                  }
+                },
+                "order": 1
+              },
+              {
+                "sid": "Fig_ddi_renal__plot8_curve2",
+                "name": "Moderate renal impairment",
+                "x": "task_ali_renal_Moderate renal impairment__time",
+                "y": "task_ali_renal_Moderate renal impairment__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#2ca25fff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#2ca25fff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#2ca25fff",
+                    "second_color": null
+                  }
+                },
+                "order": 2
+              },
+              {
+                "sid": "Fig_ddi_renal__plot8_curve3",
+                "name": "Severe renal impairment",
+                "x": "task_ali_renal_Severe renal impairment__time",
+                "y": "task_ali_renal_Severe renal impairment__Afeces_m1_m2",
+                "xerr": null,
+                "yerr": null,
+                "yaxis_position": null,
+                "style": {
+                  "sid": null,
+                  "name": null,
+                  "base_style": null,
+                  "line": {
+                    "type": "SOLID",
+                    "color": "#006d2cff",
+                    "thickness": 2.0
+                  },
+                  "marker": {
+                    "size": null,
+                    "type": "NONE",
+                    "fill": "#006d2cff",
+                    "line_color": "#000000ff",
+                    "line_thickness": null
+                  },
+                  "fill": {
+                    "color": "#006d2cff",
+                    "second_color": null
+                  }
+                },
+                "order": 3
+              }
+            ],
+            "areas": []
+          },
+          "row": 3,
+          "col": 3,
+          "row_span": 1,
+          "col_span": 1
+        }
+      ]
+    }
+  }
+}

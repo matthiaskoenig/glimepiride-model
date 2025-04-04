@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>DoseDependencyExperiment</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <!--<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
+</head>
+
+<body>
+<div id="app">
+    <!-- Vue app-->
+    <v-app>
+        <v-content>
+
+            <a href="../index.html">Experiments</a>
+            <h1>DoseDependencyExperiment</h1>
+
+            <h2>Models</h2>
+            <p>
+            <ul>
+                <li><strong>model</strong>: <a href="../../../../models/results/models/glimepiride_body_flat.xml">../../../../models/results/models/glimepiride_body_flat.xml</a></li>
+            </ul>
+            </p>
+
+            <h2>Datasets</h2>
+            <p>
+            <ul>
+            </ul>
+            </p>
+
+            <h2>Figures</h2>
+            <p>
+            <ul>
+                <li><strong>Fig_dose_dependency_pk_gli_PO</strong>: <a href="DoseDependencyExperiment_Fig_dose_dependency_pk_gli_PO.svg">DoseDependencyExperiment_Fig_dose_dependency_pk_gli_PO.svg</a></li>
+                <li><strong>Fig_dose_dependency_pk_gli_IV</strong>: <a href="DoseDependencyExperiment_Fig_dose_dependency_pk_gli_IV.svg">DoseDependencyExperiment_Fig_dose_dependency_pk_gli_IV.svg</a></li>
+                <li><strong>Fig_dose_dependency_pk_m1_IV</strong>: <a href="DoseDependencyExperiment_Fig_dose_dependency_pk_m1_IV.svg">DoseDependencyExperiment_Fig_dose_dependency_pk_m1_IV.svg</a></li>
+            </ul>
+            </p>
+
+            <h3>Fig_dose_dependency_pk_gli_PO</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="DoseDependencyExperiment_Fig_dose_dependency_pk_gli_PO.svg" max-width="600" width="600"></v-img>-->
+                        <img src="DoseDependencyExperiment_Fig_dose_dependency_pk_gli_PO.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+            <h3>Fig_dose_dependency_pk_gli_IV</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="DoseDependencyExperiment_Fig_dose_dependency_pk_gli_IV.svg" max-width="600" width="600"></v-img>-->
+                        <img src="DoseDependencyExperiment_Fig_dose_dependency_pk_gli_IV.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+            <h3>Fig_dose_dependency_pk_m1_IV</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="DoseDependencyExperiment_Fig_dose_dependency_pk_m1_IV.svg" max-width="600" width="600"></v-img>-->
+                        <img src="DoseDependencyExperiment_Fig_dose_dependency_pk_m1_IV.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
+
+            <h2>Code</h2>
+            <p>
+                <a href="../../../../experiments/misc/dose_dependency.py">../../../../experiments/misc/dose_dependency.py</a>
+            <pre>
+<code class="python">from typing import Dict
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+from pkdb_models.models.glimepiride.experiments.base_experiment import GlimepirideSimulationExperiment
+from pkdb_models.models.glimepiride.helpers import run_experiments
+
+
+class DoseDependencyExperiment(GlimepirideSimulationExperiment):
+    """Dose-response simulation for glimepiride administration."""
+
+    routes = {"gli": ["PO", "IV"], "m1": ["IV"]}
+    doses = [0, 1, 2, 3, 4, 5, 6, 7, 8]  # [mg]
+    colors = ['#ffffe5', '#fff7bc', '#fee391', '#fec44f', '#fe9929', '#ec7014', '#cc4c02', '#993404', '#662506']
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+
+        for substance, routes in self.routes.items():
+            for route in routes:
+                for dose in self.doses:
+                    tcsims[f"gli_{substance}_{route}_{dose}"] = TimecourseSim(
+                        Timecourse(
+                            start=0,
+                            end=24 * 60,  # [min]
+                            steps=300,
+                            changes={
+                                **self.default_changes(),
+                                f"{route}DOSE_{substance}": Q_(dose, "mg"),
+                            },
+                        )
+                    )
+        return tcsims
+
+    def figures(self) -> Dict[str, Figure]:
+        figures = {}
+        for substance, routes in self.routes.items():
+            for route in routes:
+                fig = Figure(
+                    experiment=self,
+                    sid=f"Fig_dose_dependency_pk_{substance}_{route}",
+                    num_rows=3,
+                    num_cols=3,
+                    name=f"Dose Dependency {substance}_{route}",
+                )
+
+                plots = fig.create_plots(xaxis=Axis("time", unit="hr"), legend=True)
+
+                # Define plot contents (plasma, urine, feces)
+                sids = [
+                    "[Cve_gli]", "[Cve_m1]", "[Cve_m2]",  # plasma
+                    "Aurine_m1_m2", "Aurine_m1", "Aurine_m2",  # urine
+                    "Afeces_m1_m2", "Afeces_m1", "Afeces_m2",  # feces
+                ]
+
+                # Set axis labels and units
+                for ksid, sid in enumerate(sids):
+                    plots[ksid].set_yaxis(label=self.labels[sid], unit=self.units[sid])
+
+                # Add data for each dose
+                for ksid, sid in enumerate(sids):
+                    for kval, dose in enumerate(self.doses):
+                        plots[ksid].add_data(
+                            task=f"task_gli_{substance}_{route}_{dose}",
+                            xid="time",
+                            yid=sid,
+                            label=f"{dose} mg",
+                            color=self.colors[kval],
+                        )
+                figures[fig.sid] = fig
+        return figures
+
+
+if __name__ == "__main__":
+    run_experiments(DoseDependencyExperiment, output_dir=DoseDependencyExperiment.__name__)</code>
+        </pre>
+            </p>
+
+        </v-content>
+    </v-app>
+</div>
+
+
+<!-- loading dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.2.6/dist/vuetify.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        delimiters: ['${', '}'],
+        data() {
+            return {}
+        }
+    })
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+study	group	individual	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	table	table_sd	mean_unit	value_unit
+Shukla2004	normal		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	0.0	hr		0.0							mole	µg
+Shukla2004	normal		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	2.0	hr		1.0969242244745717e-07							mole	µg
+Shukla2004	normal		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	4.0	hr		5.210390066254205e-07							mole	µg
+Shukla2004	normal		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	6.0	hr		1.0969242244745716e-06							mole	µg
+Shukla2004	normal		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	8.0	hr		1.6124786099776226e-06							mole	µg
+Shukla2004	normal		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	12.0	hr		1.9360712561976207e-06							mole	µg
+Shukla2004	normal		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	24.0	hr		2.554517133956386e-06		7.009345794392522e-07		from Table 1	16.4	4.5	mole	µg

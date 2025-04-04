@@ -241,7 +241,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_gli_lumen" sboTerm="SBO:0000247" id="gli_lumen" name="glimepiride (intestinal lumen)" compartment="Vlumen" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species metaid="meta_gli_lumen" sboTerm="SBO:0000247" id="gli_lumen" name="glimepiride (intestines)" compartment="Vlumen" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_gli_lumen">
@@ -308,7 +308,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_m1_lumen" sboTerm="SBO:0000247" id="m1_lumen" name="M1 (intestinal lumen)" compartment="Vlumen" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species metaid="meta_m1_lumen" sboTerm="SBO:0000247" id="m1_lumen" name="M1 (intestines)" compartment="Vlumen" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_m1_lumen">
@@ -324,7 +324,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="meta_m2_lumen" sboTerm="SBO:0000247" id="m2_lumen" name="M2 (intestinal lumen)" compartment="Vlumen" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species metaid="meta_m2_lumen" sboTerm="SBO:0000247" id="m2_lumen" name="M2 (intestines)" compartment="Vlumen" initialConcentration="0" substanceUnits="mmole" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_m2_lumen">
@@ -372,26 +372,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
       </species>
     </listOfSpecies>
     <listOfParameters>
-      <parameter metaid="meta_F_gli_abs" sboTerm="SBO:0000002" id="F_gli_abs" name="fraction absorbed glimepiride" value="1" units="dimensionless" constant="true">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>
-              <code>GLIABS</code> of dose is absorbed. <code>(1-GLIABS)</code> is excreted in feces. No parent drug found in feces.</p>
-            </body>
-          </notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#meta_F_gli_abs">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </parameter>
-      <parameter metaid="meta_GLIABS_k" sboTerm="SBO:0000009" id="GLIABS_k" name="rate of glimepiride absorption" value="0.01" units="per_min" constant="true">
+      <parameter metaid="meta_GLIABS_k" sboTerm="SBO:0000009" id="GLIABS_k" name="rate of glimepiride absorption" value="0.01593644230489" units="per_min" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_GLIABS_k">
@@ -423,7 +404,7 @@ food decreases the absorption rate, i.e. &lt; 1.0.</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_MREABS_k" sboTerm="SBO:0000009" id="MREABS_k" name="rate constant for M1 and M2 reabsorption from plasma to intestine" value="0.05" units="per_min" constant="true">
+      <parameter metaid="meta_MREABS_k" sboTerm="SBO:0000009" id="MREABS_k" name="rate constant for M1 and M2 reabsorption from plasma to intestine" value="0.0154508918017457" units="per_min" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Assumption: same rate for M1 and M2.</p>
@@ -441,7 +422,7 @@ food decreases the absorption rate, i.e. &lt; 1.0.</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_MEXC_k" sboTerm="SBO:0000009" id="MEXC_k" name="rate feces excretion of M1 and M2" value="0.1" units="per_min" constant="true">
+      <parameter metaid="meta_MEXC_k" sboTerm="SBO:0000009" id="MEXC_k" name="rate feces excretion of M1 and M2" value="0.00018552718843516" units="per_min" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Assumption: same rate for M1 and M2.</p>
@@ -498,22 +479,22 @@ food decreases the absorption rate, i.e. &lt; 1.0.</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter id="absorption" name="absorption glimepiride" value="NaN" units="mmole_per_min" constant="false"/>
-      <parameter id="mtot_feces" name="total fecal metabolites (M1 + M2)" value="NaN" units="mmole" constant="false"/>
+      <parameter metaid="meta_mtot_feces" sboTerm="SBO:0000002" id="mtot_feces" name="total fecal metabolites (M1 + M2)" value="NaN" units="mmole" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_mtot_feces">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000002"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
     </listOfParameters>
     <listOfRules>
-      <assignmentRule metaid="meta_absorption_glimepiride" name="absorption glimepiride" variable="absorption">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <times/>
-            <ci> f_absorption </ci>
-            <ci> GLIABS_k </ci>
-            <ci> Vlumen </ci>
-            <ci> gli_lumen </ci>
-          </apply>
-        </math>
-      </assignmentRule>
-      <assignmentRule metaid="meta_mtot_feces" name="total fecal metabolites (M1 + M2)" variable="mtot_feces">
+      <assignmentRule name="total fecal metabolites (M1 + M2)" variable="mtot_feces">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <plus/>
@@ -539,7 +520,7 @@ food decreases the absorption rate, i.e. &lt; 1.0.</p>
       <reaction metaid="meta_GLIABS" sboTerm="SBO:0000655" id="GLIABS" name="absorption glimepiride" reversible="false" compartment="Vlumen">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>Due to 100% absorption no process for excretion of gli in feces is added.</p>
+            <p>Due to 100% fraction absorbed no process for excretion of gli in feces is added.</p>
           </body>
         </notes>
         <annotation>
@@ -563,13 +544,15 @@ food decreases the absorption rate, i.e. &lt; 1.0.</p>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> F_gli_abs </ci>
-              <ci> absorption </ci>
+              <ci> f_absorption </ci>
+              <ci> GLIABS_k </ci>
+              <ci> Vlumen </ci>
+              <ci> gli_lumen </ci>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_M1REABS" sboTerm="SBO:0000655" id="M1REABS" name="reabsorption M1 (lumen)" reversible="false" compartment="Vlumen">
+      <reaction metaid="meta_M1REABS" sboTerm="SBO:0000655" id="M1REABS" name="reabsorption M1" reversible="false" compartment="Vlumen">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_M1REABS">
@@ -598,7 +581,7 @@ food decreases the absorption rate, i.e. &lt; 1.0.</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_M2REABS" sboTerm="SBO:0000655" id="M2REABS" name="reabsorption M2 (lumen)" reversible="false" compartment="Vlumen">
+      <reaction metaid="meta_M2REABS" sboTerm="SBO:0000655" id="M2REABS" name="reabsorption M2" reversible="false" compartment="Vlumen">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_M2REABS">
@@ -627,7 +610,7 @@ food decreases the absorption rate, i.e. &lt; 1.0.</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_M1EXC" sboTerm="SBO:0000655" id="M1EXC" name="excretion M1 (feces)" reversible="false" compartment="Vlumen">
+      <reaction metaid="meta_M1EXC" sboTerm="SBO:0000655" id="M1EXC" name="excretion M1" reversible="false" compartment="Vlumen">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Assumption: same rate for M1 and M2.</p>
@@ -661,7 +644,7 @@ food decreases the absorption rate, i.e. &lt; 1.0.</p>
           </math>
         </kineticLaw>
       </reaction>
-      <reaction metaid="meta_M2EXC" sboTerm="SBO:0000655" id="M2EXC" name="excretion M2 (feces)" reversible="false" compartment="Vlumen">
+      <reaction metaid="meta_M2EXC" sboTerm="SBO:0000655" id="M2EXC" name="excretion M2" reversible="false" compartment="Vlumen">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Assumption: same rate for M1 and M2.</p>

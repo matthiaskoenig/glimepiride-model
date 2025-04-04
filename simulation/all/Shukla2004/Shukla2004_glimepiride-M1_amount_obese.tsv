@@ -1,0 +1,8 @@
+study	group	individual	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_sd	mean_se	comments	table	table_sd	mean_unit	value_unit
+Shukla2004	obese		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	0.0	hr		0.0							mole	µg
+Shukla2004	obese		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	2.0	hr		1.042078013250843e-07							mole	µg
+Shukla2004	obese		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	4.0	hr		7.020315036637267e-07							mole	µg
+Shukla2004	obese		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	6.0	hr		1.4369707340616901e-06							mole	µg
+Shukla2004	obese		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	8.0	hr		2.0786714053793027e-06							mole	µg
+Shukla2004	obese		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	12.0	hr		2.638102759861332e-06							mole	µg
+Shukla2004	obese		14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	24.0	hr		3.302180685358255e-06		1.1214953271028036e-06		from Table 1	21.2	7.2	mole	µg

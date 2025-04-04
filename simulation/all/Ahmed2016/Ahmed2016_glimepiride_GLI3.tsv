@@ -1,0 +1,15 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	mean_se	mean_sd	comments	mean_unit	value_unit
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	0.0	h		0.0				unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	0.25263	h		1.3409591207787761e-05		1.1800369331615765e-05	2.0438839230436023e-05	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	0.5	h		2.6282754740978692e-05		1.0191269750680778e-05	1.765179700181892e-05	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	0.75	h		8.421209255303537e-05		4.0765058620183604e-05	7.06071527036817e-05	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	1.0	h		0.00013302289366836793		4.8274434588354235e-05	8.361377341368993e-05	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	1.5	h		0.0001871975434963393		2.4673594012425198e-05	4.273591843484762e-05	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	2.0	h		0.0002317172901006082		2.360084057592904e-05	4.087785497884232e-05	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	2.5	h		0.0002757006701778988		1.2873183915730408e-05	2.229700859722349e-05	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	4.0	h		0.00019577965251846657		1.8773399155347583e-05	3.251648116783269e-05	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	6.0	h		0.00012444078464624064		1.9309765682325893e-05	3.3445495244038307e-05	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	8.0	h		3.969232556622695e-05		6.972968676113294e-06	1.2077536026614522e-05	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	10.0	h		2.3600820193389535e-05		2.681934547589153e-06	4.645246898998668e-06	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	12.0	h		6.972989058652796e-06		4.827441420581473e-06	8.36137381100959e-06	unclear if SD or SE	mole/meter^3	ng/ml
+Ahmed2016		group3	3.0	GLI3	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI3	24.0	h		1.07275343649616e-06		8.582129404666787e-06	1.4864684166013726e-05	unclear if SD or SE	mole/meter^3	ng/ml
