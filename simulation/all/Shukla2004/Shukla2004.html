@@ -294,14 +294,10 @@ class Shukla2004(GlimepirideSimulationExperiment):
     def colors(self):
         """Get colors consistent with bodyweight scan."""
         # Same colormap as in BodyweightScanExperiment
-        cmap = plt.get_cmap("magma_r")
+        cmap = plt.get_cmap("OrRd")
 
         # Define bodyweight range (same as in BodyweightScanExperiment)
         bodyweight_range = np.linspace(45, 170, 100)
-
-        # indices of closest bodyweights to study values
-        normal_idx = np.abs(bodyweight_range - self.bodyweights["normal"]).argmin()
-        obese_idx = np.abs(bodyweight_range - self.bodyweights["obese"]).argmin()
 
         # Normalized positions
         bw_min, bw_max = min(bodyweight_range), max(bodyweight_range)

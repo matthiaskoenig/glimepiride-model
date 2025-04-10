@@ -11,10 +11,10 @@ length: [m]
 
 ## Parameters `p`
 ```
-GLIABS_k = 0.01593644230489  # [1/min] rate of glimepiride absorption  
+GLIABS_k = 0.015900835518328  # [1/min] rate of glimepiride absorption  
 Ka_dis_gli = 2.0  # [1/hr] Ka_dis [1/hr] dissolution glimepiride  
-MEXC_k = 0.00018552718843516  # [1/min] rate feces excretion of M1 and M2  
-MREABS_k = 0.0154508918017457  # [1/min] rate constant for M1 and M2 reabsorption from plasma to intestine  
+MEXC_k = 0.000171930078446119  # [1/min] rate feces excretion of M1 and M2  
+MREABS_k = 0.0159201837887391  # [1/min] rate constant for M1 and M2 reabsorption from plasma to intestine  
 Mr_gli = 490.616  # [g/mol] Molecular weight glimepiride [g/mole]  
 Vext = 1.0  # [l] plasma  
 Vfeces = 1.0  # [l] feces  

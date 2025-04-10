@@ -35,15 +35,32 @@
             <h2>Figures</h2>
             <p>
             <ul>
+                <li><strong>dose_dependency_parameters</strong>: <a href="GlimepirideDoseScan_dose_dependency_parameters.svg">GlimepirideDoseScan_dose_dependency_parameters.svg</a></li>
             </ul>
             </p>
 
+            <h3>dose_dependency_parameters</h3>
+            <p>
+            <table>
+                <tr>
+                    <td>
+                        <!--<v-img src="GlimepirideDoseScan_dose_dependency_parameters.svg" max-width="600" width="600"></v-img>-->
+                        <img src="GlimepirideDoseScan_dose_dependency_parameters.svg" width="600">
+                    </td>
+                    <!--
+                    <td>
+                    </td>
+                    -->
+                </tr>
+            </table>
+            </p>
 
             <h2>Code</h2>
             <p>
                 <a href="../../../../experiments/scans/scan_dose.py">../../../../experiments/scans/scan_dose.py</a>
             <pre>
 <code class="python">"""Dose parameter scan for glimepiride pharmacokinetics."""
+
 from typing import Dict
 import numpy as np
 import pandas as pd
@@ -52,17 +69,22 @@ import xarray as xr
 from sbmlsim.model import RoadrunnerSBMLModel
 from sbmlsim.result import XResult
 from sbmlsim.simulation import Timecourse, TimecourseSim, ScanSim, Dimension
-from sbmlsim.plot.serialization_matplotlib import plt
+from sbmlsim.plot.serialization_matplotlib import plt, FigureMPL
 from pkdb_models.models.glimepiride.experiments.base_experiment import GlimepirideSimulationExperiment
 from pkdb_models.models.glimepiride.helpers import run_experiments
 from pkdb_models.models.glimepiride.glimepiride_pk import calculate_glimepiride_pk
-from pkdb_models.models.glimepiride import DATA_PATH_GLIMEPIRIDE, RESULTS_PATH
+from pkdb_models.models.glimepiride import (
+    DATA_PATH_GLIMEPIRIDE,
+    GLIMEPIRIDE_PATH,
+    RESULTS_PATH_SIMULATION
+)
+from pathlib import Path
 
 
 class GlimepirideDoseScan(GlimepirideSimulationExperiment):
     """Scans dose dependency in glimepiride pharmacokinetics."""
 
-    dose_range = np.linspace(0.1, 9.0)
+    dose_range = np.linspace(0.1, 9.0, num=50)
 
     def simulations(self) -> Dict[str, ScanSim]:
         """Create dose scan simulation."""
@@ -103,36 +125,42 @@ class GlimepirideDoseScan(GlimepirideSimulationExperiment):
         )
         return {}
 
+
     def _convert_units(self, pk_df: pd.DataFrame, compound: str, mr: float, thalf_col: str) -> None:
         """Convert units for a compound."""
         mask = pk_df["compound"] == compound
-
         conversions = {
             "tmax": {"factor": 1/60, "new_unit": "hr"},
             thalf_col: {"factor": 1/60, "new_unit": "hr"},
             "cmax": {"factor": mr * 1000, "new_unit": "ng/ml"},
             "auc": {"factor": (mr * 1000) / 60, "new_unit": "ng*hr/ml"}
         }
-
         for column, info in conversions.items():
             if column in pk_df.columns:
                 pk_df.loc[mask, column] = pk_df.loc[mask, column] * info["factor"]
                 pk_df.loc[mask, f"{column}_unit"] = info["new_unit"]
 
-    def calculate_pharmacokinetics_parameters(self, output_dir: str):
-        """Calculate PK parameters and generate plots."""
-        # Load dataset and calculate PK
-        nc_file = RESULTS_PATH / output_dir / output_dir / "GlimepirideDoseScan_task_dose_scan.nc"
-        dset = xr.open_dataset(nc_file)
-        abstract_model = self.models()["model"]
-        model = RoadrunnerSBMLModel.from_abstract_model(abstract_model=abstract_model, ureg=self.ureg)
-        xres = XResult(xdataset=dset, uinfo=model.uinfo)
+
+    def _calculate_pk_data(self) -> pd.DataFrame:
+        """
+        Calculate PK parameters from simulation results.
+        """
+        sim_key = "dose_scan"
+        task_key = f"task_{sim_key}"
+
+        xres = self.results[task_key]
         pk_df = calculate_glimepiride_pk(experiment=self, xres=xres)
 
         # Set doses for metabolites
-        gli_doses = pk_df[pk_df["compound"] == "glimepiride"].sort_values(by="dose")["dose"].values
-        for metabolite in ["M1", "M2"]:
-            pk_df.loc[pk_df["compound"] == metabolite, "dose"] = gli_doses
+        gli_mask = pk_df["compound"] == "glimepiride"
+        if gli_mask.any():
+             pk_df_gli_sorted = pk_df[gli_mask].sort_values(by="dose")
+             gli_doses = pk_df_gli_sorted["dose"].values
+             for metabolite in ["M1", "M2"]:
+                 meta_mask = pk_df["compound"] == metabolite
+                 # Assign doses
+                 if meta_mask.any() and pk_df[meta_mask].shape[0] == len(gli_doses):
+                      pk_df.loc[meta_mask, "dose"] = gli_doses
 
         # Convert units
         compounds = {
@@ -140,140 +168,122 @@ class GlimepirideDoseScan(GlimepirideSimulationExperiment):
             "M1": {"mr": 506.62, "thalf_col": "thalf"},
             "M2": {"mr": 520.6, "thalf_col": "thalf"},
         }
-
         for compound, params in compounds.items():
             self._convert_units(pk_df, compound, params["mr"], params["thalf_col"])
 
-        # Save results
-        pk_df.to_csv(
-            RESULTS_PATH / output_dir / output_dir / "GlimepirideDoseScan_pharmacokinetics.tsv",
-            sep="\t", index=False
-        )
+        return pk_df
 
-        # Create figures
-        self._create_and_save_figures(pk_df, output_dir)
 
     def _plot_simulation_line(self, ax, df_comp: pd.DataFrame, param: str) -> None:
         """Plot simulation line."""
-        if not df_comp.empty and 'dose' in df_comp.columns:
-            ax.plot(df_comp["dose"], df_comp[param], color='black', linewidth=2)
+        if not df_comp.empty and 'dose' in df_comp.columns and param in df_comp.columns:
+            df_sorted = df_comp.sort_values(by="dose")
+            ax.plot(df_sorted["dose"], df_sorted[param], color='black', linewidth=2)
+
 
     def _plot_study_data(self, ax, df_study: pd.DataFrame, compound: str, param: str, dose_colors: dict) -> None:
         """Plot study data points."""
         compound_prefixes = {"glimepiride": "gli", "M1": "m1", "M2": "m2"}
-        if compound not in compound_prefixes:
-            return
+        if compound not in compound_prefixes: return
 
         prefix = compound_prefixes[compound]
         mean_col = f"{prefix}_{param}_mean"
         sd_col = f"{prefix}_{param}_sd"
 
-        if mean_col in df_study.columns and sd_col in df_study.columns:
-            for _, row in df_study.iterrows():
-                color = dose_colors.get(row["Dose"], "black")
+        if mean_col in df_study.columns and 'Dose' in df_study.columns:
+            valid_study_data = df_study.dropna(subset=[mean_col, 'Dose'])
+            for _, row in valid_study_data.iterrows():
+                color = dose_colors.get(row["Dose"])
+                current_yerr = row[sd_col] if sd_col in row and pd.notna(row[sd_col]) else None
                 ax.errorbar(
-                    x=row["Dose"], y=row[mean_col], yerr=row[sd_col],
+                    x=row["Dose"], y=row[mean_col], yerr=current_yerr,
                     fmt='s', markersize=8, markerfacecolor=color,
-                    markeredgecolor='black', ecolor='black', capsize=3
+                    markeredgecolor='black', ecolor='black', capsize=3, linestyle='None'
                 )
 
-    def _create_and_save_figures(self, pk_df: pd.DataFrame, output_dir: str):
-        """Create dose dependency figures."""
-        # Setup parameters
+
+    def figures_mpl(self) -> Dict[str, FigureMPL]:
+        """Creates and returns the dose dependency figure object."""
+        pk_df = self._calculate_pk_data()
+
+        # Plotting setup
         pk_params = ["cmax", "tmax", "auc", "thalf"]
         params_labels = ["Cmax", "Tmax", "AUC", "Half-life"]
         compounds = ["glimepiride", "M1", "M2"]
-
-        # Prepare data
-        df_by_compound = {c: pk_df[pk_df["compound"] == c].sort_values(by="dose") for c in compounds}
+        df_by_compound = {c: pk_df[pk_df["compound"] == c] for c in compounds}
 
         # Load study data
-        df_study = pd.read_excel(
-            DATA_PATH_GLIMEPIRIDE / "dose_dependency_data.xlsx",
-            sheet_name="Tab1", comment="#"
-        )
-
-        # Convert numeric columns
-        numeric_cols = [col for col in df_study.columns if col.endswith('_mean') or col.endswith('_sd')]
-        for col in numeric_cols:
-            df_study[col] = pd.to_numeric(df_study[col], errors='coerce')
+        study_data_path = DATA_PATH_GLIMEPIRIDE / "dose_dependency_data.xlsx"
+        df_study = pd.read_excel(study_data_path, sheet_name="Tab1", comment="#")
+        num_cols = [c for c in df_study.columns if c.endswith(('_mean', '_sd')) or c == 'Dose']
+        for col in num_cols:
+            if col in df_study.columns: df_study[col] = pd.to_numeric(df_study[col], errors='coerce')
 
         # Create figure
-        fig, axes = plt.subplots(nrows=3, ncols=4, figsize=(16, 12))
-        fig.suptitle("Dose Dependency of Pharmacokinetic Parameters", fontsize=22, y=0.98, fontweight="bold")
+        fig, axes = plt.subplots(nrows=3, ncols=4, figsize=(16, 12), dpi=150)
+        fig.suptitle("Dose Dependency of Pharmacokinetic Parameters", fontsize=20, y=0.99, fontweight="bold")
 
-        # Set column titles
         for col, param_name in enumerate(params_labels):
-            axes[0, col].set_title(param_name, fontsize=18, fontweight="bold")
+            axes[0, col].set_title(param_name, fontsize=16, fontweight="bold")
 
-        # Y-axis limits
         y_limits = {
-            "tmax": {"glimepiride": (0, 5.0), "M1": (0, 7.0), "M2": (0, 7.0)},
-            "thalf": {"glimepiride": (0, 17.5), "M1": (0, 17.5), "M2": (0, 12.0)}
+            "tmax": {"glimepiride": (0, 6.0), "M1": (0, 8.0), "M2": (0, 10.0)},
+            "thalf": {"glimepiride": (0, 20.0), "M1": (0, 20.0), "M2": (0, 15.0)},
+            "cmax": {"glimepiride": (0, None), "M1": (0, None), "M2": (0, None)},
+            "auc": {"glimepiride": (0, None), "M1": (0, None), "M2": (0, None)},
         }
 
-        # Color map for doses
-        dose_colors = {
-            dose: color for dose, color in zip(
-                range(9),
-                ['#ffffe5', '#fff7bc', '#fee391', '#fec44f', '#fe9929', '#ec7014', '#cc4c02', '#993404', '#662506']
-            )
-        }
+        # color mapping
+        doses_for_colors = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+        palette_colors = ['#ffffe5', '#fff7bc', '#fee391', '#fec44f', '#fe9929', '#ec7014', '#cc4c02', '#993404', '#662506']
+        dose_colors = dict(zip(doses_for_colors, palette_colors))
 
         # Plot data
         for row, compound in enumerate(compounds):
-            df_comp = df_by_compound[compound]
-
+            df_comp = df_by_compound.get(compound, pd.DataFrame())
             for col, param in enumerate(pk_params):
                 ax = axes[row, col]
-                unit = "" if df_comp.empty else df_comp.get(f"{param}_unit", pd.Series()).iloc[0]
+                unit = ""
+                if not df_comp.empty and f"{param}_unit" in df_comp.columns:
+                     valid_units = df_comp[f"{param}_unit"].dropna()
+                     if not valid_units.empty: unit = valid_units.iloc[0]
 
-                ax.grid(True, alpha=0.3, color='lightgrey', linestyle='-')
+                ax.grid(True, alpha=0.4, color='lightgrey', linestyle='--')
                 self._plot_simulation_line(ax, df_comp, param)
-
-                if row == 2:  # Bottom row gets x-axis labels
-                    ax.set_xlabel("Glimepiride Dose [mg]", fontsize=16, fontweight="bold")
-
-                y_label = f"{compound.capitalize()} {params_labels[col]}"
-                if unit:
-                    y_label += f" [{unit}]"
-                ax.set_ylabel(y_label, fontsize=16, fontweight="bold")
-
                 self._plot_study_data(ax, df_study, compound, param, dose_colors)
 
-                # Set axis limits
-                if param in y_limits and compound in y_limits[param]:
-                    ax.set_ylim(*y_limits[param][compound])
-                else:
-                    ax.set_ylim(bottom=0)
-                ax.set_xlim(0, 9)
+                # Axis Labels and Limits
+                if row == 2: ax.set_xlabel("Glimepiride Dose [mg]", fontsize=14, fontweight="bold")
+                y_label = f"{compound.capitalize()} {params_labels[col]}" + (f" [{unit}]" if unit else "")
+                ax.set_ylabel(y_label, fontsize=14, fontweight="bold")
+                xlims = (0, self.dose_range.max() * 1.05)
+                ylims = (0, None)
+                if param in y_limits and compound in y_limits[param]: ylims = y_limits[param][compound]
+                ax.set_ylim(bottom=ylims[0], top=ylims[1])
+                ax.set_xlim(*xlims)
+                ax.tick_params(axis='both', which='major', labelsize=10)
 
-        # Add legend
+        # Legend
         legend_elements = [
             Line2D([0], [0], color='black', lw=2, label='Simulation'),
-            Line2D([0], [0], marker='s', color='w', markerfacecolor='white',
-                   markeredgecolor='black', markersize=8, label='Study Data')
+            Line2D([0], [0], marker='s', color='w', markerfacecolor='gray',
+                   markeredgecolor='black', markersize=8, label='Study Data', linestyle='None')
         ]
-        fig.legend(
-            handles=legend_elements, loc='lower center',
-            ncol=2, bbox_to_anchor=(0.5, 0.01),
-            frameon=True, fontsize=14
-        )
+        fig.legend(handles=legend_elements, loc='lower center', ncol=2,
+                   bbox_to_anchor=(0.5, 0.01), frameon=True, fontsize=12)
 
-        # Save figure
-        plt.tight_layout(rect=[0, 0.04, 1, 0.95])
-        fig.savefig(
-            RESULTS_PATH / output_dir / output_dir / "dose_dependency_parameters.png",
-            dpi=300, bbox_inches="tight"
-        )
-        plt.show()
-        plt.close(fig)
+        plt.tight_layout(rect=[0, 0.05, 1, 0.96])
+
+        return {"dose_dependency_parameters": fig}
 
 
 if __name__ == "__main__":
-    output_dir = "GlimepirideDoseScan"
-    run_experiments(GlimepirideDoseScan, output_dir=output_dir, save_results=True)
-    GlimepirideDoseScan().calculate_pharmacokinetics_parameters(output_dir)</code>
+    output_dir_name = "GlimepirideDoseScan"
+    run_experiments(
+        experiment_classes=GlimepirideDoseScan,
+        output_dir=output_dir_name,
+        save_results=True
+    )</code>
         </pre>
             </p>
 

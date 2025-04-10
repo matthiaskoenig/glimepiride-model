@@ -12,8 +12,8 @@ length: [m]
 ## Parameters `p`
 ```
 BSA = 1.73  # [m^2] body surface area [m^2]  
-M1EX_k = 0.14784576926309  # [1/min] rate of M1 urinary excretion  
-M2EX_k = 0.0977708381085392  # [1/min] rate of M2 urinary excretion  
+M1EX_k = 0.148009816248971  # [1/min] rate of M1 urinary excretion  
+M2EX_k = 0.0984926326381094  # [1/min] rate of M2 urinary excretion  
 Vext = 1.5  # [l] plasma  
 Vki = 0.3  # [l] kidney  
 Vurine = 1.0  # [l] urine  

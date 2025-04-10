@@ -372,7 +372,7 @@ FOR A PARTICULAR PURPOSE.</p></body>
       </species>
     </listOfSpecies>
     <listOfParameters>
-      <parameter metaid="meta_GLIABS_k" sboTerm="SBO:0000009" id="GLIABS_k" name="rate of glimepiride absorption" value="0.01593644230489" units="per_min" constant="true">
+      <parameter metaid="meta_GLIABS_k" sboTerm="SBO:0000009" id="GLIABS_k" name="rate of glimepiride absorption" value="0.015900835518328" units="per_min" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_GLIABS_k">
@@ -404,7 +404,7 @@ food decreases the absorption rate, i.e. &lt; 1.0.</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_MREABS_k" sboTerm="SBO:0000009" id="MREABS_k" name="rate constant for M1 and M2 reabsorption from plasma to intestine" value="0.0154508918017457" units="per_min" constant="true">
+      <parameter metaid="meta_MREABS_k" sboTerm="SBO:0000009" id="MREABS_k" name="rate constant for M1 and M2 reabsorption from plasma to intestine" value="0.0159201837887391" units="per_min" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Assumption: same rate for M1 and M2.</p>
@@ -422,7 +422,7 @@ food decreases the absorption rate, i.e. &lt; 1.0.</p>
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_MEXC_k" sboTerm="SBO:0000009" id="MEXC_k" name="rate feces excretion of M1 and M2" value="0.00018552718843516" units="per_min" constant="true">
+      <parameter metaid="meta_MEXC_k" sboTerm="SBO:0000009" id="MEXC_k" name="rate feces excretion of M1 and M2" value="0.000171930078446119" units="per_min" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>Assumption: same rate for M1 and M2.</p>

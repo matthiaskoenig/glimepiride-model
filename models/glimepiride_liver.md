@@ -12,11 +12,11 @@ length: [m]
 ## Parameters `p`
 ```
 GLI2M1_Km_gli = 0.00225  # [mmol/l] Km gli  
-GLI2M1_Vmax = 5.33777547688223e-05  # [mmol/min/l] rate glimepiride conversion  
+GLI2M1_Vmax = 5.36203611928566e-05  # [mmol/min/l] rate glimepiride conversion  
 GLIIM_k = 100.0  # [1/min] rate glimepiride import  
-M12M2_k = 0.0147802489498759  # [1/min] rate m1 -> m2 conversion  
-M1EX_k = 0.0774587262235768  # [1/min] rate M1 export  
-M2EX_k = 99.9999999999999  # [1/min] rate M2 export  
+M12M2_k = 0.014851987496533  # [1/min] rate m1 -> m2 conversion  
+M1EX_k = 0.0777434597719034  # [1/min] rate M1 export  
+M2EX_k = 99.9981744786616  # [1/min] rate M2 export  
 Vext = 1.5  # [l] plasma  
 Vli = 1.5  # [l] liver  
 f_cyp2c9 = 1.0  # [-] scaling factor CYP2C9 activity  
