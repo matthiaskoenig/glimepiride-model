@@ -1,0 +1,4 @@
+- serialize data ()
+
+- add code for running simulations
+- CI workflow to run all simulations
