@@ -1,0 +1,9 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Helmy2013	all	24	NA	species	24	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Helmy2013	all	24	NA	healthy 	24	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Helmy2013	all	24	NA	sex	24	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Helmy2013	all	24	NA	ethnicity	24	NA	egyptian	NA	NA	NA	NA	NA	NA	NA	NA
+Helmy2013	all	24	NA	age	24	NA	NA	23.62	NA	3.09	NA	18.0	29.0	yr	NA
+Helmy2013	all	24	NA	weight	24	NA	NA	72.75	NA	7.75	NA	60.0	80.0	kg	NA
+Helmy2013	all	24	NA	fasting	24	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Helmy2013	all	24	NA	overnight fast	24	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA

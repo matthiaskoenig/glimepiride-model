@@ -1,0 +1,4 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+FDA1995	GLI1po	0	NA	hr	oral	single dose	dosing	tablet	glimepiride	1.0	mg	14C-Glimepiride
+FDA1995	GLI1iv	0	1.0	min	iv	constant infusion	dosing	solution	glimepiride	1.0	mg	14C-Glimepiride
+FDA1995	GLI1.5iv	0	1.0	min	iv	constant infusion	dosing	solution	glimepiride	1.5	mg	NA

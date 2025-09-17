@@ -1,0 +1,5 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+FDA1995	all	12	NA	species	12	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+FDA1995	all	12	NA	healthy 	12	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+FDA1995	all	12	NA	sex	12	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+FDA1995	all	12	NA	ethnicity	12	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA

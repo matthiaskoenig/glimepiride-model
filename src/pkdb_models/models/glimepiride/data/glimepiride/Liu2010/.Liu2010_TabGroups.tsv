@@ -1,0 +1,8 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Liu2010	all	23	NA	species	23	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2010	all	23	NA	healthy 	23	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2010	all	23	NA	sex	23	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2010	all	23	NA	ethnicity	23	NA	chinese	NA	NA	NA	NA	NA	NA	NA	NA
+Liu2010	all	23	NA	age	23	NA	NA	23.6	NA	2.2	NA	18.6	26.9	yr	NA
+Liu2010	all	23	NA	height	23	NA	NA	172.3	NA	5.6	NA	164.0	185.0	cm	NA
+Liu2010	all	23	NA	weight	23	NA	NA	64.0	NA	8.4	NA	52.0	82.0	kg	NA

@@ -1,0 +1,25 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Badian1994	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1po	2.0	hr	NA	4.0	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1po	4.0	hr	NA	13.95	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1po	8.0	hr	NA	31.8	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1po	12.0	hr	NA	39.8	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1po	24.0	hr	NA	48.73	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1po	48.0	hr	NA	49.87	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	2.0	hr	NA	13.04	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	4.0	hr	NA	25.85	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	8.0	hr	NA	39.69	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	12.0	hr	NA	44.61	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	24.0	hr	NA	50.78	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery-M1+M2_GLI1iv	48.0	hr	NA	50.9	NA	NA	NA	percent	NA
+Badian1994	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1po	2.0	hr	NA	0.04	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1po	4.0	hr	NA	0.1395	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1po	8.0	hr	NA	0.318	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1po	12.0	hr	NA	0.398	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1po	24.0	hr	NA	0.4873	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1po	48.0	hr	NA	0.4987	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1iv	2.0	hr	NA	0.1304	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1iv	4.0	hr	NA	0.2585	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1iv	8.0	hr	NA	0.3969	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1iv	12.0	hr	NA	0.4461	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1iv	24.0	hr	NA	0.5078	NA	NA	NA	mg	NA
+Badian1994	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride_urine-M1+M2_GLI1iv	48.0	hr	NA	0.509	NA	NA	NA	mg	NA

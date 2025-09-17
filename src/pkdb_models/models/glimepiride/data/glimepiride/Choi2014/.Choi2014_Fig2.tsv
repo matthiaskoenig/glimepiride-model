@@ -1,0 +1,57 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	0.0	hr	NA	0.0	NA	NA	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	0.5	hr	NA	25.6727791393156	57.0887083428553	31.415929203539697	6.550674069934624	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	1.0	hr	NA	84.0885270963523	150.902686388388	66.8141592920357	13.931715275494883	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	1.5	hr	NA	129.230726798478	212.416961520579	83.186234722101	17.34552899069318	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	2.0	hr	NA	161.098984231554	248.709209686444	87.61022545489001	18.267994826134608	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	3.0	hr	NA	199.612290088968	285.453392067707	85.841101978739	17.899107081110365	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	4.0	hr	NA	197.418813387024	268.215273564015	70.79646017699099	14.762082411120305	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	5.0	hr	NA	138.588168543487	193.897115028487	55.30894648500001	11.532712568433883	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	6.0	hr	NA	71.349262011521	106.748280128291	35.399018116769994	7.3812055208140706	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	8.0	hr	NA	35.9888572801993	57.2270073050221	21.2381500248228	4.428460408082175	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	10.0	hr	NA	23.636120063988	36.0251065808242	12.388986516836201	2.5832822643191005	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	12.0	hr	NA	14.8228118424889	22.3453297504315	7.5225179079426	1.5685534138085033	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	14.0	hr	NA	9.55050867225123	13.9748934191759	4.4243847469246695	0.9225479930680566	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4	24.0	hr	NA	5.31012852741162	9.29203539823016	3.9819068708185403	0.8302849779985682	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	0.0	hr	NA	0.0	NA	NA	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	0.5	hr	NA	26.1152570154218	57.0883143287181	30.973057313296298	6.4583288972381725	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	1.0	hr	NA	78.7791865972151	126.124319340578	47.345132743362896	9.87214261243674	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	1.5	hr	NA	112.416961520579	162.416961520579	50.000000000000014	10.425720702853742	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	2.0	hr	NA	141.629563668744	206.231727594386	64.602163925642	13.470482357774337	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	3.0	hr	NA	195.63038321815	280.143657554433	84.51327433628299	17.622235878274864	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	4.0	hr	NA	206.710848785254	285.029432856051	78.31858407079702	16.33055366730199	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	5.0	hr	NA	151.420026950567	213.809013467403	62.388986516835985	13.009002967172794	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	6.0	hr	NA	71.7917398876272	106.747492100017	34.9557522123898	7.288778190490754	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	8.0	hr	NA	35.9880692519248	56.342445566947	20.3543763150222	4.244180850824055	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	10.0	hr	NA	23.6357260498507	36.4675844569304	12.831858407079704	2.6756274370155735	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	12.0	hr	NA	15.2652897185951	22.3449357362942	7.079646017699099	1.4762082411120305	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	14.0	hr	NA	9.55011465811396	14.4177653094193	4.86765065130534	1.0149753233914713	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4, GEM50	24.0	hr	NA	5.7526064035178	9.29203539823016	3.5394289947123605	0.7380219629290691	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	0.0	hr	NA	0.0	NA	NA	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	0.5	hr	NA	0.63	1.71	1.08	0.22519556718164077	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	1.0	hr	NA	4.6	8.86	4.26	0.8882714038831385	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	1.5	hr	NA	9.3	15.89	6.59	1.3741099886361228	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	2.0	hr	NA	15.0	25.6	10.600000000000001	2.210252789004993	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	3.0	hr	NA	24.0	34.29	10.29	2.1456133206472994	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	4.0	hr	NA	26.0	36.17	10.170000000000002	2.120591590960451	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	5.0	hr	NA	21.0	27.49	6.489999999999998	1.353258547230415	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	6.0	hr	NA	19.0	25.54	6.539999999999999	1.3636842679332688	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	8.0	hr	NA	13.0	16.8	3.8000000000000007	0.7923547734168843	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	10.0	hr	NA	7.4	10.57	3.17	0.660990692560927	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	12.0	hr	NA	4.6	7.09	2.49	0.5192008910021163	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	14.0	hr	NA	3.1	4.63	1.5299999999999998	0.31902705350732435	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4	24.0	hr	NA	1.2	1.94	0.74	0.15430066640223533	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	0.0	hr	NA	0.0	NA	NA	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	0.5	hr	NA	0.69	1.77	1.08	0.22519556718164077	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	1.0	hr	NA	4.63	8.8	4.170000000000001	0.869505106618002	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	1.5	hr	NA	8.57	13.14	4.57	0.9529108722408318	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	2.0	hr	NA	14.57	21.14	6.57	1.3699397003549814	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	3.0	hr	NA	22.29	31.2	8.91	1.8578634292485363	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	4.0	hr	NA	27.54	37.43	9.89	2.06220755502447	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	5.0	hr	NA	22.51	28.34	5.829999999999998	1.2156390339527456	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	6.0	hr	NA	20.69	26.8	6.109999999999999	1.2740230698887267	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	8.0	hr	NA	12.46	16.86	4.399999999999999	0.9174634218511287	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	10.0	hr	NA	7.49	10.63	3.1400000000000006	0.6547352601392149	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	12.0	hr	NA	4.8	7.14	2.34	0.48792372889355495	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	14.0	hr	NA	3.09	4.63	1.54	0.32111219764789517	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	glimepiride-M1	plasma	LC MS/MS	glimepiride-M1_GLI4, GEM50	24.0	hr	NA	1.31	2.0	0.69	0.14387494569938158	ng/ml	NA

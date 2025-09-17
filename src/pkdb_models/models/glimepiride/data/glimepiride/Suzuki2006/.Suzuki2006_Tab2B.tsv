@@ -1,0 +1,11 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	time	time_unit	value	median	min	max	cv	unit	comments
+Suzuki2006	S1	1.0	GLI1	auc_end	glimepiride	plasma	HPLC MS/MS	10.0	hr	654.6	NA	NA	NA	NA	ng*hr/ml	NA
+Suzuki2006	S1	1.0	GLI1	cmax	glimepiride	plasma	HPLC MS/MS	NA	NA	123.8	NA	NA	NA	NA	ng/ml	NA
+Suzuki2006	S1	1.0	GLI1	mrt	glimepiride	plasma	HPLC MS/MS	NA	NA	4.92	NA	NA	NA	NA	hr	NA
+Suzuki2006	S1	1.0	GLI1	clearance	glimepiride	plasma	HPLC MS/MS	NA	NA	1.52	NA	NA	NA	NA	l/hr	NA
+Suzuki2006	S1	1.0	GLI1	vd	glimepiride	plasma	HPLC MS/MS	NA	NA	6.89	NA	NA	NA	NA	l	NA
+Suzuki2006	S2	1.0	GLI1	auc_end	glimepiride	plasma	HPLC MS/MS	10.0	hr	870.9	NA	NA	NA	NA	ng*hr/ml	NA
+Suzuki2006	S2	1.0	GLI1	cmax	glimepiride	plasma	HPLC MS/MS	NA	NA	159.2	NA	NA	NA	NA	ng/ml	NA
+Suzuki2006	S2	1.0	GLI1	mrt	glimepiride	plasma	HPLC MS/MS	NA	NA	5.23	NA	NA	NA	NA	hr	NA
+Suzuki2006	S2	1.0	GLI1	clearance	glimepiride	plasma	HPLC MS/MS	NA	NA	1.18	NA	NA	NA	NA	l/hr	NA
+Suzuki2006	S2	1.0	GLI1	vd	glimepiride	plasma	HPLC MS/MS	NA	NA	5.95	NA	NA	NA	NA	l	NA

@@ -1,0 +1,35 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	0.0	hr	NA	2.40384615384615	3.125	0.72115384615385	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	1.0	hr	NA	12.139423076923	19.3509615384615	7.2115384615385	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	1.5	hr	NA	16.2259615384615	22.1153846153846	5.8894230769231	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	2.0	hr	NA	19.1105769230769	27.6442307692307	8.5336538461538	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	2.5	hr	NA	20.0721153846153	29.6875	9.6153846153847	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	3.5	hr	NA	22.1153846153846	32.6923076923076	10.576923076923	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	3.0	hr	NA	22.1153846153846	34.014423076923	11.8990384615384	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	4.0	hr	NA	23.5576923076923	37.7403846153846	14.1826923076923	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	4.5	hr	NA	24.639423076923	36.2980769230769	11.6586538461539	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	5.0	hr	NA	26.6826923076923	45.3125	18.6298076923077	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	6.0	hr	NA	19.1105769230769	27.0432692307692	7.9326923076923	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	8.0	hr	NA	12.8605769230769	17.6682692307692	4.8076923076923	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	10.0	hr	NA	9.01442307692307	12.3798076923076	3.36538461538453	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	12.0	hr	NA	6.49038461538461	7.21153846153846	0.72115384615385	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	16.0	hr	NA	3.36538461538461	4.56730769230769	1.20192307692308	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	24.0	hr	NA	2.52403846153846	3.60576923076923	1.08173076923077	NA	ng/ml	NA
+Kim2017	NA	all	24.0	ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_ROS20	48.0	hr	NA	0.600961538461538	1.32211538461538	0.721153846153842	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	0.0	hr	NA	1.80288461538461	3.00480769230769	1.20192307692308	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	1.0	hr	NA	13.1009615384615	21.0336538461538	7.9326923076923	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	1.5	hr	NA	15.264423076923	22.2355769230769	6.9711538461539	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	2.0	hr	NA	18.75	28.0048076923076	9.2548076923076	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	2.5	hr	NA	20.9134615384615	30.5288461538461	9.6153846153846	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	3.5	hr	NA	22.9567307692307	34.1346153846153	11.1778846153846	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	3.0	hr	NA	25.6009615384615	36.8990384615384	11.2980769230769	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	4.0	hr	NA	26.3221153846153	38.701923076923	12.3798076923077	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	4.5	hr	NA	25.2403846153846	40.3846153846153	15.1442307692307	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	5.0	hr	NA	24.5192307692307	34.8557692307692	10.3365384615385	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	6.0	hr	NA	16.3461538461538	23.4375	7.0913461538462	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	8.0	hr	NA	10.3365384615384	14.1826923076923	3.8461538461539	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	10.0	hr	NA	7.45192307692307	9.97596153846153	2.52403846153846	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	12.0	hr	NA	5.40865384615384	7.09134615384615	1.68269230769231	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	16.0	hr	NA	2.88461538461538	4.08653846153846	1.20192307692308	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	24.0	hr	NA	2.16346153846153	3.125	0.96153846153847	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	rosuvastatin	plasma	HPLC MS/MS	rosuvastatin_GLI4, ROS20	48.0	hr	NA	0.360576923076923	0.961538461538461	0.600961538461538	NA	ng/ml	NA

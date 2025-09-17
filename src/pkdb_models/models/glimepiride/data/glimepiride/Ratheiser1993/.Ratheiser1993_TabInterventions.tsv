@@ -1,0 +1,8 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Ratheiser1993	GLI0	0	1	min	iv	constant infusion	dosing	solution	glimepiride	0.0	mg	NA
+Ratheiser1993	GLI0.25	0	1	min	iv	constant infusion	dosing	solution	glimepiride	0.25	mg	NA
+Ratheiser1993	GLI0.5	0	1	min	iv	constant infusion	dosing	solution	glimepiride	0.5	mg	NA
+Ratheiser1993	GLI0.75	0	1	min	iv	constant infusion	dosing	solution	glimepiride	0.75	mg	NA
+Ratheiser1993	GLI1	0	1	min	iv	constant infusion	dosing	solution	glimepiride	1.0	mg	NA
+Ratheiser1993	GLI1.25	0	1	min	iv	constant infusion	dosing	solution	glimepiride	1.25	mg	NA
+Ratheiser1993	GLI1.5	0	1	min	iv	constant infusion	dosing	solution	glimepiride	1.5	mg	NA

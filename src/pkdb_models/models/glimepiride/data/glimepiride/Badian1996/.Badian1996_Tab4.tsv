@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Badian1996	all	12.0	GLIM1	cmax	c-peptide	serum	RIA	NA	NA	2.2	NA	NA	NA	0.3	0.08660254037844387	NA	µg/l	NA
+Badian1996	all	12.0	GLIM1	tmax	c-peptide	serum	RIA	NA	NA	0.8	NA	NA	NA	0.6	0.17320508075688773	NA	hr	NA
+Badian1996	all	12.0	GLIM1	caverage	c-peptide	serum	RIA	NA	NA	1.8	NA	NA	NA	0.2	0.05773502691896258	NA	µg/l	average serum concentration of glucose over the first four hours
+Badian1996	all	12.0	PLA	cmax	c-peptide	serum	RIA	NA	NA	2.0	NA	NA	NA	0.2	0.05773502691896258	NA	µg/l	NA
+Badian1996	all	12.0	PLA	tmax	c-peptide	serum	RIA	NA	NA	0.4	NA	NA	NA	0.5	0.14433756729740646	NA	hr	NA
+Badian1996	all	12.0	PLA	caverage	c-peptide	serum	RIA	NA	NA	1.7	NA	NA	NA	0.2	0.05773502691896258	NA	µg/l	average serum concentration of glucose over the first four hours

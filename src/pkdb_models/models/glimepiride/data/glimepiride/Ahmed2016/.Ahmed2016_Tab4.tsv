@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Ahmed2016	group1	3.0	GLI1	cmax	glimepiride	plasma	LC MS/MS	NA	NA	46.09	NA	NA	NA	NA	NA	NA	ng/ml	NA
+Ahmed2016	group1	3.0	GLI1	tmax	glimepiride	plasma	LC MS/MS	NA	NA	2.5	NA	NA	NA	NA	NA	NA	hr	NA
+Ahmed2016	group1	3.0	GLI1	thalf	glimepiride	plasma	LC MS/MS	NA	NA	4.911	NA	NA	NA	NA	NA	NA	hr	NA
+Ahmed2016	group1	3.0	GLI1	auc_end	glimepiride	plasma	LC MS/MS	24.0	hr	26084.1	NA	NA	NA	NA	NA	NA	ng/ml*min	NA
+Ahmed2016	group1	3.0	GLI1	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	1187.48	NA	NA	NA	NA	NA	NA	ng/ml*min	NA
+Ahmed2016	group1	3.0	GLI1	aumc_end	glimepiride	plasma	LC MS/MS	24.0	hr	12100000.0	NA	NA	NA	NA	NA	NA	ng/ml*min^2	NA
+Ahmed2016	group1	3.0	GLI1	aumc_inf	glimepiride	plasma	LC MS/MS	NA	NA	2210000.0	NA	NA	NA	NA	NA	NA	ng/ml*min^2	NA
+Ahmed2016	group1	3.0	GLI1	mrt	glimepiride	plasma	LC MS/MS	NA	NA	523.27	NA	NA	NA	NA	NA	NA	hr	NA
+Ahmed2016	group2	3.0	GLI2	cmax	glimepiride	plasma	LC MS/MS	NA	NA	21.533	NA	NA	NA	NA	NA	NA	ng/ml	NA
+Ahmed2016	group2	3.0	GLI2	tmax	glimepiride	plasma	LC MS/MS	NA	NA	4.0	NA	NA	NA	NA	NA	NA	hr	NA
+Ahmed2016	group2	3.0	GLI2	thalf	glimepiride	plasma	LC MS/MS	NA	NA	4.006	NA	NA	NA	NA	NA	NA	hr	NA
+Ahmed2016	group2	3.0	GLI2	auc_end	glimepiride	plasma	LC MS/MS	24.0	hr	9818.29	NA	NA	NA	NA	NA	NA	ng/ml*min	NA
+Ahmed2016	group2	3.0	GLI2	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	215.71	NA	NA	NA	NA	NA	NA	ng/ml*min	NA
+Ahmed2016	group2	3.0	GLI2	aumc_end	glimepiride	plasma	LC MS/MS	24.0	hr	3970000.0	NA	NA	NA	NA	NA	NA	ng/ml*min^2	NA
+Ahmed2016	group2	3.0	GLI2	aumc_inf	glimepiride	plasma	LC MS/MS	NA	NA	385425.0	NA	NA	NA	NA	NA	NA	ng/ml*min^2	NA
+Ahmed2016	group2	3.0	GLI2	mrt	glimepiride	plasma	LC MS/MS	NA	NA	434.54	NA	NA	NA	NA	NA	NA	hr	NA
+Ahmed2016	group3	3.0	GLI3	cmax	glimepiride	plasma	LC MS/MS	NA	NA	135.16	NA	NA	NA	6.51	NA	NA	ng/ml	NA
+Ahmed2016	group3	3.0	GLI3	tmax	glimepiride	plasma	LC MS/MS	NA	NA	2.5	NA	NA	NA	NA	NA	NA	hr	NA
+Ahmed2016	group3	3.0	GLI3	thalf	glimepiride	plasma	LC MS/MS	NA	NA	3.55	NA	NA	NA	NA	NA	NA	hr	NA
+Ahmed2016	group3	3.0	GLI3	auc_end	glimepiride	plasma	LC MS/MS	24.0	hr	41110.3	NA	NA	NA	NA	NA	NA	ng/ml*min	NA
+Ahmed2016	group3	3.0	GLI3	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	397.55	NA	NA	NA	NA	NA	NA	ng/ml*min	NA
+Ahmed2016	group3	3.0	GLI3	aumc_end	glimepiride	plasma	LC MS/MS	24.0	hr	11900000.0	NA	NA	NA	NA	NA	NA	ng/ml*min^2	NA
+Ahmed2016	group3	3.0	GLI3	aumc_inf	glimepiride	plasma	LC MS/MS	NA	NA	694551.0	NA	NA	NA	NA	NA	NA	ng/ml*min^2	NA
+Ahmed2016	group3	3.0	GLI3	mrt	glimepiride	plasma	LC MS/MS	NA	NA	302.61	NA	NA	NA	NA	NA	NA	hr	NA

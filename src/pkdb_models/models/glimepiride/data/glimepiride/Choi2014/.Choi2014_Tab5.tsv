@@ -1,0 +1,9 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	gemigliptin	plasma	LC MS/MS	gemigliptin_ss	96.0	hr	NA	15.82	NA	4.19	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	gemigliptin	plasma	LC MS/MS	gemigliptin_ss	120.0	hr	NA	12.4	NA	3.38	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	gemigliptin	plasma	LC MS/MS	gemigliptin_ss	144.0	hr	NA	11.95	NA	2.61	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	gemigliptin	plasma	LC MS/MS	gemigliptin_ss	168.0	hr	NA	14.64	NA	3.07	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	LC15-0636	plasma	LC MS/MS	LC15-0636_ss	96.0	hr	NA	5.4	NA	1.32	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	LC15-0636	plasma	LC MS/MS	LC15-0636_ss	120.0	hr	NA	2.64	NA	0.35	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	LC15-0636	plasma	LC MS/MS	LC15-0636_ss	144.0	hr	NA	2.81	NA	0.39	NA	ng/ml	NA
+Choi2014	NA	all	23.0	GLI4, GEM50	concentration	LC15-0636	plasma	LC MS/MS	LC15-0636_ss	168.0	hr	NA	5.6	NA	0.78	NA	ng/ml	NA

@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Ratheiser1993	NA	group2	9	GLI0.25	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI0.25	0	hr	NA	0.0	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI0.25	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI0.25	48	hr	NA	0.254781743767019	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI0.5	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI0.5	0	hr	NA	0.0	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI0.5	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI0.5	48	hr	NA	0.509563487534039	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI0.75	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI0.75	0	hr	NA	0.0	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI0.75	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI0.75	48	hr	NA	0.764345231301058	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI1	0	hr	NA	0.0	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI1	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI1	48	hr	NA	1.01912697506808	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI1.25	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI1.25	0	hr	NA	0.0	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI1.25	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI1.25	48	hr	NA	1.2739087188351	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI1.5	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI1.5	0	hr	NA	0.0	NA	NA	NA	µmole	50% of administered glimepiride dose
+Ratheiser1993	NA	group2	9	GLI1.5	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	glimepiride-M1+glimepiride-M2_urine_GLI1.5	48	hr	NA	1.52869046260212	NA	NA	NA	µmole	50% of administered glimepiride dose

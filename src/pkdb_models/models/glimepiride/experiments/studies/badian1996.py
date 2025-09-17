@@ -1,0 +1,224 @@
+from typing import Dict
+from sbmlsim.data import DataSet, load_pkdb_dataframe
+from sbmlsim.fit import FitMapping, FitData
+from pkdb_models.models.glimepiride.experiments.base_experiment import GlimepirideSimulationExperiment
+from pkdb_models.models.glimepiride.experiments.metadata import (
+    Tissue, Route, Dosing, ApplicationForm, Health,
+    Fasting, GlimepirideMappingMetaData, Coadministration
+)
+from sbmlsim.plot import Axis, Figure
+from sbmlsim.simulation import Timecourse, TimecourseSim
+import pkdb_models.models.glimepiride as glimepiride
+from pathlib import Path
+from pkdb_models.models.glimepiride.helpers import run_experiments
+
+class Badian1996(GlimepirideSimulationExperiment):
+    """Simulation experiment of Badian1996."""
+
+    bodyweight = 75.0  # "mean weight was 75 kg (69-85)"
+
+    info = {
+        # Fig2
+        "[Cve_m1]": "glimepiride-M1",
+        "[Cve_m2]": "glimepiride-M2",
+
+        # Fig3
+        "Aurine_m1": "glimepiride-M1_urine",
+        "Aurine_m2": "glimepiride-M2_urine",
+
+        # Fig4
+        "Aurine_m1_m2": "glimepiride-M1+M2_urine",
+    }
+    panels = {
+        "[Cve_m1]": 0,
+        "[Cve_m2]": 1,
+        "Aurine_m1": 2,
+        "Aurine_m2": 2,
+        "Aurine_m1_m2": 2,
+    }
+    colors = {
+        "[Cve_m1]": "tab:blue",
+        "[Cve_m2]": "tab:orange",
+        "Aurine_m1": "tab:blue",
+        "Aurine_m2": "tab:orange",
+        "Aurine_m1_m2": "black",
+    }
+
+    def datasets(self) -> Dict[str, DataSet]:
+        dsets = {}
+        for fig_id in ["Fig2", "Fig3", "Fig4"]:
+            df = load_pkdb_dataframe(f"{self.sid}_{fig_id}", data_path=self.data_path)
+            for label, df_label in df.groupby("label"):
+                dset = DataSet.from_df(df_label, self.ureg)
+                # M1 and M2 conversion
+                if label.startswith("glimepiride-M1") and "M1+M2" not in label:
+                    dset.unit_conversion("mean", 1 / self.Mr.m1)
+                elif label.startswith("glimepiride-M2") and "M1+M2" not in label:
+                    dset.unit_conversion("mean", 1 / self.Mr.m2)
+                dsets[label] = dset
+        return dsets
+
+    def simulations(self) -> Dict[str, TimecourseSim]:
+        Q_ = self.Q_
+        tcsims = {}
+        tcsims[f"iv_m1_1.5"] = TimecourseSim(
+            [
+                Timecourse(
+                    start=0,
+                    end=1,
+                    steps=20,
+                    changes={
+                        **self.default_changes(),
+                        "BW": Q_(self.bodyweight, "kg"),
+                        f"Ri_m1": Q_(1.5, "mg/min"),
+                    },
+                ),
+                Timecourse(
+                    start=0,
+                    end=49 * 60,
+                    steps=1000,
+                    changes={
+                        f"Ri_m1": Q_(0, "mg/min"),
+                    },
+                ),
+            ]
+        )
+        return tcsims
+
+    def fit_mappings(self) -> Dict[str, FitMapping]:
+        mappings = {}
+        for sid, name in self.info.items():
+            mappings[f"fm_iv_m1_1.5_{name}"] = FitMapping(
+                self,
+                reference=FitData(
+                    self,
+                    dataset=name,
+                    xid="time",
+                    yid="mean",
+                    count="count",
+                ),
+                observable=FitData(
+                    self,
+                    task=f"task_iv_m1_1.5",
+                    xid="time",
+                    yid=sid
+                ),
+                metadata=GlimepirideMappingMetaData(
+                    tissue=Tissue.URINE if "urine" in name else Tissue.SERUM,
+                    route=Route.IV,
+                    application_form=ApplicationForm.SOLUTION,
+                    dosing=Dosing.SINGLE,
+                    health=Health.HEALTHY,
+                    fasting=Fasting.FASTED, # meal 10h after medication administration
+                    coadministration=Coadministration.NONE,
+                ),
+            )
+        return mappings
+
+    def figures(self) -> Dict[str, Figure]:
+        fig = Figure(
+            experiment=self,
+            sid="Fig2_Fig3_Fig4",
+            num_cols=3,
+            num_rows=1,
+            name=f"{self.__class__.__name__} (Healthy)",
+        )
+        plots = fig.create_plots(
+            xaxis=Axis(self.label_time, unit=self.unit_time), legend=True
+        )
+        plots[0].set_yaxis(self.label_m1_plasma, unit=self.unit_m1)
+        plots[1].set_yaxis(self.label_m2_plasma, unit=self.unit_m2)
+        plots[2].set_yaxis(self.label_m1_m2_urine, unit=self.unit_m1_m2_urine)
+
+        # x axis adjustments
+        for k in range(len(plots)):
+            plots[k].xaxis.min = -0.5
+        plots[0].xaxis.max = 10
+        plots[1].xaxis.max = 13
+
+        # plots 0 and 1 (M1 and M2 plasma concentrations)
+        for sid, name in self.info.items():
+            kp = self.panels[sid]
+            color = self.colors[sid]
+
+            # Skip combined data
+            if kp != 2:
+                # Simulation
+                plots[kp].add_data(
+                    task=f"task_iv_m1_1.5",
+                    xid="time",
+                    yid=sid,
+                    label=f"Sim 1.5mg M1 IV",
+                    color=color,
+                )
+                # Study data
+                plots[kp].add_data(
+                    dataset=name,
+                    xid="time",
+                    yid="mean",
+                    yid_sd="mean_sd",
+                    count="count",
+                    label=f"Data 1.5mg M1 IV±SD (n=12)",
+                    color=color,
+                )
+
+        # M1 urine
+        plots[2].add_data(
+            task=f"task_iv_m1_1.5",
+            xid="time",
+            yid="Aurine_m1",
+            label=f"Sim M1",
+            color=self.colors["Aurine_m1"],
+        )
+        plots[2].add_data(
+            dataset=self.info["Aurine_m1"],
+            xid="time",
+            yid="mean",
+            yid_sd="mean_sd",
+            count="count",
+            label=f"Data M1",
+            color=self.colors["Aurine_m1"],
+        )
+
+        # M2 urine
+        plots[2].add_data(
+            task=f"task_iv_m1_1.5",
+            xid="time",
+            yid="Aurine_m2",
+            label=f"Sim M2",
+            color=self.colors["Aurine_m2"],
+        )
+        plots[2].add_data(
+            dataset=self.info["Aurine_m2"],
+            xid="time",
+            yid="mean",
+            yid_sd="mean_sd",
+            count="count",
+            label=f"Data M2",
+            color=self.colors["Aurine_m2"],
+        )
+
+        # M1+M2 combined urine
+        plots[2].add_data(
+            task=f"task_iv_m1_1.5",
+            xid="time",
+            yid="Aurine_m1_m2",
+            label=f"Sim M1+M2",
+            color=self.colors["Aurine_m1_m2"],
+        )
+        plots[2].add_data(
+            dataset=self.info["Aurine_m1_m2"],
+            xid="time",
+            yid="mean",
+            yid_sd="mean_sd",
+            count="count",
+            label=f"Data M1+M2",
+            color=self.colors["Aurine_m1_m2"],
+        )
+
+        return {fig.sid: fig}
+
+if __name__ == "__main__":
+    out = glimepiride.RESULTS_PATH_SIMULATION / Badian1996.__name__
+    out.mkdir(parents=True, exist_ok=True)
+    run_experiments(Badian1996, output_dir=out)

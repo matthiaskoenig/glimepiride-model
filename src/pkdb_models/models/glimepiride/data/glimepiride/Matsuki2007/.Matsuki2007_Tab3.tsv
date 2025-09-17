@@ -1,0 +1,13 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	value	mean	median	sd	se	unit	comments
+Matsuki2007	all	8.0	GLI2	bmi	NA	NA	NA	NA	NA	NA	23.0	NA	NA	1.0	kg/m^2	parameters of last day
+Matsuki2007	all	8.0	GLI2	concentration	glucose	plasma	LC MS/MS	NA	NA	NA	199.8	NA	NA	17.2	mg/dl	24hr mean; parameters of last day
+Matsuki2007	all	8.0	GLI2	auc_end	glucose	plasma	LC MS/MS	NA	NA	NA	4775.0	NA	NA	400.0	mg*hr/dl	parameters of last day
+Matsuki2007	all	8.0	GLI2	hba1c	NA	plasma	LC MS/MS	NA	NA	NA	6.9	NA	NA	0.2	percent	parameters of last day
+Matsuki2007	all	8.0	GLI2	concentration	insulin	plasma	LC MS/MS	NA	NA	NA	226.9	NA	NA	25.9	µIU/ml	sum of responce;  parameters of last day
+Matsuki2007	all	8.0	GLI2	concentration	c-peptide	plasma	LC MS/MS	NA	NA	NA	54.9	NA	NA	2.1	ng/ml	sum of responce;  parameters of last day
+Matsuki2007	all	8.0	GLI1	bmi	NA	NA	NA	NA	NA	NA	22.9	NA	NA	1.0	kg/m^2	parameters of last day
+Matsuki2007	all	8.0	GLI1	concentration	glucose	plasma	LC MS/MS	NA	NA	NA	195.3	NA	NA	15.0	mg/dl	24hr mean; parameters of last day
+Matsuki2007	all	8.0	GLI1	auc_end	glucose	plasma	LC MS/MS	NA	NA	NA	4101.0	NA	NA	269.0	mg*hr/dl	parameters of last day
+Matsuki2007	all	8.0	GLI1	hba1c	NA	plasma	LC MS/MS	NA	NA	NA	7.1	NA	NA	0.1	percent	parameters of last day
+Matsuki2007	all	8.0	GLI1	concentration	insulin	plasma	LC MS/MS	NA	NA	NA	200.1	NA	NA	23.4	µIU/ml	sum of responce;  parameters of last day
+Matsuki2007	all	8.0	GLI1	concentration	c-peptide	plasma	LC MS/MS	NA	NA	NA	51.8	NA	NA	2.4	ng/ml	sum of responce;  parameters of last day

@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	0.0	hr	NA	0.0	NA	NA	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	0.5	hr	NA	25.7943925233644	50.4672897196261	24.6728971962617	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	1.0	hr	NA	84.6728971962616	150.841121495327	66.1682242990654	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	1.5	hr	NA	121.121495327102	206.355140186915	85.23364485981301	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	2.0	hr	NA	155.887850467289	252.33644859813	96.44859813084099	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	2.5	hr	NA	173.271028037383	261.869158878504	88.59813084112099	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	3.0	hr	NA	183.925233644859	255.700934579439	71.77570093458002	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	4.0	hr	NA	153.644859813084	214.766355140186	61.121495327102	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	6.0	hr	NA	49.9065420560747	74.018691588785	24.112149532710305	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	8.0	hr	NA	22.9906542056074	34.2056074766355	11.2149532710281	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	10.0	hr	NA	14.5794392523364	24.6728971962616	10.093457943925202	NA	ng/ml	NA
+Lee2012	NA	group1	22.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_group1	12.0	hr	NA	10.0934579439252	19.0654	8.9719420560748	NA	ng/ml	NA

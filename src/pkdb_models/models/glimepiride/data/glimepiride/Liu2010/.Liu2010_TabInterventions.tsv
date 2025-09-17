@@ -1,0 +1,3 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Liu2010	GLI2test	0	NA	hr	oral	single dose	dosing	tablet	glimepiride	2	mg	test formulation
+Liu2010	GLI2ref	0	NA	hr	oral	single dose	dosing	tablet	glimepiride	2	mg	Amaryl®

@@ -1,0 +1,22 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	sd	median	min	max	se	cv	unit	comments
+Wang2005	group1	9.0	GLI4	thalf	glimepiride	plasma	LC MS/MS	NA	NA	11.4	4.3	NA	NA	NA	NA	NA	hr	NA
+Wang2005	group1	9.0	GLI4	auc_end	glimepiride	plasma	LC MS/MS	48.0	hr	1355.4	314.0	NA	NA	NA	NA	NA	µg*hr/l	NA
+Wang2005	group1	9.0	GLI4	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	1461.9	341.9	NA	NA	NA	NA	NA	µg*hr/l	NA
+Wang2005	group1	9.0	GLI4	tmax	glimepiride	plasma	LC MS/MS	NA	NA	2.1	0.6	NA	NA	NA	NA	NA	hr	NA
+Wang2005	group1	9.0	GLI4	cmax	glimepiride	plasma	LC MS/MS	NA	NA	260.3	81.5	NA	NA	NA	NA	NA	µg/l	NA
+Wang2005	group1	9.0	GLI4	oral-clearance	glimepiride	plasma	LC MS/MS	NA	NA	3.0	0.6	NA	NA	NA	NA	NA	l/hr	NA
+Wang2005	group1	9.0	GLI4	clearance	glimepiride	plasma	LC MS/MS	NA	NA	1.3	0.3	NA	NA	NA	NA	NA	l/hr	NA
+Wang2005	group2	9.0	GLI4	thalf	glimepiride	plasma	LC MS/MS	NA	NA	18.6	6.1	NA	NA	NA	NA	NA	hr	NA
+Wang2005	group2	9.0	GLI4	auc_end	glimepiride	plasma	LC MS/MS	48.0	hr	1707.5	500.2	NA	NA	NA	NA	NA	µg*hr/l	NA
+Wang2005	group2	9.0	GLI4	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	1877.8	508.7	NA	NA	NA	NA	NA	µg*hr/l	NA
+Wang2005	group2	9.0	GLI4	tmax	glimepiride	plasma	LC MS/MS	NA	NA	2.6	0.5	NA	NA	NA	NA	NA	hr	NA
+Wang2005	group2	9.0	GLI4	cmax	glimepiride	plasma	LC MS/MS	NA	NA	272.9	86.6	NA	NA	NA	NA	NA	µg/l	NA
+Wang2005	group2	9.0	GLI4	oral-clearance	glimepiride	plasma	LC MS/MS	NA	NA	2.3	0.4	NA	NA	NA	NA	NA	l/hr	NA
+Wang2005	group2	9.0	GLI4	clearance	glimepiride	plasma	LC MS/MS	NA	NA	0.8	0.2	NA	NA	NA	NA	NA	l/hr	NA
+Wang2005	group3	1.0	GLI4	thalf	glimepiride	plasma	LC MS/MS	NA	NA	38.2	NA	NA	NA	NA	NA	NA	hr	NA
+Wang2005	group3	1.0	GLI4	auc_end	glimepiride	plasma	LC MS/MS	48.0	hr	1893.5	NA	NA	NA	NA	NA	NA	µg*hr/l	NA
+Wang2005	group3	1.0	GLI4	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	2247.5	NA	NA	NA	NA	NA	NA	µg*hr/l	NA
+Wang2005	group3	1.0	GLI4	tmax	glimepiride	plasma	LC MS/MS	NA	NA	2.0	NA	NA	NA	NA	NA	NA	hr	NA
+Wang2005	group3	1.0	GLI4	cmax	glimepiride	plasma	LC MS/MS	NA	NA	391.6	NA	NA	NA	NA	NA	NA	µg/l	NA
+Wang2005	group3	1.0	GLI4	oral-clearance	glimepiride	plasma	LC MS/MS	NA	NA	1.8	NA	NA	NA	NA	NA	NA	l/hr	NA
+Wang2005	group3	1.0	GLI4	clearance	glimepiride	plasma	LC MS/MS	NA	NA	1.1	NA	NA	NA	NA	NA	NA	l/hr	NA

@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Badian1996	all	12.0	GLIM1	cmin	glucose	serum	enzymatic assay	NA	NA	4.1	NA	NA	NA	0.3	0.087	NA	mmol/l	NA
+Badian1996	all	12.0	GLIM1	tmin	glucose	serum	enzymatic assay	NA	NA	2.0	NA	NA	NA	0.8	0.231	NA	hr	NA
+Badian1996	all	12.0	GLIM1	caverage	glucose	serum	enzymatic assay	NA	NA	4.5	NA	NA	NA	0.3	0.087	NA	mmol/l	average serum concentration of glucose over the first four hours
+Badian1996	all	12.0	PLA	cmin	glucose	serum	enzymatic assay	NA	NA	4.6	NA	NA	NA	0.4	0.115	NA	mmol/l	NA
+Badian1996	all	12.0	PLA	tmin	glucose	serum	enzymatic assay	NA	NA	1.9	NA	NA	NA	0.9	0.26	NA	hr	NA
+Badian1996	all	12.0	PLA	caverage	glucose	serum	enzymatic assay	NA	NA	4.9	NA	NA	NA	0.3	0.087	NA	mmol/l	average serum concentration of glucose over the first four hours

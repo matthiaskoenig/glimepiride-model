@@ -1,0 +1,12 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Ahmed2016	all	9.0	NA	species	9.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Ahmed2016	all	9.0	NA	healthy	9.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Ahmed2016	all	9.0	NA	sex	9.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Ahmed2016	all	9.0	NA	weight	9.0	NA	NA	NA	75.0	7.5	NA	NA	NA	kg	NA
+Ahmed2016	all	9.0	NA	age	9.0	NA	NA	NA	NA	NA	NA	25.0	45.0	year	NA
+Ahmed2016	all	9.0	NA	height	9.0	NA	NA	NA	176.0	6.7	NA	NA	NA	cm	NA
+Ahmed2016	all	9.0	NA	ethnicity	9.0	NA	egyptian	NA	NA	NA	NA	NA	NA	NA	NA
+Ahmed2016	all	9.0	NA	medication	9.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Ahmed2016	group1	3.0	all	species	3.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	optimized ethosomal formulation
+Ahmed2016	group2	3.0	all	species	3.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	pure glimepiride film
+Ahmed2016	group3	3.0	all	species	3.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	commercial tablet Amaryl®

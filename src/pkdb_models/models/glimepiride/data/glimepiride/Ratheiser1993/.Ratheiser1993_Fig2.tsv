@@ -1,0 +1,12 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	mean_pm	median	min	max	sd	se	cv	unit	comments
+Ratheiser1993	group2	9.0	GLI0	auc measurement	glucose	serum	enzymatic assay	NA	NA	0.0	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Ratheiser1993	group2	9.0	GLI0.25	auc measurement	glucose	serum	enzymatic assay	NA	NA	-38.5276131941769	-53.0061490798457	NA	NA	NA	43.4356076570064	14.4785358856688	NA	mmol*min/l	decremental area below blood glucose baselline
+Ratheiser1993	group2	9.0	GLI0.5	auc measurement	glucose	serum	enzymatic assay	NA	NA	-67.484676727639	-76.0736340860884	NA	NA	NA	25.7668720753482	8.58895735844941	NA	mmol*min/l	decremental area below blood glucose baselline
+Ratheiser1993	group2	9.0	GLI0.75	auc measurement	glucose	serum	enzymatic assay	NA	NA	-100.368117708038	-118.03682857607	NA	NA	NA	53.006132604096	17.668710868032	NA	mmol*min/l	decremental area below blood glucose baselline
+Ratheiser1993	group2	9.0	GLI1	auc measurement	glucose	serum	enzymatic assay	NA	NA	-128.834376852492	-151.901861858734	NA	NA	NA	69.202455018726	23.067485006242	NA	mmol*min/l	decremental area below blood glucose baselline
+Ratheiser1993	group2	9.0	GLI1.25	auc measurement	glucose	serum	enzymatic assay	NA	NA	-157.791415672327	-177.423344096392	NA	NA	NA	58.895785272195	19.631928424065	NA	mmol*min/l	decremental area below blood glucose baselline
+Ratheiser1993	group2	9.0	GLI1.5	auc measurement	glucose	serum	enzymatic assay	NA	NA	-111.656462135593	-135.214743292968	NA	NA	NA	70.674843472125	23.558281157375	NA	mmol*min/l	decremental area below blood glucose baselline
+Ratheiser1993	group2	9.0	GLI0.25	amount	insulin	serum	RIA	NA	NA	17.7865666928498	24.6047442892323	NA	NA	NA	20.4545327891475	6.8181775963825	NA	pmol/kg	incremental insulin production
+Ratheiser1993	group2	9.0	GLI0.5	amount	insulin	serum	RIA	NA	NA	25.0988172448199	30.3359786323878	NA	NA	NA	15.7114841627037	5.2371613875679	NA	pmol/kg	incremental insulin production
+Ratheiser1993	group2	9.0	GLI1.25	amount	insulin	serum	RIA	NA	NA	36.1660103175951	41.8972380264945	NA	NA	NA	17.1936831266982	5.7312277088994	NA	pmol/kg	incremental insulin production
+Ratheiser1993	group2	9.0	GLI1.5	amount	insulin	serum	RIA	NA	NA	53.8537564484969	67.6877461309018	NA	NA	NA	41.5019690472147	13.8339896824049	NA	pmol/kg	incremental insulin production

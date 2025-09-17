@@ -1,0 +1,9 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	time	time_unit	value	unit	comments
+Cho2011	CYP2C9_S1	1.0	GLI2	auc_end	glimepiride	plasma	HPLC	12.0	hr	1055.0	ng*hr/ml	NA
+Cho2011	CYP2C9_S1	1.0	GLI2	cmax	glimepiride	plasma	HPLC	NA	NA	186.0	ng/ml	NA
+Cho2011	CYP2C9_S1	1.0	GLI2	tmax	glimepiride	plasma	HPLC	NA	NA	4.0	hr	NA
+Cho2011	CYP2C9_S1	1.0	GLI2	thalf	glimepiride	plasma	HPLC	NA	NA	5.5	hr	NA
+Cho2011	CYP2C9_S2	1.0	GLI2	auc_end	glimepiride	plasma	HPLC	12.0	hr	1564.3	ng*hr/ml	NA
+Cho2011	CYP2C9_S2	1.0	GLI2	cmax	glimepiride	plasma	HPLC	NA	NA	355.1	ng/ml	NA
+Cho2011	CYP2C9_S2	1.0	GLI2	tmax	glimepiride	plasma	HPLC	NA	NA	2.5	hr	NA
+Cho2011	CYP2C9_S2	1.0	GLI2	thalf	glimepiride	plasma	HPLC	NA	NA	5.7	hr	NA

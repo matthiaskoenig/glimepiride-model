@@ -1,0 +1,9 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Choi2014	all	23	NA	species	23	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Choi2014	all	23	NA	healthy 	23	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Choi2014	all	23	NA	sex	23	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Choi2014	all	23	NA	ethnicity	23	NA	korean	NA	NA	NA	NA	NA	NA	NA	NA
+Choi2014	all	23	NA	age	23	NA	NA	29.3	NA	5.55	NA	NA	NA	yr	NA
+Choi2014	all	23	NA	height	23	NA	NA	174.22	NA	4.69	NA	NA	NA	cm	NA
+Choi2014	all	23	NA	weight	23	NA	NA	70.84	NA	7.83	NA	NA	NA	kg	NA
+Choi2014	all	23	NA	overnight fast	23	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA

@@ -1,0 +1,29 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+FDA1995	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1po	2.0	hr	NA	3.75	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1po	4.0	hr	NA	14.5833333333333	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1po	8.0	hr	NA	31.8055470784505	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1po	12.0	hr	NA	39.5833333333333	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1po	24.0	hr	NA	49.1666666666666	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1po	48.0	hr	NA	50.0	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1iv	0.0	hr	NA	0.0	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1iv	2.0	hr	NA	12.6388804117838	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1iv	4.0	hr	NA	25.5555470784505	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1iv	8.0	hr	NA	39.4444402058919	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1iv	12.0	hr	NA	45.1388804117838	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1iv	24.0	hr	NA	50.9722137451171	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1iv	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_recovery_GLI1iv	48.0	hr	NA	51.3888804117838	NA	NA	NA	percent	NA
+FDA1995	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1po	2.0	hr	NA	0.0375	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1po	4.0	hr	NA	0.145833333333333	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1po	8.0	hr	NA	0.31805547078450497	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1po	12.0	hr	NA	0.395833333333333	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1po	24.0	hr	NA	0.49166666666666603	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1po	48.0	hr	NA	0.5	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	0.0	hr	NA	0.0	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	2.0	hr	NA	0.126388804117838	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	4.0	hr	NA	0.25555547078450497	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	8.0	hr	NA	0.394444402058919	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	12.0	hr	NA	0.451388804117838	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	24.0	hr	NA	0.509722137451171	NA	NA	NA	mg	NA
+FDA1995	NA	all	12.0	GLI1iv	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	urine_M1+M2_GLI1iv	48.0	hr	NA	0.513888804117838	NA	NA	NA	mg	NA

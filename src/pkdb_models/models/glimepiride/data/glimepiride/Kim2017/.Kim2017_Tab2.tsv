@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Kim2017	all	22.0	GLI4	cmax	glimepiride	plasma	HPLC MS/MS	NA	NA	173.7	NA	NA	NA	55.4	NA	NA	ng/ml	steady state
+Kim2017	all	22.0	GLI4	auc_end	glimepiride	plasma	HPLC MS/MS	48.0	hr	971.3	NA	NA	NA	280.7	NA	NA	ng*hr/ml	steady state
+Kim2017	all	22.0	GLI4	thalf	glimepiride	plasma	HPLC MS/MS	NA	NA	13.3	NA	NA	NA	12.3	NA	NA	hr	NA
+Kim2017	all	22.0	GLI4	tmax	glimepiride	plasma	HPLC MS/MS	NA	NA	4.0	NA	2.0	6.0	NA	NA	NA	hr	steady state
+Kim2017	all	22.0	GLI4	clearance	glimepiride	plasma	HPLC MS/MS	NA	NA	4.5	NA	NA	NA	1.3	NA	NA	l/hr	NA
+Kim2017	all	22.0	GLI4, ROS20	cmax	glimepiride	plasma	HPLC MS/MS	NA	NA	180.5	NA	NA	NA	65.3	NA	NA	ng/ml	steady state
+Kim2017	all	22.0	GLI4, ROS20	auc_end	glimepiride	plasma	HPLC MS/MS	48.0	hr	1028.0	NA	NA	NA	398.4	NA	NA	ng*hr/ml	steady state
+Kim2017	all	22.0	GLI4, ROS20	thalf	glimepiride	plasma	HPLC MS/MS	NA	NA	11.7	NA	NA	NA	5.0	NA	NA	hr	NA
+Kim2017	all	22.0	GLI4, ROS20	tmax	glimepiride	plasma	HPLC MS/MS	NA	NA	3.0	NA	1.5	5.0	NA	NA	NA	hr	steady state
+Kim2017	all	22.0	GLI4, ROS20	clearance	glimepiride	plasma	HPLC MS/MS	NA	NA	4.4	NA	NA	NA	1.5	NA	NA	l/hr	NA

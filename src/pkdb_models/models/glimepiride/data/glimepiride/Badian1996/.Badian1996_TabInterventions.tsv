@@ -1,0 +1,3 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Badian1996	GLIM1	0	1	min	iv	constant infusion	dosing	solution	glimepiride-M1	1.5	mg	NA
+Badian1996	PLA	0	1	min	iv	constant infusion	dosing	solution	placebo	0.0	mg 	placebo 0.9% NaCl

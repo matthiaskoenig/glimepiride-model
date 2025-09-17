@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Badian1994	all	12.0	GLI1po	cumulative amount	glimepiride-M1	urine	HPLC	48.0	hr	0.38	NA	NA	NA	0.1	NA	NA	mg	NA
+Badian1994	all	12.0	GLI1iv	cumulative amount	glimepiride-M1	urine	HPLC	48.0	hr	0.37	NA	NA	NA	0.06	NA	NA	mg	NA
+Badian1994	all	12.0	GLI1po	cumulative amount	glimepiride-M2	urine	HPLC	48.0	hr	0.14	NA	NA	NA	0.06	NA	NA	mg	NA
+Badian1994	all	12.0	GLI1iv	cumulative amount	glimepiride-M2	urine	HPLC	48.0	hr	0.17	NA	NA	NA	0.05	NA	NA	mg	NA

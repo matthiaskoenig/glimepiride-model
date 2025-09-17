@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Ratheiser1993	NA	group2	9.0	GLI0.25	concentration	glimepiride	serum	HPLC	glimepiride_GLI0.25	0.5	hr	NA	53.1818060165596	57.7272735272557	13.6364025320883	4.5454675106961	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI0.25	concentration	glimepiride	serum	HPLC	glimepiride_GLI0.25	3.0	hr	NA	17.2727128178622	20.9090989640921	10.9091584386897	3.6363861462299	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI0.5	concentration	glimepiride	serum	HPLC	glimepiride_GLI0.5	0.5	hr	NA	92.2727295071626	102.727271403163	31.3636256880012	10.4545418960004	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI0.5	concentration	glimepiride	serum	HPLC	glimepiride_GLI0.5	3.0	hr	NA	18.1818245265109	22.7272616930245	13.6363114995408	4.5454371665136	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI0.75	concentration	glimepiride	serum	HPLC	glimepiride_GLI0.75	0.5	hr	NA	143.636357622698	163.181819368	58.636385235906	19.545461745302	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI0.75	concentration	glimepiride	serum	HPLC	glimepiride_GLI0.75	3.0	hr	NA	54.9999990896745	70.0000084963711	45.0000282200898	15.0000094066966	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI1	concentration	glimepiride	serum	HPLC	glimepiride_GLI1	0.5	hr	NA	149.090906497861	159.090907711628	30.000003641301	10.000001213767	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI1	concentration	glimepiride	serum	HPLC	glimepiride_GLI1	3.0	hr	NA	34.9999966621399	41.8181827560929	20.454558281859	6.818186093953	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI1.25	concentration	glimepiride	serum	HPLC	glimepiride_GLI1.25	0.5	hr	NA	195.454541592559	203.636357319257	24.545447180094	8.18181572669801	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI1.25	concentration	glimepiride	serum	HPLC	glimepiride_GLI1.25	3.0	hr	NA	57.2727176729313	66.3636223501411	27.2727140316294	9.0909046772098	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI1.5	concentration	glimepiride	serum	HPLC	glimepiride_GLI1.5	0.5	hr	NA	243.63635458828	265.454542502884	65.454563743812	21.818187914604	ng/ml	n = 6 - 12
+Ratheiser1993	NA	group2	9.0	GLI1.5	concentration	glimepiride	serum	HPLC	glimepiride_GLI1.5	3.0	hr	NA	68.1818154232561	83.1818096578615	44.9999827038162	14.9999942346054	ng/ml	n = 6 - 12

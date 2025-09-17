@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "glimepiride-model"
+version = "0.6.1"
+description = "Python code for glimepiride-model"
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [
+    {name="Michelle Elias", email="michelleelias66@gmail.com"},
+	{name="Matthias König", email="konigmatt@googlemail.com"},
+]
+maintainers = [
+	{name="Matthias König", email="konigmatt@googlemail.com"}
+]
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Intended Audience :: Science/Research",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.13",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Topic :: Scientific/Engineering",
+	"Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+keywords = [
+    "digital twin",
+    "diabetes",
+    "Glimepiride",
+    "PBPK",
+    "physiologically based pharmacokinetic model",
+]
+dependencies = [
+    "pkdb_analysis>=0.2.2",
+    "statsmodels",
+    "sbmlutils @ git+https://github.com/matthiaskoenig/sbmlutils.git@ae7ee27d781f217daee2a654059a5ff66d17e15d",
+    "sbmlsim @ git+https://github.com/matthiaskoenig/sbmlsim.git@9617fa09197549b9c675a5dc65c1d170590942a4"
+]
+[project.scripts]
+create_nodes = "pkdb_data.management.commands:create_info_nodes_command"
+fit_glimepiride = "pkdb_models.models.glimepiride.fitting.fitting:main"
+run_glimepiride = "pkdb_models.models.glimepiride.run_glimepiride:main"
+
+[project_urls]
+Homepage = "https://github.com/matthiaskoenig/glimepiride-model"
+Repository = "https://github.com/matthiaskoenig/glimepiride-model"
+Documentation = "https://github.com/matthiaskoenig/glimepiride-model"
+Issues = "https://github.com/matthiaskoenig/glimepiride-model/issues"
+# Download = "https://pypi.org/project/pkdb_data"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pkdb_models"]
+
+[tool.hatch.metadata]
+allow-direct-references = true

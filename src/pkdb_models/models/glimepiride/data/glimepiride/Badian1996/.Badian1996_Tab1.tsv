@@ -1,0 +1,10 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Badian1996	all	12.0	GLIM1	cmax	glimepiride-M1	serum	HPLC	NA	NA	383.3	NA	NA	NA	49.2	NA	NA	ng/ml	NA
+Badian1996	all	12.0	GLIM1	auc_end	glimepiride-M1	serum	HPLC	24.0	hr	349.0	NA	NA	NA	110.0	NA	NA	ng*hr/ml	NA
+Badian1996	all	12.0	GLIM1	thalf	glimepiride-M1	serum	HPLC	NA	NA	1.2	NA	NA	NA	0.4	NA	NA	hr	terminal half-life
+Badian1996	all	12.0	GLIM1	clearance	glimepiride-M1	serum	HPLC	NA	NA	78.3	NA	NA	NA	24.3	NA	NA	ml/min	NA
+Badian1996	all	12.0	GLIM1	cmax	glimepiride-M2	serum	HPLC	NA	NA	16.2	NA	NA	NA	3.4	NA	NA	ng/ml	NA
+Badian1996	all	12.0	GLIM1	tmax	glimepiride-M2	serum	HPLC	NA	NA	1.5	NA	NA	NA	0.3	NA	NA	hr	NA
+Badian1996	all	12.0	GLIM1	auc_end	glimepiride-M2	serum	HPLC	24.0	hr	90.0	NA	NA	NA	40.0	NA	NA	ng*hr/ml	NA
+Badian1996	all	12.0	GLIM1	thalf	glimepiride-M2	serum	HPLC	NA	NA	2.8	NA	NA	NA	1.1	NA	NA	hr	terminal half-life
+Badian1996	all	12.0	GLIM1	clearance	glimepiride-M2	serum	HPLC	NA	NA	331.7	NA	NA	NA	139.2	NA	NA	ml/min	NA

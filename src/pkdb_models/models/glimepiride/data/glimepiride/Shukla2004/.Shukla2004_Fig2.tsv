@@ -1,0 +1,43 @@
+study	group	individual	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments	table	table_sd
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	0.0	hr	NA	0.0	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	2.0	hr	NA	56.338028169014	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	4.0	hr	NA	267.605633802816	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	6.0	hr	NA	563.38028169014	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	8.0	hr	NA	828.169014084507	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	12.0	hr	NA	994.366197183098	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_normal	24.0	hr	NA	1312.0	NA	360.0	NA	µg	from Table 1	16.4	4.5
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	0.0	hr	NA	0.0	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	2.0	hr	NA	53.5211267605633	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	4.0	hr	NA	360.56338028169	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	6.0	hr	NA	738.028169014084	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	8.0	hr	NA	1067.60563380281	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	12.0	hr	NA	1354.92957746478	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1	urine	LC MS/MS	glimepiride-M1_amount_obese	24.0	hr	NA	1696.0	NA	576.0	NA	µg	from Table 1	21.2	7.2
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_normal	0.0	hr	NA	0.0	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_normal	2.0	hr	NA	8.45070422535211	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_normal	4.0	hr	NA	115.492957746478	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_normal	6.0	hr	NA	340.845070422535	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_normal	8.0	hr	NA	521.12676056338	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_normal	12.0	hr	NA	667.605633802816	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_normal	24.0	hr	NA	952.0	NA	280.0	NA	µg	from Table 1	11.9	3.5
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_obese	0.0	hr	NA	0.0	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_obese	2.0	hr	NA	2.8169014084507	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_obese	4.0	hr	NA	174.647887323943	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_obese	6.0	hr	NA	442.25352112676	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_obese	8.0	hr	NA	704.225352112676	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_obese	12.0	hr	NA	971.830985915492	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M2	urine	LC MS/MS	glimepiride-M2_amount_obese	24.0	hr	NA	1304.0	NA	320.0	NA	µg	from Table 1	16.3	4.0
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_normal	0.0	hr	NA	0.0	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_normal	2.0	hr	NA	64.7887323943661	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_normal	4.0	hr	NA	383.098591549294	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_normal	6.0	hr	NA	904.225352112675	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_normal	8.0	hr	NA	1349.29577464789	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_normal	12.0	hr	NA	1661.97183098591	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	normal	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_normal	24.0	hr	NA	2264.0	NA	456.070170039655	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_obese	0.0	hr	NA	0.0	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_obese	2.0	hr	NA	56.338028169014	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_obese	4.0	hr	NA	535.211267605633	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_obese	6.0	hr	NA	1180.28169014084	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_obese	8.0	hr	NA	1771.83098591549	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_obese	12.0	hr	NA	2326.76056338027	NA	NA	NA	µg	NA	NA	NA
+Shukla2004	obese	NA	14.0	GLI8	cumulative amount	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	M1+M2_amount_obese	24.0	hr	NA	3000.0	NA	658.920329023168	NA	µg	NA	NA	NA

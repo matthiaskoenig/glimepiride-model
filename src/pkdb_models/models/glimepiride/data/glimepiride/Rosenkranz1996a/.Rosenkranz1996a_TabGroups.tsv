@@ -1,0 +1,16 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Rosenkranz1996a	all	34.0	NA	species	34.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Rosenkranz1996a	all	34.0	NA	healthy	34.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Rosenkranz1996a	all	34.0	NA	sex	34.0	NA	MF	NA	NA	NA	NA	NA	NA	NA	NA
+Rosenkranz1996a	all	34.0	NA	disease	34.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Rosenkranz1996a	all	34.0	NA	disease	34.0	NA	renal disease	NA	NA	NA	NA	NA	NA	NA	NA
+Rosenkranz1996a	single	15.0	all	age	15.0	NA	NA	57.0	NA	NA	NA	44.0	70.0	year	NA
+Rosenkranz1996a	single	15.0	all	weight	15.0	NA	NA	71.4	NA	NA	NA	56.0	90.3	kg	NA
+Rosenkranz1996a	multiple	19.0	all	age	19.0	NA	NA	62.2	NA	NA	NA	49.0	76.0	year	NA
+Rosenkranz1996a	multiple	19.0	all	weight	19.0	NA	NA	78.1	NA	NA	NA	63.8	98.0	kg	NA
+Rosenkranz1996a	single_group1	5.0	single	clearance	5.0	creatinine	NA	NA	NA	NA	NA	51.0	NA	ml/min	NA
+Rosenkranz1996a	single_group2	3.0	single	clearance	3.0	creatinine	NA	NA	NA	NA	NA	20.0	50.0	ml/min	NA
+Rosenkranz1996a	single_group3	7.0	single	clearance	7.0	creatinine	NA	NA	NA	NA	NA	NA	19.0	ml/min	NA
+Rosenkranz1996a	multiple_group1	4.0	multiple	clearance	4.0	creatinine	NA	NA	NA	NA	NA	51.0	NA	ml/min	NA
+Rosenkranz1996a	multiple_group2	7.0	multiple	clearance	7.0	creatinine	NA	NA	NA	NA	NA	20.0	50.0	ml/min	NA
+Rosenkranz1996a	multiple_group3	5.0	multiple	clearance	5.0	creatinine	NA	NA	NA	NA	NA	NA	19.0	ml/min	NA

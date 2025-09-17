@@ -1,0 +1,113 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	0.5	hr	NA	670.3878896991	203.984297891456	466.403591807644	95.204234510838	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	1.0	hr	NA	1154.80468045465	721.674399848026	433.130280606624	88.4123483028938	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	1.5	hr	NA	1461.29693959054	812.068820667733	649.228118922807	132.523134835653	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	2.0	hr	NA	1483.52092691225	968.825990593812	514.694936318438	105.061663931205	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	3.0	hr	NA	1484.58760224002	1850.62994679136	366.04234455134	74.7180807002344	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	5.0	hr	NA	1045.10122997372	713.326455714837	331.774774258883	67.7232422051115	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	8.0	hr	NA	758.095196867679	1002.15859941482	244.063402547141	49.819233427332	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	12.0	hr	NA	496.617485620183	666.184963642738	169.567478022555	34.6128165104884	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	16.0	hr	NA	334.996664042793	449.419922655212	114.423258612419	23.3565498589123	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	24.0	hr	NA	181.832642289648	254.930934170845	73.098291881197	14.9211263481636	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	32.0	hr	NA	128.569013938077	71.4416794491056	57.1273344889714	11.6610683219399	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	40.0	hr	NA	77.32981255952	29.3286634687008	48.0011490908192	9.79819352831398	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	48.0	hr	NA	52.3182323195915	16.6380148692422	35.6802174503493	7.283193888742	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_PIO45_S1	60.0	hr	NA	27.2529613053412	3.05428372663887	24.1986775787023	4.93953437649572	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	0.5	hr	NA	570.336110987395	269.643490808737	300.692620178658	61.3786240715184	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	1.0	hr	NA	1154.80468045465	721.804088750653	433.000591703997	88.385875666499	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	1.5	hr	NA	1299.33474748723	873.99797790248	425.33676958475	86.8215045271981	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	2.0	hr	NA	1358.24138548802	900.339341126871	457.902044361149	93.4688634051735	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	3.0	hr	NA	1359.3401068457	984.002220778128	375.337886067572	76.6155251667032	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	5.0	hr	NA	1045.10122997372	723.91480286007	321.18642711365	65.5619048946719	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	8.0	hr	NA	725.412267548844	487.904980935699	237.507286613145	48.4809718662636	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	12.0	hr	NA	482.239492804032	354.250390863459	127.989101940573	26.125666032622	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	16.0	hr	NA	320.554319152344	212.457649573936	108.096669578408	22.0651402801111	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	24.0	hr	NA	181.824474122811	124.114159823778	57.710314299033	11.7800685773562	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	32.0	hr	NA	134.355562924626	73.5750215201045	60.7805414045215	12.406776060932	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	40.0	hr	NA	92.2364022850586	36.5583443234642	55.6780579615944	11.3652359895844	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	48.0	hr	NA	67.1623758954754	117.368478832435	50.2061029369596	10.2482778474332	ng/ml	NA
+Kasichayanula2011c	NA	S1	24.0	DAP50, PIO45	concentration	pioglitazone	plasma	LC MS/MS	pioglitazone_DAP50, PIO45_S1	60.0	hr	NA	45.574276682343	4.67584091102634	40.8984357713167	8.34835824314306	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	0.0	hr	NA	7.07674774827921	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	0.5	hr	NA	315.028782158613	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	2.0	hr	NA	1037.01437138084	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	3.0	hr	NA	1036.82698692426	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	4.0	hr	NA	1036.56158357044	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	6.0	hr	NA	647.061679064792	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	8.0	hr	NA	441.199396415926	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	12.0	hr	NA	230.737667790654	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	16.0	hr	NA	105.704651911692	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	24.0	hr	NA	41.7656041302067	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	36.0	hr	NA	16.0092678316159	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	48.0	hr	NA	11.7244898029751	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	MET1000	concentration	metformin	plasma	LC MS/MS	metformin_MET1000_S2	72.0	hr	NA	7.07376437929608	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	0.0	hr	NA	3.54427414782385	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	0.5	hr	NA	280.051925906054	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	1.0	hr	NA	676.995690135623	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	1.5	hr	NA	935.653835818946	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	2.0	hr	NA	977.789322044833	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	3.0	hr	NA	977.568473632337	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	4.0	hr	NA	977.362393452153	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	6.0	hr	NA	656.652280268768	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	8.0	hr	NA	496.317582441778	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	12.0	hr	NA	255.772279094154	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	16.0	hr	NA	120.672588255763	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	24.0	hr	NA	47.6789579380789	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	36.0	hr	NA	17.7465111076073	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	48.0	hr	NA	11.8982675271991	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S2	18.0	DAP20, MET1000	concentration	metformin	plasma	LC MS/MS	metformin_DAP20, MET1000_S2	72.0	hr	NA	6.66957291040506	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	0.5	hr	NA	104.668778228209	188.977233798127	84.308455569918	19.8716935482846	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	1.0	hr	NA	271.863606267942	434.802216378505	162.938610110563	38.4049987087634	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	1.5	hr	NA	293.304975558561	403.153683639668	109.848708081107	25.8915887962441	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	2.0	hr	NA	263.843932540672	483.620839017227	219.776906476555	51.8019136392579	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	3.0	hr	NA	127.551273625352	276.192012938883	148.640739313531	35.0349582430599	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	4.0	hr	NA	71.7494628289534	125.674278125468	53.9248152965146	12.7102008567992	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	6.0	hr	NA	272.29967110093	645.724280109063	373.424609008133	88.0170244305286	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	8.0	hr	NA	646.112484837916	1399.05390750138	752.941422663464	177.469995267194	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	12.0	hr	NA	201.507573975693	436.325904335301	234.818330359608	55.3472112480606	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	16.0	hr	NA	47.8446613601619	91.7772234117629	43.932562051601	10.3550041805286	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	24.0	hr	NA	10.7055407644951	21.4905178757682	10.7849771112731	2.54204348344097	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	36.0	hr	NA	4.74233098405356	8.69273517708803	3.95040419303447	0.931119197774148	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI4_S3	48.0	hr	NA	3.67944894334707	8.59430033340664	4.91485139005957	1.15844158214508	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	0.5	hr	NA	129.398460876916	244.477112451062	115.078651574146	27.1242982992942	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	1.0	hr	NA	373.693600800897	644.69020743015	270.996606629253	63.8745127420294	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	1.5	hr	NA	469.09424618614	834.19349465519	365.09924846905	86.0547181328592	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	2.0	hr	NA	415.63186862922	739.109594139345	323.477725510125	76.2444310903367	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	3.0	hr	NA	244.665561575291	455.319634371617	210.654072796326	49.6516411196156	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	4.0	hr	NA	129.536127197057	268.032264160566	138.496136963509	32.643852538346	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	6.0	hr	NA	422.509609040135	835.37702966901	412.867420628875	97.3137842858921	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	8.0	hr	NA	572.369593187248	943.601255220844	371.231662033596	87.5001418717028	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	12.0	hr	NA	217.363246126631	442.979115990244	225.615869863613	53.1781705079541	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	16.0	hr	NA	47.8453986791431	106.788475910038	58.9430772308949	13.8930165379894	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	24.0	hr	NA	12.2692816422067	21.4905178757682	9.2212362335615	2.17346622389148	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	36.0	hr	NA	6.22892231133844	10.9103996617126	4.68147735037416	1.1034347934736	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, GLI4	concentration	glimepiride	plasma	LC MS/MS	glimepiride_DAP20, GLI4_S3	48.0	hr	NA	4.54877794700377	8.59416789139673	4.04538994439296	0.953507554074711	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	0.0	hr	NA	552.892857142858	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	0.5	hr	NA	6364.0	8035.91071428571	1671.91071428571	394.073134536623	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	1.0	hr	NA	7451.55357142857	8295.625	844.07142857143	198.949543649558	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	1.5	hr	NA	7922.28571428571	8457.94642857142	535.66071428571	126.256441162218	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	2.0	hr	NA	8173.88392857142	8555.33928571428	381.455357142861	89.909889918551	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	3.0	hr	NA	8068.375	8441.71428571428	373.339285714281	87.9969135373033	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	4.0	hr	NA	7954.75	8246.92857142857	292.178571428571	68.8671497248468	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	6.0	hr	NA	7711.26785714285	8100.83928571428	389.57142857143	91.8228662997964	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	8.0	hr	NA	7435.32142857142	7889.82142857142	454.5	107.126677349762	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	12.0	hr	NA	6607.48214285714	7061.98214285714	454.5	107.126677349762	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	16.0	hr	NA	5958.19642857142	6412.69642857142	454.5	107.126677349762	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	24.0	hr	NA	5065.42857142857	5471.23214285714	405.803571428571	95.6488190622873	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	36.0	hr	NA	3831.78571428571	4205.125	373.33928571429	87.9969135373054	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	48.0	hr	NA	2906.55357142857	3296.125	389.57142857143	91.8228662997963	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_SIT100_S3	72.0	hr	NA	1372.61607142857	1900.16071428571	527.54464285714	124.343464780973	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	0.0	hr	NA	536.660714285715	1137.25	600.589285714285	141.560252212185	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	0.5	hr	NA	4529.76785714285	5081.66071428571	551.892857142861	130.082393924712	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	1.0	hr	NA	6364.0	7224.30357142857	860.30357142857	202.775496412049	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	1.5	hr	NA	7224.30357142857	7678.80357142857	454.5	107.126677349762	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	2.0	hr	NA	7646.33928571428	8068.375	422.03571428572	99.4747718247803	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	3.0	hr	NA	7824.89285714285	8003.44642857142	178.553571428571	42.0854803874063	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	4.0	hr	NA	7906.05357142857	8214.46428571428	308.410714285711	72.6931024873377	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	6.0	hr	NA	7841.125	8084.60714285714	243.48214285714	57.3892914373719	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	8.0	hr	NA	7565.17857142857	7906.05357142857	340.875	80.3450080123215	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	12.0	hr	NA	6818.5	7078.21428571428	259.71428571428	61.2152441998626	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	16.0	hr	NA	6161.09821428571	6412.69642857142	251.59821428571	59.3022678186173	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	24.0	hr	NA	5276.44642857142	5471.23214285714	194.78571428572	45.9114331498994	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	36.0	hr	NA	3994.10714285714	4302.51785714285	308.41071428571	72.6931024873374	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	48.0	hr	NA	3109.45535714285	3442.21428571428	332.75892857143	78.432031631076	ng/ml	NA
+Kasichayanula2011c	NA	S3	18.0	DAP20, SIT100	concentration	sitagliptin	plasma	LC MS/MS	sitagliptin_DAP20, SIT100_S3	72.0	hr	NA	1543.05357142857	1948.85714285714	405.80357142857	95.6488190622871	ng/ml	NA

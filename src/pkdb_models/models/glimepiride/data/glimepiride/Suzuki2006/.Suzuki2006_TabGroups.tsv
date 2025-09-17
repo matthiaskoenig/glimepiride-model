@@ -1,0 +1,11 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Suzuki2006	all	6.0	NA	species	6.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Suzuki2006	all	6.0	NA	healthy	6.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Suzuki2006	all	6.0	NA	sex	6.0	NA	MF	NA	NA	NA	NA	NA	NA	NA	NA
+Suzuki2006	all	6.0	NA	disease	6.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Suzuki2006	all	6.0	NA	ethnicity	6.0	NA	japanese	NA	NA	NA	NA	NA	NA	NA	NA
+Suzuki2006	all	6.0	NA	age	6.0	NA	NA	NA	NA	NA	NA	35.0	85.0	year	NA
+Suzuki2006	all	6.0	NA	fasting	6.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Suzuki2006	group1	4.0	all	cyp2c9 genotype	4.0	NA	*1/*1	NA	NA	NA	NA	NA	NA	NA	NA
+Suzuki2006	group1	4.0	all	bmi	4.0	NA	NA	22.6	NA	4.4	NA	NA	NA	kg/m^2	NA
+Suzuki2006	group1	4.0	all	hba1c	4.0	NA	NA	7.1	NA	0.8	NA	NA	NA	percent	NA

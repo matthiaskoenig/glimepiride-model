@@ -1,0 +1,6 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Helmy2013	NA	all	24	GLI1	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI1_mean_cmax	NA	NA	NA	82.33	90.23	38.701937935974236	7.900000000000006	ng/ml	Linear regression equation: y=84,44+2,02 ; r^2=0,999
+Helmy2013	NA	all	24	GLI2	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI2_mean_cmax	NA	NA	NA	165.79	179.32	66.28319243971279	13.530000000000001	ng/ml	Linear regression equation: y=84,44+2,02 ; r^2=0,999
+Helmy2013	NA	all	24	GLI3	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI3_mean_cmax	NA	NA	NA	249.25	280.83	154.70977215418543	31.579999999999984	ng/ml	Linear regression equation: y=84,44+2,02 ; r^2=0,999
+Helmy2013	NA	all	24	GLI4	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI4_mean_cmax	NA	NA	NA	331.58	354.14	110.520977194377	22.560000000000002	ng/ml	Linear regression equation: y=84,44+2,02 ; r^2=0,999
+Helmy2013	NA	all	24	GLI6	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI6_mean_cmax	NA	NA	NA	512.03	533.46	104.98513037568732	21.430000000000064	ng/ml	Linear regression equation: y=84,44+2,02 ; r^2=0,999

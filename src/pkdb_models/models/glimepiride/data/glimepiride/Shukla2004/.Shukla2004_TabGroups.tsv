@@ -1,0 +1,11 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Shukla2004	all	28.0	NA	sex	28.0	NA	MF	NA	NA	NA	NA	NA	NA	NA	NA
+Shukla2004	all	28.0	NA	healthy	28.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Shukla2004	all	28.0	NA	species	28.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Shukla2004	all	28.0	NA	age	28.0	NA	NA	NA	NA	NA	NA	18.0	70.0	years	NA
+Shukla2004	all	28.0	NA	medication	28.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Shukla2004	all	28.0	NA	disease	28.0	NA	t2dm	NA	NA	NA	NA	NA	NA	NA	NA
+Shukla2004	normal	14.0	all	weight	14.0	NA	NA	72.0	NA	10.0	NA	NA	NA	kg	NA
+Shukla2004	normal	14.0	all	weight (categorial)	14.0	NA	normal	NA	NA	NA	NA	NA	NA	NA	NA
+Shukla2004	obese	14.0	all	weight	14.0	NA	NA	130.0	NA	15.0	NA	NA	NA	kg	NA
+Shukla2004	obese	14.0	all	weight (categorial)	14.0	NA	obese	NA	NA	NA	NA	NA	NA	NA	NA

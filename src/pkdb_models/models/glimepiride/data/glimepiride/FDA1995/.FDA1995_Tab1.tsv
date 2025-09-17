@@ -1,0 +1,23 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+FDA1995	all	3.0	GLI1po	cmax	glimepiride	serum	LC MS/MS	NA	NA	87.9	NA	NA	NA	21.1	NA	NA	ng/ml	NA
+FDA1995	all	3.0	GLI1po	tmax	glimepiride	serum	LC MS/MS	NA	NA	2.7	NA	NA	NA	1.4	NA	NA	hr	NA
+FDA1995	all	3.0	GLI1po	auc_end	glimepiride	serum	LC MS/MS	24.0	hr	412.0	NA	NA	NA	233.0	NA	NA	ng*hr/ml	NA
+FDA1995	all	3.0	GLI1po	auc_inf	glimepiride	serum	LC MS/MS	NA	NA	449.0	NA	NA	NA	248.0	NA	NA	ng*hr/ml	NA
+FDA1995	all	3.0	GLI1po	clearance	glimepiride	urine	LC MS/MS	NA	NA	44.9	NA	NA	NA	16.3	NA	NA	ml/min	NA
+FDA1995	all	3.0	GLI1po	thalf	glimepiride	serum	LC MS/MS	NA	NA	3.1	NA	NA	NA	1.2	NA	NA	hr	NA
+FDA1995	all	3.0	GLI1iv	auc_end	glimepiride	serum	LC MS/MS	12.0	hr	371.0	NA	NA	NA	161.0	NA	NA	ng*hr/ml	NA
+FDA1995	all	3.0	GLI1iv	auc_inf	glimepiride	serum	LC MS/MS	NA	NA	412.0	NA	NA	NA	184.0	NA	NA	ng*hr/ml	NA
+FDA1995	all	3.0	GLI1iv	clearance	glimepiride	urine	LC MS/MS	NA	NA	47.8	NA	NA	NA	19.7	NA	NA	ml/min	NA
+FDA1995	all	3.0	GLI1iv	thalf	glimepiride	serum	LC MS/MS	NA	NA	3.4	NA	NA	NA	2.0	NA	NA	hr	NA
+FDA1995	all	3.0	GLI1po	cmax	glimepiride-M1	serum	LC MS/MS	NA	NA	20.3	NA	NA	NA	5.7	NA	NA	ng/ml	NA
+FDA1995	all	3.0	GLI1po	tmax	glimepiride-M1	serum	LC MS/MS	NA	NA	3.9	NA	NA	NA	1.9	NA	NA	hr	NA
+FDA1995	all	3.0	GLI1po	auc_end	glimepiride-M1	serum	LC MS/MS	9.0	hr	80.0	NA	NA	NA	40.0	NA	NA	ng*hr/ml	NA
+FDA1995	all	3.0	GLI1po	auc_inf	glimepiride-M1	serum	LC MS/MS	NA	NA	134.0	NA	NA	NA	46.0	NA	NA	ng*hr/ml	NA
+FDA1995	all	3.0	GLI1po	thalf	glimepiride-M1	serum	LC MS/MS	NA	NA	3.3	NA	NA	NA	1.2	NA	NA	hr	NA
+FDA1995	all	3.0	GLI1po	recovery	glimepiride-M1	urine	LC MS/MS	9.0	hr	50.0	NA	NA	NA	NA	NA	NA	percent	NA
+FDA1995	all	3.0	GLI1iv	cmax	glimepiride-M1	serum	LC MS/MS	NA	NA	24.4	NA	NA	NA	5.3	NA	NA	ng/ml	NA
+FDA1995	all	3.0	GLI1iv	tmax	glimepiride-M1	serum	LC MS/MS	NA	NA	1.6	NA	NA	NA	0.4	NA	NA	hr	NA
+FDA1995	all	3.0	GLI1iv	auc_end	glimepiride-M1	serum	LC MS/MS	12.0	hr	68.0	NA	NA	NA	33.0	NA	NA	ng*hr/ml	NA
+FDA1995	all	3.0	GLI1iv	auc_inf	glimepiride-M1	serum	LC MS/MS	NA	NA	115.0	NA	NA	NA	39.0	NA	NA	ng*hr/ml	NA
+FDA1995	all	3.0	GLI1iv	thalf	glimepiride-M1	serum	LC MS/MS	NA	NA	2.7	NA	NA	NA	1.0	NA	NA	hr	NA
+FDA1995	all	3.0	GLI1iv	recovery	glimepiride-M1	urine	LC MS/MS	12.0	hr	51.0	NA	NA	NA	NA	NA	NA	percent	NA

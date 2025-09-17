@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	min	max	sd	se	cv	unit	comments
+Kasichayanula2011c	S1	24.0	PIO45	cmax	pioglitazone	plasma	LC MS/MS	NA	NA	1398.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S1	24.0	PIO45	auc_inf	pioglitazone	plasma	LC MS/MS	NA	NA	17347.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S1	24.0	PIO45	auc_end	pioglitazone	plasma	LC MS/MS	60.0	hr	17054.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S1	24.0	PIO45, DAP50	cmax	pioglitazone	plasma	LC MS/MS	NA	NA	1294.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S1	24.0	PIO45, DAP50	auc_inf	pioglitazone	plasma	LC MS/MS	NA	NA	17433.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S1	24.0	PIO45, DAP50	auc_end	pioglitazone	plasma	LC MS/MS	60.0	hr	16504.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S2	18.0	MET1000	cmax	metformin	plasma	LC MS/MS	NA	NA	1084.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S2	18.0	MET1000	auc_inf	metformin	plasma	LC MS/MS	NA	NA	8910.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S2	18.0	MET1000	auc_end	metformin	plasma	LC MS/MS	72.0	hr	8753.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S2	18.0	MET1000, DAP20	cmax	metformin	plasma	LC MS/MS	NA	NA	1033.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S2	18.0	MET1000, DAP20	auc_inf	metformin	plasma	LC MS/MS	NA	NA	8922.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S2	18.0	MET1000, DAP20	auc_end	metformin	plasma	LC MS/MS	72.0	hr	8761.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	GLI4	cmax	glimepiride	plasma	LC MS/MS	NA	NA	145.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S3	18.0	GLI4	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	994.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	GLI4	auc_end	glimepiride	plasma	LC MS/MS	48.0	hr	970.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	GLI4, DAP20	cmax	glimepiride	plasma	LC MS/MS	NA	NA	151.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S3	18.0	GLI4, DAP20	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	1125.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	GLI4, DAP20	auc_end	glimepiride	plasma	LC MS/MS	48.0	hr	1094.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	SIT100	cmax	sitagliptin	plasma	LC MS/MS	NA	NA	288.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S3	18.0	SIT100	auc_inf	sitagliptin	plasma	LC MS/MS	NA	NA	3388.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	SIT100	auc_end	sitagliptin	plasma	LC MS/MS	72.0	hr	3335.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	SIT100, DAP20	cmax	sitagliptin	plasma	LC MS/MS	NA	NA	255.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S3	18.0	SIT100, DAP20	auc_inf	sitagliptin	plasma	LC MS/MS	NA	NA	3429.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	SIT100, DAP20	auc_end	sitagliptin	plasma	LC MS/MS	72.0	hr	3369.0	NA	NA	NA	NA	NA	ng/ml*hr	NA

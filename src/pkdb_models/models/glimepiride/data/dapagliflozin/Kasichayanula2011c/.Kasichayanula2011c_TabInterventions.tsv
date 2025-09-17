@@ -1,0 +1,7 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Kasichayanula2011c	DAP20	0	NA	hr	oral	single dose	dosing	tablet	dapagliflozin	20	mg	NA
+Kasichayanula2011c	DAP50	0	NA	hr	oral	single dose	dosing	tablet	dapagliflozin	50	mg	NA
+Kasichayanula2011c	PIO45	0	NA	hr	oral	single dose	dosing	tablet	pioglitazone	45	mg	NA
+Kasichayanula2011c	MET1000	0	NA	hr	oral	single dose	dosing	tablet	metformin	1000	mg	NA
+Kasichayanula2011c	GLI4	0	NA	hr	oral	single dose	dosing	tablet	glimepiride	4	mg	NA
+Kasichayanula2011c	SIT100	0	NA	hr	oral	single dose	dosing	tablet	sitagliptin	100	mg	NA

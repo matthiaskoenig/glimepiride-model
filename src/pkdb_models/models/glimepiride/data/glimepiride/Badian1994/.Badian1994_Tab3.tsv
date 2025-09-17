@@ -1,0 +1,4 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Badian1994	all	12	GLI1po, GLI1iv	bioavailability	glimepiride	serum	HPLC	NA	NA	107	NA	87	130	NA	NA	NA	dimensionless	bioavailability, ratio of oral to iv data, AUC glimepiride
+Badian1994	all	12	GLI1po, GLI1iv	bioavailability	glimepiride-M1	serum	HPLC	NA	NA	109	NA	92	129	NA	NA	NA	dimensionless	bioavailability, ratio of oral to iv data, AUC M1
+Badian1994	all	12	GLI1po, GLI1iv	bioavailability	glimepiride	urine	HPLC	NA	NA	97	NA	93	102	NA	NA	NA	dimensionless	bioavailability, ratio of oral to iv data, urinary recovery

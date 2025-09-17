@@ -1,0 +1,31 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	0.0	hr	NA	0.0	NA	NA	NA	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	0.519930627786322	hr	NA	11.3342532262892	6.05227270523458	5.281980521054619	1.1013690734085864	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	0.9965343643831	hr	NA	23.8789569637941	20.1375507365209	3.741406227273199	0.7801371272293618	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	1.51646499216942	hr	NA	30.1513088325465	23.4387885621801	6.712520270366401	1.3996572310216873	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	2.0	hr	NA	32.132051527942	21.1279220842186	11.004129443723397	2.2945196031661883	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	2.5	hr	NA	32.3521306914598	17.8266842585595	14.5254464329003	3.028764951873633	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	3.0	hr	NA	32.3521306914598	15.845941563164	16.506189128295798	3.441778354401856	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	4.0	hr	NA	35.7634131361671	15.845941563164	19.917471573003102	4.153079914543185	µg/l	Food intake was allowed 4 hours after treatment.
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	5.0	hr	NA	55.1306716885081	75.268222425029	20.137550736520893	4.198969592370268	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	6.0	hr	NA	59.0921570792991	79.1196682340611	20.027511154761996	4.176024753456726	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	8.0	hr	NA	41.7056412223536	56.2310876552539	14.525446432900303	3.0287649518736335	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	10.0	hr	NA	34.8830763329391	55.680879671881	20.797803338941904	4.336641776893744	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	12.5	hr	NA	22.3383725954342	5.06190135753683	17.276471237897372	3.602393277144076	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	25.0	hr	NA	3.74140622727316	5.72214892266867	1.9807426953955103	0.41301340252822577	µg/l	NA
+Liu2010	NA	all	23.0	GLI2test	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2test	50.0	hr	NA	1.76066353187766	3.08115866214133	1.32049513026367	0.2753422683521498	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	0.0	hr	NA	0.0	NA	NA	NA	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	0.519930627786322	hr	NA	19.1471793888231	26.1898234417555	7.042644052932399	1.4684927981097415	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	0.9965343643831	hr	NA	40.8253044191256	48.4181564554308	7.592852036305196	1.583219093372245	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	1.51646499216942	hr	NA	48.0880326728649	60.6327364103698	12.544703737504904	2.615751549345431	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	2.0	hr	NA	48.1980722546238	60.1925730460449	11.994500791421096	2.5010263044302894	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	2.5	hr	NA	44.5667106463987	55.7909192536399	11.224208607241202	2.3404092809932746	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	3.0	hr	NA	41.7056412223536	51.2792309167652	9.573589694411602	1.9962314455530847	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	4.0	hr	NA	40.4951806365597	53.8101765582444	13.314995921684698	2.776368572782425	µg/l	Food intake was allowed 4 hours after treatment.
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	5.0	hr	NA	51.6093546993311	29.1609374848487	22.4484172144824	4.680818561986548	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	6.0	hr	NA	50.1788149500193	29.6010958118844	20.577719138134903	4.290751048719253	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	8.0	hr	NA	36.4236607012989	23.6588677256979	12.764792975601	2.661643327867307	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	10.0	hr	NA	34.2228287678072	12.2145799549389	22.008248812868302	4.589037105637546	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	12.5	hr	NA	24.3191152908297	4.73177757497091	19.58733771585879	4.084242246760337	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	25.0	hr	NA	2.86106942404517	1.10041596674583	1.7606534572993402	0.36712162400633486	µg/l	NA
+Liu2010	NA	all	23.0	GLI2ref	concentration	glimepiride	plasma	LC MS/MS	glimepiride_GLI2ref	50.0	hr	NA	1.5405742937815	0.440168401613997	1.1004058921675028	0.22945048983025948	µg/l	NA

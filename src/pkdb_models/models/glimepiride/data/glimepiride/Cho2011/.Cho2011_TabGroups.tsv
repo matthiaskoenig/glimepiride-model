@@ -1,0 +1,22 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Cho2011	all	46.0	NA	species	23.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	all	46.0	NA	healthy 	23.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	all	46.0	NA	sex	23.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	all	46.0	NA	ethnicity	23.0	NA	korean	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	all	46.0	NA	age	23.0	NA	NA	24.0	NA	NA	NA	20.0	28.0	yr	NA
+Cho2011	all	46.0	NA	weight	23.0	NA	NA	69.0	NA	NA	NA	55.0	88.0	kg	NA
+Cho2011	all	46.0	NA	overnight fast	23.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	all	46.0	NA	medication	23.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	CYP2C9_*1*1	44.0	all	cyp2c9 genotype	44.0	NA	*1/*1	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	KCNJ11_CC	18.0	all	genotype	18.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	KCNJ11_CT	19.0	all	genotype	19.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	KCNJ11_TT	9.0	all	genotype	9.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	NOS1AP_GG	19.0	all	genotype	19.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	NOS1AP_GT	22.0	all	genotype	22.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	NOS1AP_TT	5.0	all	genotype	5.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	TCF7L2_CC	4.0	all	genotype	4.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	TCF7L2_CT	22.0	all	genotype	22.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	TCF7L2_TT	20.0	all	genotype	20.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	ABCC8_GG	10.0	all	genotype	10.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	ABCC8_GT	20.0	all	genotype	20.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Cho2011	ABCC8_TT	16.0	all	genotype	16.0	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA

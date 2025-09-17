@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+FDA1995	all	3.0	GLI1po	recovery	glimepiride-metabolites	urine	LC MS/MS	72.0	hr	57.82	NA	53.9	61.74	3.9200000000000017	NA	NA	percent	98% of the 7-days-recovery recovered in urine within the first 3 days
+FDA1995	all	3.0	GLI1po	recovery	glimepiride-metabolites	urine	LC MS/MS	168.0	hr	59.0	NA	55.0	63.0	4.0	NA	NA	percent	% of orally administered radioactivity in urine after 7 days
+FDA1995	all	3.0	GLI1po	recovery	glimepiride	urine	LC MS/MS	168.0	hr	0.0	NA	NA	0.0	NA	NA	NA	percent	no parent drug detected in urine
+FDA1995	all	3.0	GLI1po	recovery	glimepiride-metabolites	feces	LC MS/MS	72.0	hr	32.775	NA	22.799999999999997	42.75	9.975000000000001	NA	NA	percent	95% of the dose in 7 days recovered in feces within the first 3 days
+FDA1995	all	3.0	GLI1po	recovery	glimepiride-metabolites	feces	LC MS/MS	168.0	hr	34.5	NA	24.0	45.0	10.5	NA	NA	percent	% of radiolabelled dose;  total recovery in feces after 7 days
+FDA1995	all	3.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	feces	LC MS/MS	168.0	hr	24.675	NA	15.600000000000001	33.75	9.075	NA	NA	percent	45 tp 50 % of feces recovery
+FDA1995	all	3.0	GLI1po	recovery	glimepiride-M2	feces	LC MS/MS	168.0	hr	15.525	NA	10.8	20.25	4.725	NA	NA	percent	45 tp 50 % of feces recovery
+FDA1995	all	3.0	GLI1po	recovery	glimepiride-M1	feces	LC MS/MS	168.0	hr	9.15	NA	4.800000000000001	13.5	4.35	NA	NA	percent	NA
+FDA1995	all	3.0	GLI1po	recovery	glimepiride	feces	LC MS/MS	168.0	hr	0.5700000000000001	NA	0.24	0.9	0.33	NA	NA	percent	small fraction of parent drug found in feces, 1-2 percent
+FDA1995	all	3.0	GLI1po	recovery	glimepiride-metabolites	feces_urine	LC MS/MS	168.0	hr	92.53333333333335	NA	78.8	99.8	11.900140055198055	NA	NA	percent	NA

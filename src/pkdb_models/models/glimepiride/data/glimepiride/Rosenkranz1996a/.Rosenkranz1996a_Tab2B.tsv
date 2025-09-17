@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Rosenkranz1996a	NA	single_group1	5.0	GLI3	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery_urine_single_group1	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	percent	NA
+Rosenkranz1996a	NA	single_group1	5.0	GLI3	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery_urine_single_group1	48.0	hr	44.4	NA	NA	NA	28.0	NA	NA	percent	NA
+Rosenkranz1996a	NA	single_group2	3.0	GLI3	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery_urine_single_group2	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	percent	NA
+Rosenkranz1996a	NA	single_group2	3.0	GLI3	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery_urine_single_group2	48.0	hr	21.9	NA	NA	NA	12.8	NA	NA	percent	NA
+Rosenkranz1996a	NA	single_group3	7.0	GLI3	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery_urine_single_group3	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	percent	NA
+Rosenkranz1996a	NA	single_group3	7.0	GLI3	recovery	glimepiride-M1+glimepiride-M2	urine	HPLC	recovery_urine_single_group3	48.0	hr	9.3	NA	NA	NA	10.6	NA	NA	percent	NA
+Rosenkranz1996a	NA	single_group1	5.0	GLI3	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_urine_GLI3_single_group1	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	mg	NA
+Rosenkranz1996a	NA	single_group1	5.0	GLI3	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_urine_GLI3_single_group1	48.0	hr	1.332	NA	NA	NA	0.84	NA	NA	mg	NA
+Rosenkranz1996a	NA	single_group2	3.0	GLI3	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_urine_GLI3_single_group2	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	mg	NA
+Rosenkranz1996a	NA	single_group2	3.0	GLI3	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_urine_GLI3_single_group2	48.0	hr	0.657	NA	NA	NA	0.384	NA	NA	mg	NA
+Rosenkranz1996a	NA	single_group3	7.0	GLI3	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_urine_GLI3_single_group3	0.0	hr	0.0	NA	NA	NA	0.0	NA	NA	mg	NA
+Rosenkranz1996a	NA	single_group3	7.0	GLI3	cumulative amount	glimepiride-M1+glimepiride-M2	urine	HPLC	M1+M2_urine_GLI3_single_group3	48.0	hr	0.279	NA	NA	NA	0.318	NA	NA	mg	NA

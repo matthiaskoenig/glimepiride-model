@@ -1,0 +1,4 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Ahmed2016	GLI1	0.0	NA	hr	transdermal	single dose	dosing	transdermal film	glimepiride	1.0	mg	optimized ethosomal formulation of glimepiride
+Ahmed2016	GLI2	0.0	NA	hr	transdermal	single dose	dosing	transdermal film	glimepiride	1.0	mg	pure glimepiride
+Ahmed2016	GLI3	0.0	NA	hr	oral	single dose	dosing	tablet	glimepiride	1.0	mg	commercial tablet Amaryl®

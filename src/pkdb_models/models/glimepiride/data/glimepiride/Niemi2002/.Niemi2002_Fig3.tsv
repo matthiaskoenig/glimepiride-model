@@ -1,0 +1,21 @@
+study	group	individual	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Niemi2002	NA	S1	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S1	12.0	hr	59.8843694236511	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S2	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S2	12.0	hr	70.8092251076975	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S3	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S3	12.0	hr	74.8554803017938	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S4	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S4	12.0	hr	91.8497002547547	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S5	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S5	12.0	hr	98.7283007447047	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S6	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S6	12.0	hr	112.890175401811	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S7	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S7	12.0	hr	118.150266405231	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S8	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S8	12.0	hr	130.28899494306	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S9	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S9	12.0	hr	130.28899494306	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S10	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S10	12.0	hr	136.358359211975	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S11	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S11	12.0	hr	136.358359211975	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S12	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S12	12.0	hr	171.965308604427	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S13	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S13	12.0	hr	94.2774459623206	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S14	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S14	12.0	hr	108.03468398668	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S15	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S15	12.0	hr	126.242776793424	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S16	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S16	12.0	hr	162.658962406911	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S17	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S17	12.0	hr	171.56069049391	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S18	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S18	12.0	hr	152.138724833383	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S19	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S19	12.0	hr	310.346823196796	NA	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	NA	S20	1.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	glimepiride_GLI_S20	12.0	hr	313.988441758144	NA	NA	NA	NA	ng*hr/ml	NA

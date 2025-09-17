@@ -1,0 +1,21 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Kim2017	all	22.0	ROS20	cmax	rosuvastatin	plasma	HPLC MS/MS	NA	NA	29.1	NA	NA	NA	19.9	NA	NA	ng/ml	steady state
+Kim2017	all	22.0	ROS20	auc_end	rosuvastatin	plasma	HPLC MS/MS	48.0	hr	225.7	NA	NA	NA	95.4	NA	NA	ng*hr/ml	steady state
+Kim2017	all	22.0	ROS20	thalf	rosuvastatin	plasma	HPLC MS/MS	NA	NA	13.9	NA	NA	NA	9.8	NA	NA	hr	NA
+Kim2017	all	22.0	ROS20	tmax	rosuvastatin	plasma	HPLC MS/MS	NA	NA	4.5	NA	1.5	6.0	NA	NA	NA	hr	steady state
+Kim2017	all	22.0	ROS20	clearance	rosuvastatin	plasma	HPLC MS/MS	NA	NA	103.1	NA	NA	NA	40.6	NA	NA	l/hr	NA
+Kim2017	all	22.0	ROS20	cmax	N-Desmethylrosuvastatin	plasma	HPLC MS/MS	NA	NA	6.2	NA	NA	NA	3.8	NA	NA	ng/ml	steady state
+Kim2017	all	22.0	ROS20	auc_end	N-Desmethylrosuvastatin	plasma	HPLC MS/MS	48.0	hr	47.2	NA	NA	NA	18.6	NA	NA	ng*hr/ml	steady state
+Kim2017	all	22.0	ROS20	thalf	N-Desmethylrosuvastatin	plasma	HPLC MS/MS	NA	NA	11.2	NA	NA	NA	14.7	NA	NA	hr	NA
+Kim2017	all	22.0	ROS20	tmax	N-Desmethylrosuvastatin	plasma	HPLC MS/MS	NA	NA	4.5	NA	1.5	5.0	NA	NA	NA	hr	steady state
+Kim2017	all	22.0	ROS20	clearance	N-Desmethylrosuvastatin	plasma	HPLC MS/MS	NA	NA	506.7	NA	NA	NA	261.5	NA	NA	l/hr	NA
+Kim2017	all	22.0	GLI4, ROS20	cmax	rosuvastatin	plasma	HPLC MS/MS	NA	NA	29.9	NA	NA	NA	12.7	NA	NA	ng/ml	steady state
+Kim2017	all	22.0	GLI4, ROS20	auc_end	rosuvastatin	plasma	HPLC MS/MS	48.0	hr	208.3	NA	NA	NA	72.9	NA	NA	ng*hr/ml	steady state
+Kim2017	all	22.0	GLI4, ROS20	thalf	rosuvastatin	plasma	HPLC MS/MS	NA	NA	11.8	NA	NA	NA	3.4	NA	NA	hr	NA
+Kim2017	all	22.0	GLI4, ROS20	tmax	rosuvastatin	plasma	HPLC MS/MS	NA	NA	4.0	NA	2.0	6.0	NA	NA	NA	hr	steady state
+Kim2017	all	22.0	GLI4, ROS20	clearance	rosuvastatin	plasma	HPLC MS/MS	NA	NA	594.8	NA	NA	NA	247.8	NA	NA	l/hr	NA
+Kim2017	all	22.0	GLI4, ROS20	cmax	N-Desmethylrosuvastatin	plasma	HPLC MS/MS	NA	NA	5.4	NA	NA	NA	1.8	NA	NA	ng/ml	steady state
+Kim2017	all	22.0	GLI4, ROS20	auc_end	N-Desmethylrosuvastatin	plasma	HPLC MS/MS	48.0	hr	38.2	NA	NA	NA	12.2	NA	NA	ng*hr/ml	steady state
+Kim2017	all	22.0	GLI4, ROS20	thalf	N-Desmethylrosuvastatin	plasma	HPLC MS/MS	NA	NA	7.7	NA	NA	NA	3.3	NA	NA	hr	NA
+Kim2017	all	22.0	GLI4, ROS20	tmax	N-Desmethylrosuvastatin	plasma	HPLC MS/MS	NA	NA	4.0	NA	2.0	6.0	NA	NA	NA	hr	steady state
+Kim2017	all	22.0	GLI4, ROS20	clearance	N-Desmethylrosuvastatin	plasma	HPLC MS/MS	NA	NA	594.8	NA	NA	NA	247.8	NA	NA	l/hr	NA

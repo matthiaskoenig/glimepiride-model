@@ -1,0 +1,5 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Malerczyk1994	GLI1	0	NA	hr	oral	single dose	dosing	tablet	glimepiride	1	mg	One 1 mg tablet + one placebo
+Malerczyk1994	GLI2	0	NA	hr	oral	single dose	dosing	tablet	glimepiride	2	mg	Two 1 mg tablets
+Malerczyk1994	GLI4	0	NA	hr	oral	single dose	dosing	tablet	glimepiride	4	mg	One 4 mg tablet + one placebo
+Malerczyk1994	GLI8	0	NA	hr	oral	single dose	dosing	tablet	glimepiride	8	mg	Two 4 mg tablets

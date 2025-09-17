@@ -1,0 +1,25 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Cho2011	NA	KCNJ11_CC	18.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1147.3	NA	NA	NA	141.27993488107217	33.3	NA	mg/dl*hr	NA
+Cho2011	NA	KCNJ11_CC	18.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	406.5	NA	NA	NA	244.80036764678275	57.7	NA	IU/l*hr	NA
+Cho2011	NA	KCNJ11_CT	19.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1138.9	NA	NA	NA	126.40806936267954	29.0	NA	mg/dl*hr	NA
+Cho2011	NA	KCNJ11_CT	19.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	319.9	NA	NA	NA	149.51023376344511	34.3	NA	IU/l*hr	NA
+Cho2011	NA	KCNJ11_TT	9.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1201.2	NA	NA	NA	125.69999999999999	41.9	NA	mg/dl*hr	NA
+Cho2011	NA	KCNJ11_TT	9.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	293.9	NA	NA	NA	68.1	22.7	NA	IU/l*hr	NA
+Cho2011	NA	NOS1AP_GG	19.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1177.6	NA	NA	NA	165.20226996019153	37.9	NA	mg/dl*hr	NA
+Cho2011	NA	NOS1AP_GG	19.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	374.7	NA	NA	NA	220.12439664880404	50.5	NA	IU/l*hr	NA
+Cho2011	NA	NOS1AP_GT	22.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1135.7	NA	NA	NA	98.02968938030968	20.9	NA	mg/dl*hr	NA
+Cho2011	NA	NOS1AP_GT	22.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	328.5	NA	NA	NA	163.22646844185533	34.8	NA	IU/l*hr	NA
+Cho2011	NA	NOS1AP_TT	5.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1148.1	NA	NA	NA	129.24472909948784	57.8	NA	mg/dl*hr	NA
+Cho2011	NA	NOS1AP_TT	5.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	338.8	NA	NA	NA	165.9162439304844	74.2	NA	IU/l*hr	NA
+Cho2011	NA	TCF7L2_CC	4.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1165.4	NA	NA	NA	138.4	69.2	NA	mg/dl*hr	NA
+Cho2011	NA	TCF7L2_CC	4.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	251.3	NA	NA	NA	183.8	91.9	NA	IU/l*hr	NA
+Cho2011	NA	TCF7L2_CT	22.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1157.9	NA	NA	NA	143.9957638265793	30.7	NA	mg/dl*hr	NA
+Cho2011	NA	TCF7L2_CT	22.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	344.9	NA	NA	NA	164.16455159382005	35.0	NA	IU/l*hr	NA
+Cho2011	NA	TCF7L2_TT	20.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1148.3	NA	NA	NA	122.53652516698847	27.4	NA	mg/dl*hr	NA
+Cho2011	NA	TCF7L2_TT	20.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	372.3	NA	NA	NA	211.08481707598017	47.2	NA	IU/l*hr	NA
+Cho2011	NA	ABCC8_GG	10.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1182.2	NA	NA	NA	132.81566172707193	42.0	NA	mg/dl*hr	NA
+Cho2011	NA	ABCC8_GG	10.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	285.1	NA	NA	NA	69.88633628972119	22.1	NA	IU/l*hr	NA
+Cho2011	NA	ABCC8_GT	20.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1150.8	NA	NA	NA	133.26965145898748	29.8	NA	mg/dl*hr	NA
+Cho2011	NA	ABCC8_GT	20.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	314.9	NA	NA	NA	148.02770011048608	33.1	NA	IU/l*hr	NA
+Cho2011	NA	ABCC8_TT	16.0	GLI2	auc measurement	glucose	plasma	enzymatic assay	12.0	hr	1141.5	NA	NA	NA	134.8	33.7	NA	mg/dl*hr	NA
+Cho2011	NA	ABCC8_TT	16.0	GLI2	auc measurement	insulin	plasma	enzymatic assay	12.0	hr	430.8	NA	NA	NA	249.2	62.3	NA	IU/l*hr	NA

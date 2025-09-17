@@ -1,0 +1,9 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Matsuki2007	all	8	NA	species	8	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Matsuki2007	all	8	NA	healthy 	8	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Matsuki2007	all	8	NA	sex	8	NA	MF	NA	NA	NA	NA	NA	NA	NA	NA
+Matsuki2007	all	8	NA	ethnicity	8	NA	japanese	NA	NA	NA	NA	NA	NA	NA	NA
+Matsuki2007	all	8	NA	age	8	NA	NA	63.5	NA	1.8	NA	NA	NA	yr	NA
+Matsuki2007	all	8	NA	bmi	8	NA	NA	22.9	NA	1.1	NA	NA	NA	kg/m^2	NA
+Matsuki2007	all	8	NA	disease	8	NA	t2dm	14.6	NA	1.8	NA	NA	NA	yr	NA
+Matsuki2007	all	8	NA	hba1c	8	NA	NA	6.9	NA	0.2	NA	NA	NA	percent	NA

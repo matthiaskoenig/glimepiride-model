@@ -1,0 +1,5 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Shukla2004	normal	14.0	GLI8	recovery	glimepiride-M1	urine	LC MS/MS	24.0	hr	16.4	NA	NA	NA	4.5	NA	NA	percent	% of dose
+Shukla2004	obese	14.0	GLI8	recovery	glimepiride-M1	urine	LC MS/MS	24.0	hr	21.2	NA	NA	NA	7.2	NA	NA	percent	% of dose
+Shukla2004	normal	14.0	GLI8	recovery	glimepiride-M2	urine	LC MS/MS	24.0	hr	11.9	NA	NA	NA	3.5	NA	NA	percent	% of dose
+Shukla2004	obese	14.0	GLI8	recovery	glimepiride-M2	urine	LC MS/MS	24.0	hr	16.3	NA	NA	NA	4.0	NA	NA	percent	% of dose

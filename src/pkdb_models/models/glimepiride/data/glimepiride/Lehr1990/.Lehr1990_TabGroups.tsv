@@ -1,0 +1,6 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Lehr1990	all	1	NA	healthy	1	NA	Y	NA	NA	NA	NA	NA	NA	NA	no information was provided on how many subjects were studied, placeholder for count
+Lehr1990	all	1	NA	species	1	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Lehr1990	all	1	NA	sex	1	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Lehr1990	all	1	NA	weight (categorial)	1	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA
+Lehr1990	all	1	NA	ethnicity	1	NA	NR	NA	NA	NA	NA	NA	NA	NA	NA

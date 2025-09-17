@@ -1,0 +1,22 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	min	max	sd	se	cv	unit	comments
+Kasichayanula2011c	S1	24.0	DAP50	cmax	dapagliflozin	plasma	LC MS/MS	NA	NA	551.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S1	24.0	DAP50	auc_inf	dapagliflozin	plasma	LC MS/MS	NA	NA	2303.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S1	24.0	DAP50	auc_end	dapagliflozin	plasma	LC MS/MS	72.0	hr	2236.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S1	24.0	DAP50, PIO45	cmax	dapagliflozin	plasma	LC MS/MS	NA	NA	599.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S1	24.0	DAP50, PIO45	auc_inf	dapagliflozin	plasma	LC MS/MS	NA	NA	2373.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S1	24.0	DAP50, PIO45	auc_end	dapagliflozin	plasma	LC MS/MS	72.0	hr	2292.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S2	18.0	DAP20	cmax	dapagliflozin	plasma	LC MS/MS	NA	NA	134.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S2	18.0	DAP20	auc_inf	dapagliflozin	plasma	LC MS/MS	NA	NA	947.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S2	18.0	DAP20	auc_end	dapagliflozin	plasma	LC MS/MS	72.0	hr	903.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S2	18.0	DAP20, MET1000	cmax	dapagliflozin	plasma	LC MS/MS	NA	NA	125.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S2	18.0	DAP20, MET1000	auc_inf	dapagliflozin	plasma	LC MS/MS	NA	NA	943.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S2	18.0	DAP20, MET1000	auc_end	dapagliflozin	plasma	LC MS/MS	72.0	hr	908.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	DAP20	cmax	dapagliflozin	plasma	LC MS/MS	NA	NA	151.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S3	18.0	DAP20	auc_inf	dapagliflozin	plasma	LC MS/MS	NA	NA	1139.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	DAP20	auc_end	dapagliflozin	plasma	LC MS/MS	72.0	hr	1101.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	DAP20, GLI4	cmax	dapagliflozin	plasma	LC MS/MS	NA	NA	152.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S3	18.0	DAP20, GLI4	auc_inf	dapagliflozin	plasma	LC MS/MS	NA	NA	1126.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	DAP20, GLI4	auc_end	dapagliflozin	plasma	LC MS/MS	72.0	hr	1095.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	DAP20, SIT100	cmax	dapagliflozin	plasma	LC MS/MS	NA	NA	147.0	NA	NA	NA	NA	NA	ng/ml	NA
+Kasichayanula2011c	S3	18.0	DAP20, SIT100	auc_inf	dapagliflozin	plasma	LC MS/MS	NA	NA	1235.0	NA	NA	NA	NA	NA	ng/ml*hr	NA
+Kasichayanula2011c	S3	18.0	DAP20, SIT100	auc_end	dapagliflozin	plasma	LC MS/MS	72.0	hr	1185.0	NA	NA	NA	NA	NA	ng/ml*hr	NA

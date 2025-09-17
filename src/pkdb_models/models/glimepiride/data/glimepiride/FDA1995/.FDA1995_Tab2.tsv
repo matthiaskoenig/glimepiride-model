@@ -1,0 +1,11 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+FDA1995	all	12.0	GLI1.5iv	auc_end	glimepiride-M1	serum	LC MS/MS	12.0	hr	349.0	NA	NA	NA	110.0	NA	NA	ng*hr/ml	NA
+FDA1995	all	12.0	GLI1.5iv	estimated clearance	glimepiride-M1	urine	LC MS/MS	NA	NA	78.3	NA	NA	NA	24.3	NA	NA	ml/min	NA
+FDA1995	all	12.0	GLI1.5iv	thalf	glimepiride-M1	serum	LC MS/MS	NA	NA	1.2	NA	NA	NA	0.4	NA	NA	hr	NA
+FDA1995	all	12.0	GLI1.5iv	clearance	glimepiride-M1	urine	LC MS/MS	NA	NA	43.8	NA	NA	NA	15.9	NA	NA	ml/min	NA
+FDA1995	all	12.0	GLI1.5iv	cmax	glimepiride-M2	serum	LC MS/MS	NA	NA	16.2	NA	NA	NA	3.4	NA	NA	ng/ml	NA
+FDA1995	all	12.0	GLI1.5iv	tmax	glimepiride-M2	serum	LC MS/MS	NA	NA	1.5	NA	NA	NA	0.7	NA	NA	hr	NA
+FDA1995	all	12.0	GLI1.5iv	auc_inf	glimepiride-M2	serum	LC MS/MS	NA	NA	90.0	NA	NA	NA	40.0	NA	NA	ng*hr/ml	NA
+FDA1995	all	12.0	GLI1.5iv	thalf	glimepiride-M2	urine	LC MS/MS	NA	NA	2.8	NA	NA	NA	1.1	NA	NA	hr	NA
+FDA1995	all	12.0	GLI1.5iv	clearance	glimepiride-M2	serum	LC MS/MS	NA	NA	41.8	NA	NA	NA	5.7	NA	NA	ml/min	NA
+FDA1995	all	12.0	GLI1.5iv	recovery	glimepiride-M1+glimepiride-M2	urine	LC MS/MS	12.0	hr	69.9	NA	NA	NA	7.4	NA	NA	percent	NA

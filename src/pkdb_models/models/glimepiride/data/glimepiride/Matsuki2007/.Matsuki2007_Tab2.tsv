@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Matsuki2007	all	23.0	GLI2	tmax	glimepiride	plasma	LC MS/MS	NA	NA	1.88	NA	NA	NA	0.21	NA	NA	hr	NA
+Matsuki2007	all	23.0	GLI2	auc_end	glimepiride	plasma	LC MS/MS	24.0	hr	706.2	NA	NA	NA	63.3	NA	NA	ng/ml*hr	NA
+Matsuki2007	all	23.0	GLI2	thalf	glimepiride	plasma	LC MS/MS	NA	NA	3.28	NA	NA	NA	0.21	NA	NA	hr	NA
+Matsuki2007	all	23.0	GLI1	tmax	glimepiride	plasma	LC MS/MS	NA	NA	2.3	NA	NA	NA	0.5	NA	NA	hr	Glimepiride administered in the morning
+Matsuki2007	all	23.0	GLI1	tmax	glimepiride	plasma	LC MS/MS	NA	NA	2.0	NA	NA	NA	0.4	NA	NA	hr	Glimepiride administered in the evening
+Matsuki2007	all	23.0	GLI1	auc_end	glimepiride	plasma	LC MS/MS	24.0	hr	630.8	NA	NA	NA	93.6	NA	NA	ng/ml*hr	NA

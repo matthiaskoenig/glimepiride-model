@@ -1,0 +1,25 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Liu2010	all	23.0	GLI2test	cmax	glimepiride	plasma	LC MS/MS	NA	NA	75.71	NA	NA	NA	21.11	NA	NA	µg/l	NA
+Liu2010	all	23.0	GLI2test	tmax	glimepiride	plasma	LC MS/MS	NA	NA	5.76	NA	NA	NA	2.07	NA	NA	hr	NA
+Liu2010	all	23.0	GLI2test	auc_end	glimepiride	plasma	LC MS/MS	48.0	hr	605.1	NA	NA	NA	179.55	NA	NA	µg*hr/l	NA
+Liu2010	all	23.0	GLI2test	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	627.25	NA	NA	NA	184.61	NA	NA	µg*hr/l	NA
+Liu2010	all	23.0	GLI2test	thalf	glimepiride	plasma	LC MS/MS	NA	NA	4.74	NA	NA	NA	1.66	NA	NA	hr	NA
+Liu2010	all	23.0	GLI2test	vd	glimepiride	plasma	LC MS/MS	NA	NA	23.2	NA	NA	NA	9.12	NA	NA	l	NA
+Liu2010	all	23.0	GLI2ref	cmax	glimepiride	plasma	LC MS/MS	NA	NA	74.05	NA	NA	NA	24.95	NA	NA	µg/l	NA
+Liu2010	all	23.0	GLI2ref	tmax	glimepiride	plasma	LC MS/MS	NA	NA	4.93	NA	NA	NA	2.81	NA	NA	hr	NA
+Liu2010	all	23.0	GLI2ref	auc_end	glimepiride	plasma	LC MS/MS	48.0	hr	632.9	NA	NA	NA	235.52	NA	NA	µg*hr/l	NA
+Liu2010	all	23.0	GLI2ref	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	646.98	NA	NA	NA	238.92	NA	NA	µg*hr/l	NA
+Liu2010	all	23.0	GLI2ref	thalf	glimepiride	plasma	LC MS/MS	NA	NA	4.08	NA	NA	NA	1.18	NA	NA	hr	NA
+Liu2010	all	23.0	GLI2ref	vd	glimepiride	plasma	LC MS/MS	NA	NA	19.31	NA	NA	NA	5.53	NA	NA	l	NA
+Liu2010	all	23.0	GLI2test	cmax	glimepiride-M1	plasma	LC MS/MS	NA	NA	25.13	NA	NA	NA	5.06	NA	NA	µg/l	NA
+Liu2010	all	23.0	GLI2test	tmax	glimepiride-M1	plasma	LC MS/MS	NA	NA	7.07	NA	NA	NA	2.45	NA	NA	hr	NA
+Liu2010	all	23.0	GLI2test	auc_end	glimepiride-M1	plasma	LC MS/MS	48.0	hr	282.25	NA	NA	NA	62.99	NA	NA	µg*hr/l	NA
+Liu2010	all	23.0	GLI2test	auc_inf	glimepiride-M1	plasma	LC MS/MS	NA	NA	288.76	NA	NA	NA	63.09	NA	NA	µg*hr/l	NA
+Liu2010	all	23.0	GLI2test	thalf	glimepiride-M1	plasma	LC MS/MS	NA	NA	5.74	NA	NA	NA	1.45	NA	NA	hr	NA
+Liu2010	all	23.0	GLI2test	vd	glimepiride-M1	plasma	LC MS/MS	NA	NA	60.78	NA	NA	NA	24.75	NA	NA	l	NA
+Liu2010	all	23.0	GLI2ref	cmax	glimepiride-M1	plasma	LC MS/MS	NA	NA	24.83	NA	NA	NA	5.13	NA	NA	µg/l	NA
+Liu2010	all	23.0	GLI2ref	tmax	glimepiride-M1	plasma	LC MS/MS	NA	NA	6.78	NA	NA	NA	2.43	NA	NA	hr	NA
+Liu2010	all	23.0	GLI2ref	auc_end	glimepiride-M1	plasma	LC MS/MS	48.0	hr	290.66	NA	NA	NA	62.61	NA	NA	µg*hr/l	NA
+Liu2010	all	23.0	GLI2ref	auc_inf	glimepiride-M1	plasma	LC MS/MS	NA	NA	303.46	NA	NA	NA	61.86	NA	NA	µg*hr/l	NA
+Liu2010	all	23.0	GLI2ref	thalf	glimepiride-M1	plasma	LC MS/MS	NA	NA	5.05	NA	NA	NA	1.13	NA	NA	hr	NA
+Liu2010	all	23.0	GLI2ref	vd	glimepiride-M1	plasma	LC MS/MS	NA	NA	48.85	NA	NA	NA	10.46	NA	NA	l	NA

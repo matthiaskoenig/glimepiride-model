@@ -1,0 +1,9 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Lee2012	all	24.0	NA	species	24.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Lee2012	all	24.0	NA	healthy	24.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Lee2012	all	24.0	NA	sex	24.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Lee2012	all	24.0	NA	ethnicity	24.0	NA	korean	NA	NA	NA	NA	NA	NA	NA	NA
+Lee2012	all	24.0	NA	medication	24.0	NA	N	NA	NA	NA	NA	NA	NA	NA	NA
+Lee2012	all	24.0	NA	weight	24.0	NA	NA	71.8	NA	NA	NA	59.0	84.0	kg	NA
+Lee2012	all	24.0	NA	age	24.0	NA	NA	24.0	NA	NA	NA	22.0	29.0	year	NA
+Lee2012	group1	22.0	all	cyp2c9 genotype	22.0	NA	*1/*1	NA	NA	NA	NA	NA	NA	NA	NA

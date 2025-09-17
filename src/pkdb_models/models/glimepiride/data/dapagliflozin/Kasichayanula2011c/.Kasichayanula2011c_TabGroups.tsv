@@ -1,0 +1,23 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Kasichayanula2011c	all	60.0	NA	species	60.0	NA	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	all	60.0	NA	healthy	60.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	all	60.0	NA	fasting	60.0	NA	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	all	60.0	NA	sex	51.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	all	60.0	NA	sex	9.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S1	24.0	all	sex	24.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S1	24.0	all	ethnicity	11.0	NA	african american	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S1	24.0	all	ethnicity	11.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S1	24.0	all	ethnicity	2.0	NA	asian	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S1	24.0	all	age	24.0	NA	NA	32.0	NA	NA	NA	23.0	45.0	yr	NA
+Kasichayanula2011c	S1	24.0	all	bmi	24.0	NA	NA	25.6	NA	NA	NA	18.6	29.4	kg/m^2	NA
+Kasichayanula2011c	S2	18.0	all	sex	15.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S2	18.0	all	sex	3.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S2	18.0	all	ethnicity	12.0	NA	african american	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S2	18.0	all	ethnicity	6.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S2	18.0	all	age	18.0	NA	NA	33.0	NA	NA	NA	22.0	45.0	yr	NA
+Kasichayanula2011c	S2	18.0	all	bmi	18.0	NA	NA	26.1	NA	NA	NA	19.6	31.6	kg/m^2	NA
+Kasichayanula2011c	S3	18.0	all	sex	12.0	NA	M	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S3	18.0	all	sex	6.0	NA	F	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S3	18.0	all	ethnicity	18.0	NA	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Kasichayanula2011c	S3	18.0	all	age	18.0	NA	NA	33.0	NA	NA	NA	25.0	42.0	yr	NA
+Kasichayanula2011c	S3	18.0	all	bmi	18.0	NA	NA	26.7	NA	NA	NA	19.2	31.2	kg/m^2	NA

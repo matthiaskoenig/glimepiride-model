@@ -1,0 +1,10 @@
+study	name	group_count	parent	measurement_type	count	choice	substance	mean	median	sd	se	min	max	unit	comments
+Ratheiser1993	all	51.0	NA	age	51.0	NA	NA	27.0	NA	4.0	NA	NA	NA	year	NA
+Ratheiser1993	all	51.0	NA	healthy	51.0	Y	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Ratheiser1993	all	51.0	NA	species	51.0	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Ratheiser1993	all	51.0	NA	sex	51.0	M	NA	NA	NA	NA	NA	NA	NA	NA	NA
+Ratheiser1993	all	51.0	NA	overnight fast	51.0	Y	NA	NA	NA	NA	NA	NA	NA	NA	overnight fast for 10-12hr
+Ratheiser1993	group1	9.0	all	age	9.0	NA	NA	28.0	NA	4.0	NA	NA	NA	year	NA
+Ratheiser1993	group1	9.0	all	bmi	9.0	NA	NA	22.6	NA	0.4	NA	NA	NA	kg/m^2	NA
+Ratheiser1993	group2	42.0	all	age	42.0	NA	NA	27.0	NA	4.0	NA	NA	NA	year	NA
+Ratheiser1993	group2	42.0	all	bmi	42.0	NA	NA	22.5	NA	0.3	NA	NA	NA	kg/m^2	NA

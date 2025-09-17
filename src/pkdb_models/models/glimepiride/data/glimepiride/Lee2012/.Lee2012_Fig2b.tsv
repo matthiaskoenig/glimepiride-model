@@ -1,0 +1,25 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	value	unit	comments
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	0.0	hr	NA	0.0	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	0.5	hr	NA	6.16822429906542	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	1.0	hr	NA	19.626168224299	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	1.5	hr	NA	34.2056074766355	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	2.0	hr	NA	53.8317757009345	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	2.5	hr	NA	97.0093457943925	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	3.0	hr	NA	160.934579439252	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	4.0	hr	NA	154.766355140186	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	6.0	hr	NA	75.1401869158878	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	8.0	hr	NA	40.3738317757009	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	10.0	hr	NA	23.5514018691588	ng/ml	NA
+Lee2012	S23	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S23	12.0	hr	NA	16.822429906542	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	0.0	hr	NA	0.0	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	0.5	hr	NA	11.214953271028	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	1.0	hr	NA	26.3551401869158	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	1.5	hr	NA	43.1775700934579	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	2.0	hr	NA	63.3644859813084	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	2.5	hr	NA	126.728971962616	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	3.0	hr	NA	195.700934579439	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	4.0	hr	NA	268.03738317757	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	6.0	hr	NA	197.943925233644	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	8.0	hr	NA	169.906542056074	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	10.0	hr	NA	151.401869158878	ng/ml	NA
+Lee2012	S21	1.0	GLI2	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI2_S21	12.0	hr	NA	140.747663551401	ng/ml	NA

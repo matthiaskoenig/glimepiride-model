@@ -1,0 +1,16 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Niemi2002	group1	12.0	GLI	cmax	glimepiride	plasma	LC MS/MS	NA	NA	29.9	NA	23.1	51.2	NA	NA	NA	ng/ml	NA
+Niemi2002	group1	12.0	GLI	tmax	glimepiride	plasma	LC MS/MS	NA	NA	1.25	NA	1.0	5.0	NA	NA	NA	hr	NA
+Niemi2002	group1	12.0	GLI	thalf	glimepiride	plasma	LC MS/MS	NA	NA	1.9	NA	1.1	2.5	NA	NA	NA	hr	NA
+Niemi2002	group1	12.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	24.0	hr	113.4	NA	59.7	166.8	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	group1	12.0	GLI	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	116.1	NA	60.1	171.1	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	group2	5.0	GLI	cmax	glimepiride	plasma	LC MS/MS	NA	NA	31.6	NA	17.5	35.8	NA	NA	NA	ng/ml	NA
+Niemi2002	group2	5.0	GLI	tmax	glimepiride	plasma	LC MS/MS	NA	NA	2.0	NA	1.5	4.0	NA	NA	NA	hr	NA
+Niemi2002	group2	5.0	GLI	thalf	glimepiride	plasma	LC MS/MS	NA	NA	1.9	NA	1.8	3.2	NA	NA	NA	hr	NA
+Niemi2002	group2	5.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	24.0	hr	118.5	NA	92.4	167.1	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	group2	5.0	GLI	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	125.1	NA	94.7	170.5	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	group3	3.0	GLI	cmax	glimepiride	plasma	LC MS/MS	NA	NA	37.8	NA	29.0	51.4	NA	NA	NA	ng/ml	NA
+Niemi2002	group3	3.0	GLI	tmax	glimepiride	plasma	LC MS/MS	NA	NA	2.5	NA	1.5	4.0	NA	NA	NA	hr	NA
+Niemi2002	group3	3.0	GLI	thalf	glimepiride	plasma	LC MS/MS	NA	NA	3.0	NA	2.5	4.0	NA	NA	NA	hr	NA
+Niemi2002	group3	3.0	GLI	auc_end	glimepiride	plasma	LC MS/MS	24.0	hr	259.7	NA	144.0	283.0	NA	NA	NA	ng*hr/ml	NA
+Niemi2002	group3	3.0	GLI	auc_inf	glimepiride	plasma	LC MS/MS	NA	NA	310.1	NA	151.2	313.3	NA	NA	NA	ng*hr/ml	NA

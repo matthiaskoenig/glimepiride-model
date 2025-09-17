@@ -1,0 +1,33 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-metabolites	urine	LC MS/MS	recovery_glimepiride-metabolites_urine	0.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-metabolites	urine	LC MS/MS	recovery_glimepiride-metabolites_urine	72.0	hr	NA	57.82	NA	3.92	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-metabolites	urine	LC MS/MS	recovery_glimepiride-metabolites_urine	168.0	hr	NA	59.0	NA	4.0	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride	urine	LC MS/MS	recovery_glimepiride_urine	0.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride	urine	LC MS/MS	recovery_glimepiride_urine	168.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-metabolites	feces	LC MS/MS	recovery_glimepiride-metabolites_feces	0.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-metabolites	feces	LC MS/MS	recovery_glimepiride-metabolites_feces	72.0	hr	NA	32.775	NA	9.975	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-metabolites	feces	LC MS/MS	recovery_glimepiride-metabolites_feces	168.0	hr	NA	34.5	NA	10.5	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	feces	LC MS/MS	recovery_glimepiride-M1+glimepiride-M2_feces	0.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-M1+glimepiride-M2	feces	LC MS/MS	recovery_glimepiride-M1+glimepiride-M2_feces	168.0	hr	NA	24.675	NA	9.075	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-M2	feces	LC MS/MS	recovery_glimepiride-M2_feces	0.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-M2	feces	LC MS/MS	recovery_glimepiride-M2_feces	168.0	hr	NA	15.525	NA	4.725	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-M1	feces	LC MS/MS	recovery_glimepiride-M1_feces	0.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-M1	feces	LC MS/MS	recovery_glimepiride-M1_feces	168.0	hr	NA	9.15	NA	4.35	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride	feces	LC MS/MS	recovery_glimepiride_feces	0.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride	feces	LC MS/MS	recovery_glimepiride_feces	168.0	hr	NA	0.57	NA	0.33	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-metabolites	urine	LC MS/MS	urine_glimepiride-metabolites_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-metabolites	urine	LC MS/MS	urine_glimepiride-metabolites_GLI1po	72.0	hr	NA	578.2	NA	39.199999999999996	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-metabolites	urine	LC MS/MS	urine_glimepiride-metabolites_GLI1po	168.0	hr	NA	590.0	NA	40.0	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride	urine	LC MS/MS	urine_glimepiride_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride	urine	LC MS/MS	urine_glimepiride_GLI1po	168.0	hr	NA	0.0	NA	NA	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-metabolites	feces	LC MS/MS	feces_glimepiride-metabolites_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-metabolites	feces	LC MS/MS	feces_glimepiride-metabolites_GLI1po	72.0	hr	NA	327.75	NA	99.74999999999999	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-metabolites	feces	LC MS/MS	feces_glimepiride-metabolites_GLI1po	168.0	hr	NA	345.0	NA	105.0	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	feces	LC MS/MS	feces_M1+M2_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M1+glimepiride-M2	feces	LC MS/MS	feces_M1+M2_GLI1po	168.0	hr	NA	246.75	NA	90.75	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M2	feces	LC MS/MS	feces_glimepiride-M2_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M2	feces	LC MS/MS	feces_glimepiride-M2_GLI1po	168.0	hr	NA	155.25	NA	47.24999999999999	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M1	feces	LC MS/MS	feces_glimepiride-M1_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M1	feces	LC MS/MS	feces_glimepiride-M1_GLI1po	168.0	hr	NA	91.5	NA	43.5	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride	feces	LC MS/MS	feces_glimepiride_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	µg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride	feces	LC MS/MS	feces_glimepiride_GLI1po	168.0	hr	NA	5.699999999999999	NA	3.3	NA	µg	from Tab3

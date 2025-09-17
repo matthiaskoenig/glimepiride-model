@@ -1,0 +1,13 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	value	mean	median	min	max	sd	se	cv	unit	comments
+Kim2017	NA	all	16.0	ROS20	cmax	rosuvastatin	plasma	HPLC MS/MS	NA	NA	30.9	NA	NA	NA	NA	22.6	NA	NA	ng/ml	NA
+Kim2017	NA	all	16.0	ROS20	auc_end	rosuvastatin	plasma	HPLC MS/MS	48.0	hr	233.3	NA	NA	NA	NA	104.6	NA	NA	ng*hr/ml	NA
+Kim2017	NA	all	16.0	GLI4, ROS20	cmax	rosuvastatin	plasma	HPLC MS/MS	NA	NA	29.5	NA	NA	NA	NA	13.5	NA	NA	ng/ml	NA
+Kim2017	NA	all	16.0	GLI4, ROS20	auc_end	rosuvastatin	plasma	HPLC MS/MS	48.0	hr	205.7	NA	NA	NA	NA	75.7	NA	NA	ng*hr/ml	NA
+Kim2017	NA	SLCOIBI_TT_ROS	13.0	ROS20	cmax	rosuvastatin	plasma	HPLC MS/MS	NA	NA	31.2	NA	NA	NA	NA	24.4	NA	NA	ng/ml	NA
+Kim2017	NA	SLCOIBI_TT_ROS	13.0	ROS20	auc_end	rosuvastatin	plasma	HPLC MS/MS	48.0	hr	234.4	NA	NA	NA	NA	110.1	NA	NA	ng*hr/ml	NA
+Kim2017	NA	SLCOIBI_TT_ROS	13.0	GLI4, ROS20	cmax	rosuvastatin	plasma	HPLC MS/MS	NA	NA	28.9	NA	NA	NA	NA	14.4	NA	NA	ng/ml	NA
+Kim2017	NA	SLCOIBI_TT_ROS	13.0	GLI4, ROS20	auc_end	rosuvastatin	plasma	HPLC MS/MS	48.0	hr	204.5	NA	NA	NA	NA	81.1	NA	NA	ng*hr/ml	NA
+Kim2017	NA	SLCOIBI_TC_ROS	3.0	ROS20	cmax	rosuvastatin	plasma	HPLC MS/MS	NA	NA	29.7	NA	NA	NA	NA	15.9	NA	NA	ng/ml	NA
+Kim2017	NA	SLCOIBI_TC_ROS	3.0	ROS20	auc_end	rosuvastatin	plasma	HPLC MS/MS	48.0	hr	227.9	NA	NA	NA	NA	96.2	NA	NA	ng*hr/ml	NA
+Kim2017	NA	SLCOIBI_TC_ROS	3.0	GLI4, ROS20	cmax	rosuvastatin	plasma	HPLC MS/MS	NA	NA	31.8	NA	NA	NA	NA	10.9	NA	NA	ng/ml	NA
+Kim2017	NA	SLCOIBI_TC_ROS	3.0	GLI4, ROS20	auc_end	rosuvastatin	plasma	HPLC MS/MS	48.0	hr	210.9	NA	NA	NA	NA	58.3	NA	NA	ng*hr/ml	NA

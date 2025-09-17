@@ -1,0 +1,15 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride	feces	LC MS/MS	recovery_glimepiride_feces	0.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride	feces	LC MS/MS	recovery_glimepiride_feces	168.0	hr	NA	1.5	NA	0.7071067811865476	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-M1	feces	LC MS/MS	recovery_glimepiride-M1_feces	0.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-M1	feces	LC MS/MS	recovery_glimepiride-M1_feces	168.0	hr	NA	20.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-M2	feces	LC MS/MS	recovery_glimepiride-M2_feces	0.0	hr	NA	0.0	NA	NA	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	recovery	glimepiride-M2	feces	LC MS/MS	recovery_glimepiride-M2_feces	168.0	hr	NA	47.5	NA	3.5355339059327378	NA	percent	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride	feces	LC MS/MS	feces_glimepiride_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	mg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride	feces	LC MS/MS	feces_glimepiride_GLI1po	168.0	hr	NA	0.015	NA	0.007071067811865475	NA	mg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M1	feces	LC MS/MS	feces_glimepiride-M1_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	mg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M1	feces	LC MS/MS	feces_glimepiride-M1_GLI1po	168.0	hr	NA	0.2	NA	NA	NA	mg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M2	feces	LC MS/MS	feces_glimepiride-M2_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	mg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M2	feces	LC MS/MS	feces_glimepiride-M2_GLI1po	168.0	hr	NA	0.475	NA	NA	NA	mg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M2	feces	LC MS/MS	feces_M1+M2_GLI1po	0.0	hr	NA	0.0	NA	NA	NA	mg	from Tab3
+FDA1995	NA	all	3.0	GLI1po	cumulative amount	glimepiride-M2	feces	LC MS/MS	feces_M1+M2_GLI1po	168.0	hr	NA	0.675	NA	NA	NA	mg	from Tab3

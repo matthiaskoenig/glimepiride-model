@@ -1,0 +1,61 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Helmy2013	NA	all	24.0	GLI1	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	NA	NA	NA	84.8	NA	3.81	0.7777129933336592	ng/ml	probably typo in SD
+Helmy2013	NA	all	24.0	GLI1	tmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	NA	NA	NA	2.4	NA	1.7	0.3470110468942836	hr	NA
+Helmy2013	NA	all	24.0	GLI1	auc_end	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	24.0	hr	NA	546.4	NA	125.5	25.617580226607405	ng*h/ml	NA
+Helmy2013	NA	all	24.0	GLI1	auc_inf	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	NA	NA	NA	596.0	NA	141.9	28.965216208411086	ng*h/ml	NA
+Helmy2013	NA	all	24.0	GLI1	thalf	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	NA	NA	NA	8.81	NA	1.1	0.2245365597551247	hr	NA
+Helmy2013	NA	all	24.0	GLI1	clearance	glimepiride	plasma	HPLC/UV	glimepiride_GLI1	NA	NA	NA	1.74	NA	0.42	0.08573214099741124	ml/min/kg	NA
+Helmy2013	NA	all	24.0	GLI1	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI1adj	NA	NA	NA	84.8	NA	3.81	0.7777129933336592	µg/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI1	tmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI1adj	NA	NA	NA	2.4	NA	1.7	0.3470110468942836	hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI1	auc_end	glimepiride	plasma	HPLC/UV	glimepiride_GLI1adj	24.0	hr	NA	546.4	NA	125.5	25.617580226607405	ng*h/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI1	auc_inf	glimepiride	plasma	HPLC/UV	glimepiride_GLI1adj	NA	NA	NA	596.0	NA	141.9	28.965216208411086	ng*h/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI1	thalf	glimepiride	plasma	HPLC/UV	glimepiride_GLI1adj	NA	NA	NA	8.81	NA	1.1	0.2245365597551247	hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI1	clearance	glimepiride	plasma	HPLC/UV	glimepiride_GLI1adj	NA	NA	NA	1.74	NA	0.42	0.08573214099741124	l/hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI2	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI2	NA	NA	NA	173.9	NA	38.0	7.756717518813398	ng/ml	NA
+Helmy2013	NA	all	24.0	GLI2	tmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI2	NA	NA	NA	2.6	NA	1.2	0.24494897427831783	hr	NA
+Helmy2013	NA	all	24.0	GLI2	auc_end	glimepiride	plasma	HPLC/UV	glimepiride_GLI2	24.0	hr	NA	1109.2	NA	254.9	52.03124461961935	ng*h/ml	NA
+Helmy2013	NA	all	24.0	GLI2	auc_inf	glimepiride	plasma	HPLC/UV	glimepiride_GLI2	NA	NA	NA	7.07	NA	1.41	0.2878150447770234	ng*h/ml	probably typo in table
+Helmy2013	NA	all	24.0	GLI2	thalf	glimepiride	plasma	HPLC/UV	glimepiride_GLI2	NA	NA	NA	7.07	NA	1.41	0.2878150447770234	hr	NA
+Helmy2013	NA	all	24.0	GLI2	clearance	glimepiride	plasma	HPLC/UV	glimepiride_GLI2	NA	NA	NA	1.67	NA	0.37	0.07552593373581466	ml/min/kg	NA
+Helmy2013	NA	all	24.0	GLI2	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI2adj	NA	NA	NA	86.9	NA	19.0	3.878358759406699	µg/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI2	tmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI2adj	NA	NA	NA	2.6	NA	1.2	0.24494897427831783	hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI2	auc_end	glimepiride	plasma	HPLC/UV	glimepiride_GLI2adj	24.0	hr	NA	554.6	NA	26.1	5.327640190553413	ng*h/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI2	auc_inf	glimepiride	plasma	HPLC/UV	glimepiride_GLI2adj	NA	NA	NA	604.9	NA	144.1	29.41428932792133	ng*h/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI2	thalf	glimepiride	plasma	HPLC/UV	glimepiride_GLI2adj	NA	NA	NA	7.07	NA	1.41	0.2878150447770234	hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI2	clearance	glimepiride	plasma	HPLC/UV	glimepiride_GLI2adj	NA	NA	NA	1.67	NA	0.37	0.07552593373581466	l/hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI3	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI3	NA	NA	NA	254.7	NA	54.5	11.124765915140268	ng/ml	NA
+Helmy2013	NA	all	24.0	GLI3	tmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI3	NA	NA	NA	2.19	NA	0.83	0.16942304054250315	hr	NA
+Helmy2013	NA	all	24.0	GLI3	auc_end	glimepiride	plasma	HPLC/UV	glimepiride_GLI3	24.0	hr	NA	1765.5	NA	453.9	92.65194952077371	ng*h/ml	NA
+Helmy2013	NA	all	24.0	GLI3	auc_inf	glimepiride	plasma	HPLC/UV	glimepiride_GLI3	NA	NA	NA	8.54	NA	3.31	0.6756509207176934	ng*h/ml	probably typo in table
+Helmy2013	NA	all	24.0	GLI3	thalf	glimepiride	plasma	HPLC/UV	glimepiride_GLI3	NA	NA	NA	8.54	NA	3.31	0.6756509207176934	hr	NA
+Helmy2013	NA	all	24.0	GLI3	clearance	glimepiride	plasma	HPLC/UV	glimepiride_GLI3	NA	NA	NA	1.62	NA	0.46	0.0938971068066885	ml/min/kg	NA
+Helmy2013	NA	all	24.0	GLI3	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI3adj	NA	NA	NA	84.9	NA	18.1	3.694647028697961	µg/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI3	tmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI3adj	NA	NA	NA	2.19	NA	0.83	0.16942304054250315	hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI3	auc_end	glimepiride	plasma	HPLC/UV	glimepiride_GLI3adj	24.0	hr	NA	588.5	NA	151.3	30.883983173591243	ng*h/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI3	auc_inf	glimepiride	plasma	HPLC/UV	glimepiride_GLI3adj	NA	NA	NA	656.2	NA	175.4	35.80337507368079	ng*h/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI3	thalf	glimepiride	plasma	HPLC/UV	glimepiride_GLI3adj	NA	NA	NA	8.54	NA	3.31	0.6756509207176934	hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI3	clearance	glimepiride	plasma	HPLC/UV	glimepiride_GLI3adj	NA	NA	NA	1.63	NA	0.46	0.0938971068066885	l/hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI4	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI4	NA	NA	NA	333.2	NA	99.2	20.24911520700761	ng/ml	NA
+Helmy2013	NA	all	24.0	GLI4	tmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI4	NA	NA	NA	2.9	NA	0.9	0.1837117307087384	hr	NA
+Helmy2013	NA	all	24.0	GLI4	auc_end	glimepiride	plasma	HPLC/UV	glimepiride_GLI4	24.0	hr	NA	2575.2	NA	940.8	192.03999583420116	ng*h/ml	NA
+Helmy2013	NA	all	24.0	GLI4	auc_inf	glimepiride	plasma	HPLC/UV	glimepiride_GLI4	NA	NA	NA	2894.8	NA	1105.2	225.59800531033073	ng*h/ml	NA
+Helmy2013	NA	all	24.0	GLI4	thalf	glimepiride	plasma	HPLC/UV	glimepiride_GLI4	NA	NA	NA	7.63	NA	1.5	0.3061862178478973	hr	NA
+Helmy2013	NA	all	24.0	GLI4	clearance	glimepiride	plasma	HPLC/UV	glimepiride_GLI4	NA	NA	NA	1.6	NA	0.63	0.12859821149611686	ml/min/kg	NA
+Helmy2013	NA	all	24.0	GLI4	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI4adj	NA	NA	NA	83.3	NA	24.8	5.062278801751902	µg/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI4	tmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI4adj	NA	NA	NA	2.9	NA	0.9	0.1837117307087384	hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI4	auc_end	glimepiride	plasma	HPLC/UV	glimepiride_GLI4adj	24.0	hr	NA	643.8	NA	235.2	48.00999895855029	ng*h/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI4	auc_inf	glimepiride	plasma	HPLC/UV	glimepiride_GLI4adj	NA	NA	NA	723.7	NA	276.3	56.39950132758268	ng*h/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI4	thalf	glimepiride	plasma	HPLC/UV	glimepiride_GLI4adj	NA	NA	NA	7.63	NA	1.5	0.3061862178478973	hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI4	clearance	glimepiride	plasma	HPLC/UV	glimepiride_GLI4adj	NA	NA	NA	1.6	NA	0.63	0.12859821149611686	l/hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI6	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI6	NA	NA	NA	512.2	NA	100.2	20.45323935223954	ng/ml	NA
+Helmy2013	NA	all	24.0	GLI6	tmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI6	NA	NA	NA	2.5	NA	0.8	0.16329931618554522	hr	NA
+Helmy2013	NA	all	24.0	GLI6	auc_end	glimepiride	plasma	HPLC/UV	glimepiride_GLI6	24.0	hr	NA	3633.4	NA	1292.5	263.8304577122715	ng*h/ml	NA
+Helmy2013	NA	all	24.0	GLI6	auc_inf	glimepiride	plasma	HPLC/UV	glimepiride_GLI6	NA	NA	NA	3993.2	NA	1550.5	316.4944871821098	ng*h/ml	NA
+Helmy2013	NA	all	24.0	GLI6	thalf	glimepiride	plasma	HPLC/UV	glimepiride_GLI6	NA	NA	NA	8.75	NA	1.3	0.265361388801511	hr	NA
+Helmy2013	NA	all	24.0	GLI6	clearance	glimepiride	plasma	HPLC/UV	glimepiride_GLI6	NA	NA	NA	1.77	NA	0.81	0.16534055763786454	ml/min/kg	NA
+Helmy2013	NA	all	24.0	GLI6	cmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI6adj	NA	NA	NA	85.3	NA	16.7	3.4088732253732563	µg/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI6	tmax	glimepiride	plasma	HPLC/UV	glimepiride_GLI6adj	NA	NA	NA	2.5	NA	0.8	0.16329931618554522	hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI6	auc_end	glimepiride	plasma	HPLC/UV	glimepiride_GLI6adj	24.0	hr	NA	605.5	NA	215.4	43.96834088295805	ng*h/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI6	auc_inf	glimepiride	plasma	HPLC/UV	glimepiride_GLI6adj	NA	NA	NA	665.5	NA	258.4	52.745679127931105	ng*h/ml	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI6	thalf	glimepiride	plasma	HPLC/UV	glimepiride_GLI6adj	NA	NA	NA	8.75	NA	1.3	0.265361388801511	hr	Dose adjusted to 1mg.
+Helmy2013	NA	all	24.0	GLI6	clearance	glimepiride	plasma	HPLC/UV	glimepiride_GLI6adj	NA	NA	NA	1.77	NA	0.81	0.16534055763786454	l/hr	Dose adjusted to 1mg.

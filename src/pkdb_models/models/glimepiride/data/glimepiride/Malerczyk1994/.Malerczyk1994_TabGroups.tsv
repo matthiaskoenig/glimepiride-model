@@ -1,0 +1,9 @@
+study	name	group_count	parent	measurement_type	count	substance	choice	mean	median	sd	se	min	max	unit	comments
+Malerczyk1994	all	12	NA	age	12	glimepiride	NA	28.0	NA	NA	NA	23.0	32.0	year	NA
+Malerczyk1994	all	12	NA	weight	12	glimepiride	NA	78.0	NA	NA	NA	64.0	98.0	kg	NA
+Malerczyk1994	all	12	NA	height	12	glimepiride	NA	178.0	NA	NA	NA	173.0	189.0	cm	NA
+Malerczyk1994	all	12	NA	ethnicity	12	glimepiride	caucasian	NA	NA	NA	NA	NA	NA	NA	NA
+Malerczyk1994	all	12	NA	healthy	12	glimepiride	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Malerczyk1994	all	12	NA	fasting	12	glimepiride	Y	NA	NA	NA	NA	NA	NA	NA	NA
+Malerczyk1994	all	12	NA	species	12	glimepiride	homo sapiens	NA	NA	NA	NA	NA	NA	NA	NA
+Malerczyk1994	all	12	NA	sex	12	glimepiride	M	NA	NA	NA	NA	NA	NA	NA	NA

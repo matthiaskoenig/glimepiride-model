@@ -1,0 +1,7 @@
+study	group	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	median	min	max	sd	se	cv	unit	comments
+Badian1996	all	12.0	GLIM1	cmax	insulin	serum	RIA	NA	NA	19.1	NA	NA	NA	2.8	0.8082903768654761	NA	mIU/l	NA
+Badian1996	all	12.0	GLIM1	tmax	insulin	serum	RIA	NA	NA	0.5	NA	NA	NA	0.4	0.11547005383792516	NA	hr	NA
+Badian1996	all	12.0	GLIM1	caverage	insulin	serum	RIA	NA	NA	15.4	NA	NA	NA	2.2	0.6350852961085884	NA	mIU/l	average serum concentration of insulin over the first four hours
+Badian1996	all	12.0	PLA	cmax	insulin	serum	RIA	NA	NA	18.3	NA	NA	NA	2.1	0.6062177826491071	NA	mIU/l	NA
+Badian1996	all	12.0	PLA	tmax	insulin	serum	RIA	NA	NA	0.3	NA	NA	NA	0.3	0.08660254037844387	NA	hr	NA
+Badian1996	all	12.0	PLA	caverage	insulin	serum	RIA	NA	NA	14.9	NA	NA	NA	2.2	0.6350852961085884	NA	mIU/l	average serum concentration of insulin over the first four hours

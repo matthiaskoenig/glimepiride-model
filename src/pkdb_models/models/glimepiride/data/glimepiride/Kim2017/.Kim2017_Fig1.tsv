@@ -1,0 +1,31 @@
+study	individual	group	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	value	mean	mean_pm	sd	se	unit	comments
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	0.0	hr	NA	4.16666	8.92857	4.76191	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	0.5	hr	NA	17.0764926655355	36.1327858476002	19.0562931820647	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	1.0	hr	NA	47.1311328894428	75.9779386780839	28.8468057886411	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	1.5	hr	NA	87.4316906002793	134.94881301994	47.5171224196607	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	2.0	hr	NA	107.057176855122	164.434231951194	57.377055096072	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	2.5	hr	NA	127.776681132931	186.747555474788	58.970874341857	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	3.0	hr	NA	138.933342894728	204.279421261027	65.346078366299	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	4.0	hr	NA	144.511655535952	200.294891386239	55.783235850287	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	5.0	hr	NA	133.354993774155	179.575423587779	46.220429813624	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	6.0	hr	NA	89.525311068884	125.385970503928	35.860659435044	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	8.0	hr	NA	36.1327858476002	54.461543017057	18.3287571694568	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	10.0	hr	NA	22.5854134568002	35.3358579850331	12.7504445282329	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	12.0	hr	NA	16.2101729530091	24.9761240858032	8.7659511327941	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	24.0	hr	NA	8.24114968278229	13.0225709407882	4.78142125800591	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4	48.0	hr	NA	1.86590917899124	2.66283704155837	0.79692786256713	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	0.0	hr	NA	4.16666	8.92857	4.76191	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	0.5	hr	NA	21.7885220735823	36.1327858476002	14.3442637740179	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	1.0	hr	NA	60.8367835208481	90.3222024521019	29.4854189312538	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	1.5	hr	NA	95.1036237101079	138.136415032161	43.0327913220531	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	2.0	hr	NA	119.807657862704	167.621870442764	47.81421258006	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	2.5	hr	NA	135.745704403158	192.325868116012	56.580163712854	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	3.0	hr	NA	150.886896039743	206.67013189003	55.783235850287	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	4.0	hr	NA	150.886896039743	214.639155160257	63.752259120514	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	5.0	hr	NA	146.105474781737	223.405106293051	77.299631511314	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	6.0	hr	NA	95.1036237101079	150.886896039743	55.7832723296351	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	8.0	hr	NA	38.5234964766032	63.227494149851	24.7039976732478	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	10.0	hr	NA	22.5854134568002	36.9296772308181	14.3442637740179	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	12.0	hr	NA	16.2101729530091	26.5699433315882	10.3597703785791	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	24.0	hr	NA	7.44425829956435	13.8194623240062	6.37520402444185	NA	ng/ml	NA
+Kim2017	NA	all	24.0	GLI4, ROS20	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI4, ROS20	48.0	hr	NA	1.06901779577331	2.66283704155837	1.59381924578506	NA	ng/ml	NA

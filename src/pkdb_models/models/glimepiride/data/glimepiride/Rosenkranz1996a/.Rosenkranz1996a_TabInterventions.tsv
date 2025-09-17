@@ -1,0 +1,7 @@
+study	name	time	time_end	time_unit	route	application	measurement_type	form	substance	value	unit	comments
+Rosenkranz1996a	GLI3	0	NA	hr	oral	single dose	dosing	tablet	glimepiride	3.0	mg	NA
+Rosenkranz1996a	GLI_multi	S-90T1R90	NA	day	oral	multiple dose	dosing	tablet	glimepiride	8.0	mg	Glimepiride administered once daily; Initial dose 1 mg; titrated between 1–8 mg based on glucose levels every 4–7 days; no details given
+Rosenkranz1996a	GLI1_multi	S-90T1R90	NA	day	oral	multiple dose	dosing	tablet	glimepiride	1.0	mg	NA
+Rosenkranz1996a	GLI2_multi	S-90T1R90	NA	day	oral	multiple dose	dosing	tablet	glimepiride	2.0	mg	NA
+Rosenkranz1996a	GLI4_multi	S-90T1R90	NA	day	oral	multiple dose	dosing	tablet	glimepiride	4.0	mg	NA
+Rosenkranz1996a	GLI8_multi	S-90T1R90	NA	day	oral	multiple dose	dosing	tablet	glimepiride	8.0	mg	NA

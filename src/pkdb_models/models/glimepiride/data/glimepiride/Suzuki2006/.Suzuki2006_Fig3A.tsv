@@ -1,0 +1,12 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	label	time	time_unit	mean	value	unit	comments
+Suzuki2006	S1	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S1	0.0	hr	NA	0.0	ng/ml	NA
+Suzuki2006	S1	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S1	0.7	hr	NA	79.1794996995192	ng/ml	NA
+Suzuki2006	S1	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S1	2.0	hr	NA	123.076923076923	ng/ml	NA
+Suzuki2006	S1	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S1	4.0	hr	NA	72.6153846153846	ng/ml	NA
+Suzuki2006	S1	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S1	6.0	hr	NA	43.8974233774038	ng/ml	NA
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	0.0	hr	NA	0.0	ng/ml	NA
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	0.7	hr	NA	98.051288311298	ng/ml	NA
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	2.0	hr	NA	160.410268930288	ng/ml	NA
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	4.0	hr	NA	93.1282113882211	ng/ml	NA
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	6.0	hr	NA	58.2564227764423	ng/ml	NA
+Suzuki2006	S2	1.0	GLI1	concentration	glimepiride	plasma	HPLC MS/MS	glimepiride_GLI1_S2	8.0	hr	NA	38.9743464543269	ng/ml	NA

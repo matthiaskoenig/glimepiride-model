@@ -1,0 +1,17 @@
+study	individual	count	intervention	measurement_type	substance	tissue	method	time	time_unit	mean	value	median	min	max	sd	se	cv	unit	comments
+Suzuki2006	S1	1.0	GLI1	concentration	glucose	blood	HPLC MS/MS	0.0	hr	NA	126.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Suzuki2006	S1	1.0	GLI1	concentration	glucose	blood	HPLC MS/MS	0.75	hr	NA	168.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Suzuki2006	S1	1.0	GLI1	concentration	glucose	blood	HPLC MS/MS	2.0	hr	NA	114.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Suzuki2006	S1	1.0	GLI1	concentration	glucose	blood	HPLC MS/MS	8.0	hr	NA	117.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Suzuki2006	S1	1.0	GLI1	concentration	insulin	plasma	HPLC MS/MS	0.0	hr	NA	3200.0	NA	NA	NA	NA	NA	NA	IU/ml	NA
+Suzuki2006	S1	1.0	GLI1	concentration	insulin	plasma	HPLC MS/MS	0.75	hr	NA	6100.0	NA	NA	NA	NA	NA	NA	IU/ml	NA
+Suzuki2006	S1	1.0	GLI1	concentration	insulin	plasma	HPLC MS/MS	2.0	hr	NA	3700.0	NA	NA	NA	NA	NA	NA	IU/ml	NA
+Suzuki2006	S1	1.0	GLI1	concentration	insulin	plasma	HPLC MS/MS	8.0	hr	NA	1800.0	NA	NA	NA	NA	NA	NA	IU/ml	NA
+Suzuki2006	S2	1.0	GLI1	concentration	glucose	blood	HPLC MS/MS	0.0	hr	NA	272.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Suzuki2006	S2	1.0	GLI1	concentration	glucose	blood	HPLC MS/MS	0.75	hr	NA	286.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Suzuki2006	S2	1.0	GLI1	concentration	glucose	blood	HPLC MS/MS	2.0	hr	NA	226.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Suzuki2006	S2	1.0	GLI1	concentration	glucose	blood	HPLC MS/MS	8.0	hr	NA	210.0	NA	NA	NA	NA	NA	NA	mg/dl	NA
+Suzuki2006	S2	1.0	GLI1	concentration	insulin	plasma	HPLC MS/MS	0.0	hr	NA	65700.0	NA	NA	NA	NA	NA	NA	IU/ml	NA
+Suzuki2006	S2	1.0	GLI1	concentration	insulin	plasma	HPLC MS/MS	0.75	hr	NA	76900.0	NA	NA	NA	NA	NA	NA	IU/ml	NA
+Suzuki2006	S2	1.0	GLI1	concentration	insulin	plasma	HPLC MS/MS	2.0	hr	NA	42900.0	NA	NA	NA	NA	NA	NA	IU/ml	NA
+Suzuki2006	S2	1.0	GLI1	concentration	insulin	plasma	HPLC MS/MS	8.0	hr	NA	31700.0	NA	NA	NA	NA	NA	NA	IU/ml	NA
