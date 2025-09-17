@@ -46,16 +46,27 @@ Clone the repository
 ```bash
 git clone https://github.com/matthiaskoenig/glimepiride-model.git
 cd glimepiride-model
+
+#### uv
 ```
 Setup environment with uv (https://docs.astral.sh/uv/getting-started/installation/)
 ```bash
 uv venv
 uv sync
 ```
-
 Run the complete analysis:
 ```bash
 uv run run_glimepiride -a all -r results
+```
+
+#### pip
+If you use pip install the package via
+```bash
+pip install -e .
+```
+Run the complete analysis in the environment via:
+```bash
+run run_glimepiride -a all -r results
 ```
 
 ### docker
