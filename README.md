@@ -45,6 +45,7 @@ PARTICULAR PURPOSE.
 Clone the repository 
 ```bash
 git clone https://github.com/matthiaskoenig/glimepiride-model.git
+cd glimepiride-model
 ```
 Setup environment with uv (https://docs.astral.sh/uv/getting-started/installation/)
 ```bash
@@ -54,7 +55,7 @@ uv sync
 
 Run the complete analysis:
 ```bash
-uv run_glimepiride -a all -r results
+uv run run_glimepiride -a all -r results
 ```
 
 ### docker
