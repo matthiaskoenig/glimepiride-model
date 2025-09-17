@@ -78,7 +78,7 @@ docker run -v "${PWD}/results:/results" -it matthiaskoenig/glimepiride:latest /b
 
 Run the complete analysis:
 ```bash
-uv run run_glimepiride -a all -r results
+uv run run_glimepiride -a all -r /results
 ```
 The results are written into the mounted `/results` folder on the host.
 
