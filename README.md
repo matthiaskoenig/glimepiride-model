@@ -46,9 +46,9 @@ Clone the repository
 ```bash
 git clone https://github.com/matthiaskoenig/glimepiride-model.git
 cd glimepiride-model
+```
 
 #### uv
-```
 Setup environment with uv (https://docs.astral.sh/uv/getting-started/installation/)
 ```bash
 uv venv
