@@ -19,10 +19,13 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          tags: cicd
+          tags: cicd:latest
           push: false
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
+      - name: Load image in local docker daemon
+        run: docker buildx build --load -t cicd:latest .
+
       - name: Run command in container
-        run: docker run --rm cicd run_glimepiride -a all -r /results
+        run: docker run --rm cicd:latest run_glimepiride -a all -r /results
