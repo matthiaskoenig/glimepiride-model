@@ -3,7 +3,7 @@ name: CI-CD
 on: [push]
 
 jobs:
-  test:
+  python-run:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false

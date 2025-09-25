@@ -3,7 +3,7 @@ name: Build and Run Docker Container
 on: [push]
 
 jobs:
-  build-and-run:
+  docker-build-and-run:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
