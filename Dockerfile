@@ -13,6 +13,7 @@ RUN apt-get update && \
 WORKDIR /code
 COPY .python-version /code/python-version.py
 COPY pyproject.toml /code/pyproject.toml
+COPY README.md /code/README.md
 COPY src /code/src
 
 # install package

@@ -1,4 +1,4 @@
-name: CI-CD
+name: Run Python
 
 on: [push]
 
