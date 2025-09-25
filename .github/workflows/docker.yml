@@ -19,10 +19,10 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          tags: matthiaskoenig/glimepiride:latest
+          tags: cicd
           push: false
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
       - name: Run command in container
-        run: docker run --rm matthiaskoenig/glimepiride:latest run_glimepiride -a all -r /results
+        run: docker run --rm cicd run_glimepiride -a all -r /results
