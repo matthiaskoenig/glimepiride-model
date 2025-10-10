@@ -35,7 +35,7 @@ keywords = [
 dependencies = [
     "pkdb_analysis>=0.2.2",
     "statsmodels",
-    "sbmlutils @ git+https://github.com/matthiaskoenig/sbmlutils.git@ae7ee27d781f217daee2a654059a5ff66d17e15d",
+    "sbmlutils @ git+https://github.com/matthiaskoenig/sbmlutils.git@ec2483116c8c2b611fa7e3dcc6cc469a37a4b479",
     "sbmlsim @ git+https://github.com/matthiaskoenig/sbmlsim.git@9617fa09197549b9c675a5dc65c1d170590942a4"
 ]
 [project.scripts]
