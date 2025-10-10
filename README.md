@@ -1,6 +1,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14628700.svg)](https://doi.org/10.5281/zenodo.14628700)
+[![GitHub Action](https://github.com/matthiaskoenig/glimepiride-model/actions/workflows/python.yml/badge.svg)](https://github.com/matthiaskoenig/glimepiride-model/actions/workflows/python.yml)
+[![GitHub Action](https://github.com/matthiaskoenig/glimepiride-model/actions/workflows/docker.yml/badge.svg)](https://github.com/matthiaskoenig/glimepiride-model/actions/workflows/docker.yml)
 
-# glimepiride model
+# Glimepiride Model
 This repository provides the glimepiride physiologically based pharmacokinetics (PBPK) model.
 
 The model is distributed as [SBML](http://sbml.org) available from [`glimepiride_body_flat.xml`](./models/glimepiride_body_flat.xml) with 
@@ -24,17 +26,6 @@ The whole-body submodel is available from [`glimepiride_body.xml`](./models/glim
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_body.xml) and equations from [`glimepiride_body.md`](./models/glimepiride_body.md).
 
 ## How to cite
-If you use this model please cite the original publication
-> Elias M and König M (2025) 
-> A digital twin of glimepiride for personalized and stratified diabetes treatment. 
-> Front. Pharmacol. 16:1686415. doi: [10.3389/fphar.2025.1686415](https://doi.org/10.3389/fphar.2025.1686415)
-
-If you use this model please cite the reproducibility publication
-> Elias M, König M (2025)
-> Reproducibility of a digital twin of glimepiride for personalized and stratified diabetes treatment. 
-> Physiome. doi: [10.36903/physiome.28379193](https://doi.org/10.36903/physiome.28379193)
-
-If you use this model please cite the model repository
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14628700.svg)](https://doi.org/10.5281/zenodo.14628700)
 
 > Elias, M., & König, M. (2025).
@@ -52,22 +43,49 @@ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 PARTICULAR PURPOSE.
 
 ## Run simulations
-Simulations can be run within a docker container
+### python
+Clone the repository 
+```bash
+git clone https://github.com/matthiaskoenig/glimepiride-model.git
+cd glimepiride-model
+```
+
+#### uv
+Setup environment with uv (https://docs.astral.sh/uv/getting-started/installation/)
+```bash
+uv venv
+uv sync
+```
+Run the complete analysis:
+```bash
+uv run run_glimepiride -a all -r results
+```
+
+#### pip
+If you use pip install the package via
+```bash
+pip install -e .
+```
+Run the complete analysis in the environment via:
+```bash
+run run_glimepiride -a all -r results
+```
+
+### docker
+Simulations can also be run within a docker container:
 
 ```bash
 docker run -v "${PWD}/results:/results" -it matthiaskoenig/glimepiride:latest /bin/bash
 ```
 
-To run the complete analysis use
+Run the complete analysis:
 ```bash
-run_glimepiride -a all -r /results
+uv run run_glimepiride -a all -r /results
 ```
-This will create the results in the `/results` folder which is available via a volume mount.
+The results are written into the mounted `/results` folder on the host.
 
-To provide user access to the volume change the owner on the results folder
+In case of permission issues with the mounted folder, adjust ownership and access rights with:
 ```bash
-export UID=$(id -u)
-export GID=$(id -g)
 sudo chown $(id -u):$(id -g) -R "${PWD}/results"
 sudo chmod 775 "${PWD}/results"
 ```
