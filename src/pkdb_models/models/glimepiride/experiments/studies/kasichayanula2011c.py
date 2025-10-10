@@ -92,7 +92,7 @@ class Kasichayanula2011c(GlimepirideSimulationExperiment):
         fig = Figure(
             experiment=self,
             sid="Fig4",
-            name=f"{self.__class__.__name__} (Healthy, Coadm)",
+            name=f"{self.__class__.__name__}",
         )
         plots = fig.create_plots(
             xaxis=Axis(self.label_time, unit=self.unit_time),

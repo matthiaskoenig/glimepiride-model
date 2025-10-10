@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14628700.svg)](https://doi.org/10.5281/zenodo.14628700)
 
-# glimepiride model
+# Glimepiride Model
 This repository provides the glimepiride physiologically based pharmacokinetics (PBPK) model.
 
 The model is distributed as [SBML](http://sbml.org) available from [`glimepiride_body_flat.xml`](./models/glimepiride_body_flat.xml) with 
@@ -41,22 +41,49 @@ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 PARTICULAR PURPOSE.
 
 ## Run simulations
-Simulations can be run within a docker container
+### python
+Clone the repository 
+```bash
+git clone https://github.com/matthiaskoenig/glimepiride-model.git
+cd glimepiride-model
+```
+
+#### uv
+Setup environment with uv (https://docs.astral.sh/uv/getting-started/installation/)
+```bash
+uv venv
+uv sync
+```
+Run the complete analysis:
+```bash
+uv run run_glimepiride -a all -r results
+```
+
+#### pip
+If you use pip install the package via
+```bash
+pip install -e .
+```
+Run the complete analysis in the environment via:
+```bash
+run run_glimepiride -a all -r results
+```
+
+### docker
+Simulations can also be run within a docker container:
 
 ```bash
 docker run -v "${PWD}/results:/results" -it matthiaskoenig/glimepiride:latest /bin/bash
 ```
 
-To run the complete analysis use
+Run the complete analysis:
 ```bash
-run_glimepiride -a all -r /results
+uv run run_glimepiride -a all -r /results
 ```
-This will create the results in the `/results` folder which is available via a volume mount.
+The results are written into the mounted `/results` folder on the host.
 
-To provide user access to the volume change the owner on the results folder
+In case of permission issues with the mounted folder, adjust ownership and access rights with:
 ```bash
-export UID=$(id -u)
-export GID=$(id -g)
 sudo chown $(id -u):$(id -g) -R "${PWD}/results"
 sudo chmod 775 "${PWD}/results"
 ```
