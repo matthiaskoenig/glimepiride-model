@@ -13,7 +13,7 @@ RUN apt-get update && \
 WORKDIR /code
 COPY .python-version /code/python-version.py
 COPY pyproject.toml /code/pyproject.toml
-COPY ../pkdb_models/pkdb_models/models/glimepiride/README.md /code/README.md
+COPY README.md /code/README.md
 COPY src /code/src
 
 # install package
