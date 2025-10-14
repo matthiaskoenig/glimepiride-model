@@ -17,7 +17,7 @@ M2EX_k = 0.0984926326381094  # [1/min] rate of M2 urinary excretion
 Vext = 1.5  # [l] plasma  
 Vki = 0.3  # [l] kidney  
 Vurine = 1.0  # [l] urine  
-egfr_healthy = 100.0  # [578.034682080925µl/min/m^2] estimated glomerular filtration (eGFR) rate healthy  
+egfr_healthy = 100.0  # [578.034682080925 µl/min/m^2] estimated glomerular filtration (eGFR) rate healthy  
 f_renal_function = 1.0  # [-] parameter for renal function  
 ```
 
@@ -34,7 +34,7 @@ m2_urine = 0.0  # [mmol] M2 (urine) in Vurine
 # y
 M1EX = f_renal_function * Vki * M1EX_k * m1_ext  # [mmol/min] M1 excretion (M1EX)  
 M2EX = f_renal_function * Vki * M2EX_k * m2_ext  # [mmol/min] M2 excretion (M2EX)  
-egfr = f_renal_function * egfr_healthy  # [578.034682080925µl/min/m^2] estimated eGFR  
+egfr = f_renal_function * egfr_healthy  # [578.034682080925 µl/min/m^2] estimated eGFR  
 crcl = (egfr * BSA / 1.73) * 1.1  # [ml/min] creatinine clearance  
 
 # odes
