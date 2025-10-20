@@ -3,7 +3,7 @@
 [![GitHub Action](https://github.com/matthiaskoenig/glimepiride-model/actions/workflows/docker.yml/badge.svg)](https://github.com/matthiaskoenig/glimepiride-model/actions/workflows/docker.yml)
 
 # Glimepiride Model
-This repository provides the glimepiride physiologically based pharmacokinetics (PBPK) model.
+This repository (https://github.com/matthiaskoenig/glimepiride-model) provides the glimepiride physiologically based pharmacokinetics (PBPK) model.
 
 The model is distributed as [SBML](http://sbml.org) available from [`glimepiride_body_flat.xml`](./models/glimepiride_body_flat.xml) with 
 corresponding SBML4humans model report at [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_body_flat.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_body_flat.xml) and equations from [`glimepiride_body_flat.md`](./models/glimepiride_body_flat.md).
@@ -26,11 +26,21 @@ The whole-body submodel is available from [`glimepiride_body.xml`](./models/glim
 [https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_body.xml](https://sbml4humans.de/model_url?url=https://raw.githubusercontent.com/matthiaskoenig/glimepiride-model/main/models/glimepiride_body.xml) and equations from [`glimepiride_body.md`](./models/glimepiride_body.md).
 
 ## How to cite
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14628700.svg)](https://doi.org/10.5281/zenodo.14628700)
-
+To cite the model repository
 > Elias, M., & König, M. (2025).
 > *Physiologically based pharmacokinetic (PBPK) model of glimepiride.*   
 > Zenodo. [https://doi.org/10.5281/zenodo.14628700](https://doi.org/10.5281/zenodo.14628700)
+
+To cite the main publication
+> Elias, M., & König, M. (2025).
+> *A Digital Twin of Glimepiride for Personalized and Stratified Diabetes Treatment.*   
+> Front. Pharmacol. 16:1686415. [doi:10.3389/fphar.2025.1686415](https://doi.org/10.3389/fphar.2025.1686415)
+
+To cite the reproducibility publication
+> Elias, M., & König, M. (2025).
+> *Reproducibility of a Digital Twin of Glimepiride for Personalized and Stratified Diabetes Treatment*   
+> Physiome. 2025 October (accepted) [doi:10.36903/physiome.28379193](https://doi.org/10.36903/physiome.28379193) 
+
 
 ## License
 

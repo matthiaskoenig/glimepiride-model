@@ -35,9 +35,9 @@ m2_ext = 0.0  # [mmol/l] M2 (plasma) in Vext
 ## ODE system
 ```
 # y
-GLI2M1 = f_cyp2c9 * GLI2M1_Vmax * Vli * gli / (gli + GLI2M1_Km_gli)  # [mmol/min] glimepiride -> M1 (CYP2C9)  
+GLI2M1 = f_cyp2c9 * GLI2M1_Vmax * Vli * gli / (gli + GLI2M1_Km_gli)  # [mmol/min] glimepiride → M1 (CYP2C9)  
 GLIIM = GLIIM_k * Vli * (gli_ext - gli)  # [mmol/min] glimepiride import  
-M12M2 = M12M2_k * Vli * m1  # [mmol/min] M1 -> M2  
+M12M2 = M12M2_k * Vli * m1  # [mmol/min] M1 → M2  
 M1EX = M1EX_k * Vli * (m1 - m1_ext)  # [mmol/min] M1 export  
 M2EX = M2EX_k * Vli * (m2 - m2_ext)  # [mmol/min] M2 export  
 
