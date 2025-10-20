@@ -9,6 +9,7 @@ from pkdb_models.models.glimepiride.helpers import run_experiments
 from pkdb_models.models.glimepiride.experiments.studies import *
 from pkdb_models.models.glimepiride.experiments.misc import *
 from pkdb_models.models.glimepiride.experiments.scans import *
+from matplotlib import pyplot as plt
 
 
 Figure.legend_fontsize = 11
@@ -156,6 +157,9 @@ def run_simulation_experiments(selected: str = None, specific_experiments: List[
         output_dir=output_dir,
     )
     # collect figures
+    plt.close('all')
+    import gc
+    gc.collect()  # Ensures file objects are fully garbage collected
     figures_dir = output_dir / "_figures"
     figures_dir.mkdir(parents=True, exist_ok=True)
     for f in output_dir.glob("**/*.png"):
@@ -178,5 +182,5 @@ if __name__ == "__main__":
     run_simulation_experiments(specific_experiments=["cyp2c9", "GlimepirideDoseScan", "Choi2014"])
     """
 
-    # run_simulation_experiments(selected="dose_dependency")
-    run_simulation_experiments(specific_experiments=["Ahmed2016", "Badian1994", "misc"])
+    run_simulation_experiments(selected="all")
+    # run_simulation_experiments(specific_experiments=["Ahmed2016", "Badian1994", "misc"])
