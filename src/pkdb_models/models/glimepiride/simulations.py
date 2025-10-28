@@ -163,10 +163,13 @@ def run_simulation_experiments(selected: str = None, specific_experiments: List[
     figures_dir = output_dir / "_figures"
     figures_dir.mkdir(parents=True, exist_ok=True)
     for f in output_dir.glob("**/*.png"):
+        if f.parent == figures_dir:
+            continue
         try:
             shutil.copy2(f, figures_dir / f.name)
-        except shutil.SameFileError as err:
-            pass
+            # print(f"file {f.name} in {f.parent} copied to {figures_dir / f.name}")
+        except Exception as err:
+            print(f"file {f.name} in {f.parent} fails, skipping. Error: {err}")
     console.print(f"Figures copied to: file://{figures_dir}", style="info")
 
 
