@@ -33,10 +33,8 @@ keywords = [
     "physiologically based pharmacokinetic model",
 ]
 dependencies = [
-    "pkdb_analysis>=0.2.2",
-    "statsmodels",
-    "sbmlutils @ git+https://github.com/matthiaskoenig/sbmlutils.git@ec2483116c8c2b611fa7e3dcc6cc469a37a4b479",
-    "sbmlsim @ git+https://github.com/matthiaskoenig/sbmlsim.git@9617fa09197549b9c675a5dc65c1d170590942a4"
+    "sbmlutils>=0.9.6",
+    "sbmlsim @ git+https://github.com/matthiaskoenig/sbmlsim.git@4c0515664a3a5b535ab83534949d45cd25f30e22"
 ]
 [project.scripts]
 create_nodes = "pkdb_data.management.commands:create_info_nodes_command"
