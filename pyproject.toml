@@ -4,10 +4,10 @@ build-backend = "hatchling.build"
 
 [project]
 name = "glimepiride-model"
-version = "0.6.1"
+version = "0.6.3"
 description = "Python code for glimepiride-model"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 authors = [
     {name="Michelle Elias", email="michelleelias66@gmail.com"},
 	{name="Matthias König", email="konigmatt@googlemail.com"},
@@ -20,7 +20,7 @@ classifiers = [
 	"Intended Audience :: Science/Research",
 	"License :: OSI Approved :: MIT License",
 	"Operating System :: OS Independent",
-    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
 	"Programming Language :: Python :: Implementation :: CPython",
 	"Topic :: Scientific/Engineering",
 	"Topic :: Scientific/Engineering :: Bio-Informatics",
